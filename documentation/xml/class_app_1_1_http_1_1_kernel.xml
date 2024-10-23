@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_http_1_1_kernel" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Kernel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">HttpKernel</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_http_1_1_kernel_1a36a993ea76b635c84749f6e5e6562344" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$middleware</definition>
+        <argsstring></argsstring>
+        <name>$middleware</name>
+        <qualifiedname>App\Http\Kernel\$middleware</qualifiedname>
+        <initializer>= [
+        
+        \App\Http\Middleware\TrustProxies::class,
+        \Illuminate\Http\Middleware\HandleCors::class,
+        \App\Http\Middleware\PreventRequestsDuringMaintenance::class,
+        \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
+        \App\Http\Middleware\TrimStrings::class,
+        \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Kernel.php" line="16" column="15" bodyfile="app/Http/Kernel.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_http_1_1_kernel_1a000642ef1cfc62ea5e829d8a3b17431a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$middlewareGroups</definition>
+        <argsstring></argsstring>
+        <name>$middlewareGroups</name>
+        <qualifiedname>App\Http\Kernel\$middlewareGroups</qualifiedname>
+        <initializer>= [
+        &apos;web&apos; =&gt; [
+            \App\Http\Middleware\EncryptCookies::class,
+            \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+            \Illuminate\Session\Middleware\StartSession::class,
+            \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+            \App\Http\Middleware\VerifyCsrfToken::class,
+            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            \App\Http\Middleware\HandleInertiaRequests::class,
+            \Illuminate\Http\Middleware\AddLinkHeadersForPreloadedAssets::class,
+        ],
+
+        &apos;api&apos; =&gt; [
+            
+            \Illuminate\Routing\Middleware\ThrottleRequests::class.&apos;:api&apos;,
+            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        ],
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Kernel.php" line="31" column="15" bodyfile="app/Http/Kernel.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_http_1_1_kernel_1a79ebbaaefcbb1096a9c4c6c67ff9ca38" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$middlewareAliases</definition>
+        <argsstring></argsstring>
+        <name>$middlewareAliases</name>
+        <qualifiedname>App\Http\Kernel\$middlewareAliases</qualifiedname>
+        <initializer>= [
+        &apos;auth&apos; =&gt; \App\Http\Middleware\Authenticate::class,
+        &apos;auth.basic&apos; =&gt; \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+        &apos;auth.session&apos; =&gt; \Illuminate\Session\Middleware\AuthenticateSession::class,
+        &apos;cache.headers&apos; =&gt; \Illuminate\Http\Middleware\SetCacheHeaders::class,
+        &apos;can&apos; =&gt; \Illuminate\Auth\Middleware\Authorize::class,
+        &apos;guest&apos; =&gt; \App\Http\Middleware\RedirectIfAuthenticated::class,
+        &apos;password.confirm&apos; =&gt; \Illuminate\Auth\Middleware\RequirePassword::class,
+        &apos;precognitive&apos; =&gt; \Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests::class,
+        &apos;signed&apos; =&gt; \App\Http\Middleware\ValidateSignature::class,
+        &apos;throttle&apos; =&gt; \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        &apos;verified&apos; =&gt; \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Kernel.php" line="57" column="15" bodyfile="app/Http/Kernel.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>HttpKernel</label>
+      </node>
+      <node id="1">
+        <label>Kernel</label>
+        <link refid="class_app_1_1_http_1_1_kernel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>HttpKernel</label>
+      </node>
+      <node id="1">
+        <label>Kernel</label>
+        <link refid="class_app_1_1_http_1_1_kernel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Http/Kernel.php" line="7" column="1" bodyfile="app/Http/Kernel.php" bodystart="8" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_kernel_1a36a993ea76b635c84749f6e5e6562344" prot="protected" virt="non-virtual"><scope>App::Http::Kernel</scope><name>$middleware</name></member>
+      <member refid="class_app_1_1_http_1_1_kernel_1a79ebbaaefcbb1096a9c4c6c67ff9ca38" prot="protected" virt="non-virtual"><scope>App::Http::Kernel</scope><name>$middlewareAliases</name></member>
+      <member refid="class_app_1_1_http_1_1_kernel_1a000642ef1cfc62ea5e829d8a3b17431a" prot="protected" virt="non-virtual"><scope>App::Http::Kernel</scope><name>$middlewareGroups</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

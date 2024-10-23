@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_controllers_1_1_auth_1_1_verify_email_controller" xml:lang="en-US">
+<title>VerifyEmailController Class Reference</title>
+<indexterm><primary>VerifyEmailController</primary></indexterm>
+<para>Inheritance diagram for VerifyEmailController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_verify_email_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_auth_1_1_verify_email_controller_1a715a0d6a608b9c94a6500255f1dcd74f">__invoke</link> (EmailVerificationRequest $request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_auth_1_1_verify_email_controller_1a715a0d6a608b9c94a6500255f1dcd74f"/><section>
+    <title>__invoke()</title>
+<indexterm><primary>__invoke</primary><secondary>VerifyEmailController</secondary></indexterm>
+<indexterm><primary>VerifyEmailController</primary><secondary>__invoke</secondary></indexterm>
+<para><computeroutput>__invoke (EmailVerificationRequest $request)</computeroutput></para>
+<para>Mark the authenticated user&apos;s email address as verified. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Controllers/Auth/VerifyEmailController.php</section>
+</section>

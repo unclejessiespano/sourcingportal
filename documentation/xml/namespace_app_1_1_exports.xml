@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_exports" kind="namespace" language="PHP">
+    <compoundname>App::Exports</compoundname>
+    <innerclass refid="class_app_1_1_exports_1_1_oor_export" prot="public">App::Exports::OorExport</innerclass>
+    <innerclass refid="class_app_1_1_exports_1_1_random_o_o_r_export" prot="public">App::Exports::RandomOORExport</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Exports/OorExport.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Controllers::SupplierController</compoundname>
+    <basecompoundref refid="class_app_1_1_http_1_1_controllers_1_1_controller" prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a149eb92716c1084a935e04a8d95f7347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display a listing of the resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="25" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="25" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show the form for creating a new resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="37" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a9ef485163104597c12185b53cdacf638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>store</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>store</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\store</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Store a newly created resource in storage. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="45" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a4554f03adc5d72e4871a5937a88d5396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>activity</definition>
+        <argsstring>(string $slug)</argsstring>
+        <name>activity</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\activity</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$slug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display the specified resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="53" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="53" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a4cfe09340cfea9af1ac8e25c52295639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>company</definition>
+        <argsstring>(string $slug)</argsstring>
+        <name>company</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\company</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$slug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="65" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="65" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1aa84bf8b91b149b0052e70a326e045d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mapcolumns</definition>
+        <argsstring>($columns, $supplier_id)</argsstring>
+        <name>mapcolumns</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\mapcolumns</qualifiedname>
+        <param>
+          <declname>$columns</declname>
+        </param>
+        <param>
+          <declname>$supplier_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="74" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a922f2975aa57cb2686a72f31a43484d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>network</definition>
+        <argsstring>(string $slug)</argsstring>
+        <name>network</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\network</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$slug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="78" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1ae94ef66b81c5675c0033f5ecdd8629f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>saveContact</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>saveContact</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\saveContact</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="88" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="88" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a4fd27320f53ca3f8dc03bc380c835ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>saveInfo</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>saveInfo</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\saveInfo</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="101" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="101" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a7f3b05c4d6dd21ab64dc03794e407503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>savePlant</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>savePlant</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\savePlant</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="110" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="110" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1adcc93b411c7952e3e367319405322914" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>saveSupplier</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>saveSupplier</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\saveSupplier</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="135" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="135" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a03fa8f478fa78da1c52807b433ce22cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>score</definition>
+        <argsstring>(string $slug)</argsstring>
+        <name>score</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\score</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$slug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="150" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="150" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a458f1a08dfe6f2d89997bc9583cc009c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>show</definition>
+        <argsstring>(string $slug)</argsstring>
+        <name>show</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\show</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$slug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="159" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="159" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a759af1e9afae0cb9c2196decb7090ac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lines</definition>
+        <argsstring>(string $slug)</argsstring>
+        <name>lines</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\lines</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$slug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="183" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="183" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a770dc774eb0c503adc8523130d7872a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>edit</definition>
+        <argsstring>(string $id)</argsstring>
+        <name>edit</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\edit</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show the form for editing the specified resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="201" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="201" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>update</definition>
+        <argsstring>(Request $request, string $id)</argsstring>
+        <name>update</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\update</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update the specified resource in storage. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="209" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="209" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a0fdd66e92be5c0f832383e1d2162563f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>destroy</definition>
+        <argsstring>(string $id)</argsstring>
+        <name>destroy</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\destroy</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove the specified resource from storage. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="217" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="217" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a9dd7b1f10adde0dfe1fb4a47a3cb61b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exportlines</definition>
+        <argsstring>(string $id)</argsstring>
+        <name>exportlines</name>
+        <qualifiedname>App\Http\Controllers\SupplierController\exportlines</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/SupplierController.php" line="221" column="21" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="221" bodyend="224"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+      <node id="1">
+        <label>SupplierController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+      <node id="1">
+        <label>SupplierController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Http/Controllers/SupplierController.php" line="20" column="1" bodyfile="app/Http/Controllers/SupplierController.php" bodystart="21" bodyend="225"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a4554f03adc5d72e4871a5937a88d5396" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>activity</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a4cfe09340cfea9af1ac8e25c52295639" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>company</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>create</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a0fdd66e92be5c0f832383e1d2162563f" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>destroy</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a770dc774eb0c503adc8523130d7872a9" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>edit</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a9dd7b1f10adde0dfe1fb4a47a3cb61b4" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>exportlines</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a149eb92716c1084a935e04a8d95f7347" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>index</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a759af1e9afae0cb9c2196decb7090ac7" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>lines</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1aa84bf8b91b149b0052e70a326e045d36" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>mapcolumns</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a922f2975aa57cb2686a72f31a43484d1" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>network</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1ae94ef66b81c5675c0033f5ecdd8629f9" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>saveContact</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a4fd27320f53ca3f8dc03bc380c835ab0" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>saveInfo</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a7f3b05c4d6dd21ab64dc03794e407503" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>savePlant</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1adcc93b411c7952e3e367319405322914" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>saveSupplier</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a03fa8f478fa78da1c52807b433ce22cc" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>score</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a458f1a08dfe6f2d89997bc9583cc009c" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>show</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a9ef485163104597c12185b53cdacf638" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>store</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" prot="public" virt="non-virtual"><scope>App::Http::Controllers::SupplierController</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

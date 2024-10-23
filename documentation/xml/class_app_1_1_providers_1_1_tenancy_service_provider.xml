@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_providers_1_1_tenancy_service_provider" kind="class" language="PHP" prot="public">
+    <compoundname>App::Providers::TenancyServiceProvider</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ServiceProvider</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_app_1_1_providers_1_1_tenancy_service_provider_1ae582bada8cc78bbad086dee95f56b26f" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string $controllerNamespace</definition>
+        <argsstring></argsstring>
+        <name>$controllerNamespace</name>
+        <qualifiedname>App\Providers\TenancyServiceProvider\$controllerNamespace</qualifiedname>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/TenancyServiceProvider.php" line="19" column="26" bodyfile="app/Providers/TenancyServiceProvider.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_providers_1_1_tenancy_service_provider_1ade509b07f1df45730d31589b81a26efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>events</definition>
+        <argsstring>()</argsstring>
+        <name>events</name>
+        <qualifiedname>App\Providers\TenancyServiceProvider\events</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/TenancyServiceProvider.php" line="21" column="21" bodyfile="app/Providers/TenancyServiceProvider.php" bodystart="21" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_providers_1_1_tenancy_service_provider_1acc294a6cc8e69743746820e3d15e3f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>register</definition>
+        <argsstring>()</argsstring>
+        <name>register</name>
+        <qualifiedname>App\Providers\TenancyServiceProvider\register</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/TenancyServiceProvider.php" line="104" column="21" bodyfile="app/Providers/TenancyServiceProvider.php" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_providers_1_1_tenancy_service_provider_1a8814ea4b5beba763c570b4818980814e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>boot</definition>
+        <argsstring>()</argsstring>
+        <name>boot</name>
+        <qualifiedname>App\Providers\TenancyServiceProvider\boot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/TenancyServiceProvider.php" line="109" column="21" bodyfile="app/Providers/TenancyServiceProvider.php" bodystart="109" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_app_1_1_providers_1_1_tenancy_service_provider_1ae5f4bf9f75ede45cadfb8b72782a6a45" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>bootEvents</definition>
+        <argsstring>()</argsstring>
+        <name>bootEvents</name>
+        <qualifiedname>App\Providers\TenancyServiceProvider\bootEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/TenancyServiceProvider.php" line="117" column="24" bodyfile="app/Providers/TenancyServiceProvider.php" bodystart="117" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_providers_1_1_tenancy_service_provider_1ae1cd840516ad0a60f43b133e86182cb2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mapRoutes</definition>
+        <argsstring>()</argsstring>
+        <name>mapRoutes</name>
+        <qualifiedname>App\Providers\TenancyServiceProvider\mapRoutes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/TenancyServiceProvider.php" line="130" column="24" bodyfile="app/Providers/TenancyServiceProvider.php" bodystart="130" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_providers_1_1_tenancy_service_provider_1a3fbef4ab608bc4cdfa13d8f93d75a221" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>makeTenancyMiddlewareHighestPriority</definition>
+        <argsstring>()</argsstring>
+        <name>makeTenancyMiddlewareHighestPriority</name>
+        <qualifiedname>App\Providers\TenancyServiceProvider\makeTenancyMiddlewareHighestPriority</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/TenancyServiceProvider.php" line="138" column="24" bodyfile="app/Providers/TenancyServiceProvider.php" bodystart="138" bodyend="154"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ServiceProvider</label>
+      </node>
+      <node id="1">
+        <label>TenancyServiceProvider</label>
+        <link refid="class_app_1_1_providers_1_1_tenancy_service_provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ServiceProvider</label>
+      </node>
+      <node id="1">
+        <label>TenancyServiceProvider</label>
+        <link refid="class_app_1_1_providers_1_1_tenancy_service_provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Providers/TenancyServiceProvider.php" line="16" column="1" bodyfile="app/Providers/TenancyServiceProvider.php" bodystart="17" bodyend="155"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1ae582bada8cc78bbad086dee95f56b26f" prot="public" virt="non-virtual"><scope>App::Providers::TenancyServiceProvider</scope><name>$controllerNamespace</name></member>
+      <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1a8814ea4b5beba763c570b4818980814e" prot="public" virt="non-virtual"><scope>App::Providers::TenancyServiceProvider</scope><name>boot</name></member>
+      <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1ae5f4bf9f75ede45cadfb8b72782a6a45" prot="protected" virt="non-virtual"><scope>App::Providers::TenancyServiceProvider</scope><name>bootEvents</name></member>
+      <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1ade509b07f1df45730d31589b81a26efb" prot="public" virt="non-virtual"><scope>App::Providers::TenancyServiceProvider</scope><name>events</name></member>
+      <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1a3fbef4ab608bc4cdfa13d8f93d75a221" prot="protected" virt="non-virtual"><scope>App::Providers::TenancyServiceProvider</scope><name>makeTenancyMiddlewareHighestPriority</name></member>
+      <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1ae1cd840516ad0a60f43b133e86182cb2" prot="protected" virt="non-virtual"><scope>App::Providers::TenancyServiceProvider</scope><name>mapRoutes</name></member>
+      <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1acc294a6cc8e69743746820e3d15e3f78" prot="public" virt="non-virtual"><scope>App::Providers::TenancyServiceProvider</scope><name>register</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

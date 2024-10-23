@@ -1,0 +1,61 @@
+.TH "Activity" 3 "Mouker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Activity
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Model\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBuser\fP ()"
+.br
+.ti -1c
+.RI "\fBsupplier\fP ()"
+.br
+.ti -1c
+.RI "\fBtouchpoint\fP ()"
+.br
+.ti -1c
+.RI "\fBorder\fP ()"
+.br
+.ti -1c
+.RI "\fBsku\fP ()"
+.br
+.ti -1c
+.RI "\fBline\fP ()"
+.br
+.ti -1c
+.RI "\fBliner\fP ()"
+.br
+.ti -1c
+.RI "\fBsupplierscore\fP ()"
+.br
+.ti -1c
+.RI "\fBshipment\fP ()"
+.br
+.ti -1c
+.RI "\fBcomment\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBaddActivity\fP ($identifier, $user_id, $supplier_id, $po_id='', $sku_id='', $line='', $touchpoint_id, $supplierscore_id, $shipment_id='0', $comment_id='0')"
+.br
+.ti -1c
+.RI "static \fBaddCommentToActivity\fP ($comment_id, $activity)"
+.br
+.ti -1c
+.RI "static \fBgetActivity\fP ($supplier_id='', $po_id='', $sku_id='', $line_id='')"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mouker from the source code\&.

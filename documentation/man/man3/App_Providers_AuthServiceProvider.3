@@ -1,0 +1,43 @@
+.TH "AuthServiceProvider" 3 "Mouker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AuthServiceProvider
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits ServiceProvider\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBboot\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$policies\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "boot ()"
+Register any authentication / authorization services\&. 
+.SH "Field Documentation"
+.PP 
+.SS "$policies\fR [protected]\fP"
+\fBInitial value:\fP
+.nf
+= [
+        User_Supplier::class => SupplierPolicy::class
+    ]
+.PP
+.fi
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mouker from the source code\&.

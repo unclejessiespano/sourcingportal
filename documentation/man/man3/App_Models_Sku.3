@@ -1,0 +1,53 @@
+.TH "Sku" 3 "Mouker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Sku
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Model\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBdetail\fP ()"
+.br
+.ti -1c
+.RI "\fBlines\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBexists\fP ($sku)"
+.br
+.ti -1c
+.RI "static \fBgetLeadTimeBySkuID\fP ($sku_id)"
+.br
+.ti -1c
+.RI "static \fBgetParts\fP ()"
+.br
+.ti -1c
+.RI "static \fBgetSku\fP ($id)"
+.br
+.ti -1c
+.RI "static \fBimport\fP ($supplier_id, $po_id, $row)"
+.br
+.ti -1c
+.RI "static \fBupdateLeadTime\fP ($sku, $leadtime)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$fillable\fP = ['sku', 'material', 'short_text', 'lead_time_days']"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mouker from the source code\&.

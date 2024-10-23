@@ -1,0 +1,122 @@
+.TH "Line" 3 "Mouker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Line
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Model\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBorder\fP ()"
+.br
+.ti -1c
+.RI "\fBsku\fP ()"
+.br
+.ti -1c
+.RI "\fBsupplier\fP ()"
+.br
+.ti -1c
+.RI "\fBactivity\fP ()"
+.br
+.ti -1c
+.RI "\fBlineactivity\fP ()"
+.br
+.ti -1c
+.RI "\fBshipments\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBaddComment\fP ($supplier_id, $identifier, $po_id, $sku_id, $line_id, $line, $comment)"
+.br
+.ti -1c
+.RI "static \fBawardPointsClosedLine\fP ($row)"
+.br
+.ti -1c
+.RI "static \fBawardPointsClosedLines\fP ($rows, $supplier_id='')"
+.br
+.ti -1c
+.RI "static \fBdeactivateAllLines\fP ()"
+.br
+.ti -1c
+.RI "static \fBexists\fP ($po, $sku, $line)"
+.br
+.ti -1c
+.RI "static \fBformatExcelDate\fP ($excel_date)"
+.br
+.ti -1c
+.RI "static \fBfromIngestion\fP ($ingestion_id)"
+.br
+.ti -1c
+.RI "static \fBgetLinesByOrders\fP ($orders)"
+.br
+.ti -1c
+.RI "static \fBgetLine\fP ($po, $sku, $line)"
+.br
+.ti -1c
+.RI "static \fBgetCommitsNeededFromSupplier\fP ($supplier)"
+.br
+.ti -1c
+.RI "static \fBgetLinesDueThisWeek\fP ($supplier)"
+.br
+.ti -1c
+.RI "static \fBgetLineChangeStats\fP ($number_of_ingestions)"
+.br
+.ti -1c
+.RI "static \fBgetLinesByIdentifier\fP ($identifier)"
+.br
+.ti -1c
+.RI "static \fBgetLinesCommitsForDashbord\fP ($user_id)"
+.br
+.ti -1c
+.RI "static \fBgetOpenLines\fP ()"
+.br
+.ti -1c
+.RI "static \fBgetGoogleChartData_PercentPastDueSuppliers\fP ()"
+.br
+.ti -1c
+.RI "static \fBgetEmailData_PercentCommitSuppliers\fP ()"
+.br
+.ti -1c
+.RI "static \fBgetEmailData_PercentPastDueSuppliers\fP ()"
+.br
+.ti -1c
+.RI "static \fBgetSankey\fP ()"
+.br
+.ti -1c
+.RI "static \fBgetStats\fP ($supplier_id='')"
+.br
+.ti -1c
+.RI "static \fBmakeIdentifier\fP ($row, $purchasing_document, $material, $line)"
+.br
+.ti -1c
+.RI "static \fBimport\fP ($ingestion_id, $supplier_id, $po_id, $sku_id, $row, $meetings)"
+.br
+.ti -1c
+.RI "static \fBsaveLineActivity\fP ($line, $lineActivity)"
+.br
+.ti -1c
+.RI "static \fBsetCommitForLine\fP ($commit_date, $po_id, $sku_id, $line)"
+.br
+.ti -1c
+.RI "static \fBupdateLine\fP ($existing_line, $row)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$fillable\fP = ['ingestion_id', 'active', 'plant','identifier', 'supplier_id', 'po_id', 'sku_id', 'line', 'line_activity_id', 'document_date', 'delivery_date', 'commit_date', 'stat_del_date', 'qty', 'order_unit', 'order_price_unit', 'net_price', 'currency']"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mouker from the source code\&.

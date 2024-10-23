@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller" xml:lang="en-US">
+<title>LineController Class Reference</title>
+<indexterm><primary>LineController</primary></indexterm>
+<para>Inheritance diagram for LineController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_controllers_1_1_line_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1aa376a790ced18bc38bed3f86f5ccb6e3"/><emphasis role="strong">addComment</emphasis> (Request $request)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a149eb92716c1084a935e04a8d95f7347">index</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6">create</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a9ef485163104597c12185b53cdacf638">store</link> (Request $request)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a3484188e8fa00909007de2524834f6a8"/><emphasis role="strong">saveCommit</emphasis> (Request $request)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a47ddc4a715e4fbc28e48448bc9df69dd"/><emphasis role="strong">saveLineActivity</emphasis> (Request $request)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a453591303f2d90f5f54acf11e1d17a69"/><emphasis role="strong">saveLineDelayedReason</emphasis> (Request $request)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a5d162ae79790434c72ca62ea3385eeee">show</link> (string $supplier, string $po, string $sku, string $line_id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a24cb3564ce354cb280ed10adcfd737bb"/><emphasis role="strong">showIdentifier</emphasis> (string $supplier, string $identifier)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a770dc774eb0c503adc8523130d7872a9">edit</link> (string $id)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1af528c99cc6b6d8f4bb8c2876533b4abc">update</link> (Request $request, string $id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1abc332ce722c8ad0e5e856fb246d68495"/><emphasis role="strong">upload</emphasis> (Request $request)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1aaf644bb6161da5a834e395aadcce5465"/><emphasis role="strong">uploadSupplierOOR</emphasis> (Request $request)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a0fdd66e92be5c0f832383e1d2162563f">destroy</link> (string $id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a06412eb3b5af8cd7d978ac6eab667fbf"/><emphasis role="strong">export</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a3419663de7a76ab887bc672119ad3b1c"/><emphasis role="strong">getTracking</emphasis> (Request $request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6"/><section>
+    <title>create()</title>
+<indexterm><primary>create</primary><secondary>LineController</secondary></indexterm>
+<indexterm><primary>LineController</primary><secondary>create</secondary></indexterm>
+<para><computeroutput>create ( )</computeroutput></para>
+<para>Show the form for creating a new resource. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a0fdd66e92be5c0f832383e1d2162563f"/><section>
+    <title>destroy()</title>
+<indexterm><primary>destroy</primary><secondary>LineController</secondary></indexterm>
+<indexterm><primary>LineController</primary><secondary>destroy</secondary></indexterm>
+<para><computeroutput>destroy (string $id)</computeroutput></para>
+<para>Remove the specified resource from storage. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a770dc774eb0c503adc8523130d7872a9"/><section>
+    <title>edit()</title>
+<indexterm><primary>edit</primary><secondary>LineController</secondary></indexterm>
+<indexterm><primary>LineController</primary><secondary>edit</secondary></indexterm>
+<para><computeroutput>edit (string $id)</computeroutput></para>
+<para>Show the form for editing the specified resource. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a149eb92716c1084a935e04a8d95f7347"/><section>
+    <title>index()</title>
+<indexterm><primary>index</primary><secondary>LineController</secondary></indexterm>
+<indexterm><primary>LineController</primary><secondary>index</secondary></indexterm>
+<para><computeroutput>index ( )</computeroutput></para>
+<para>Display a listing of the resource. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a5d162ae79790434c72ca62ea3385eeee"/><section>
+    <title>show()</title>
+<indexterm><primary>show</primary><secondary>LineController</secondary></indexterm>
+<indexterm><primary>LineController</primary><secondary>show</secondary></indexterm>
+<para><computeroutput>show (string $supplier, string $po, string $sku, string $line_id)</computeroutput></para>
+<para>Display the specified resource. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1a9ef485163104597c12185b53cdacf638"/><section>
+    <title>store()</title>
+<indexterm><primary>store</primary><secondary>LineController</secondary></indexterm>
+<indexterm><primary>LineController</primary><secondary>store</secondary></indexterm>
+<para><computeroutput>store (Request $request)</computeroutput></para>
+<para>Store a newly created resource in storage. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_line_controller_1af528c99cc6b6d8f4bb8c2876533b4abc"/><section>
+    <title>update()</title>
+<indexterm><primary>update</primary><secondary>LineController</secondary></indexterm>
+<indexterm><primary>LineController</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>update (Request $request, string $id)</computeroutput></para>
+<para>Update the specified resource in storage. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Controllers/LineController.php</section>
+</section>

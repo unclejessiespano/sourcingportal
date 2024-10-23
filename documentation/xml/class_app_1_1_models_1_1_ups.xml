@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_ups" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Ups</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_ups_1a6908104a359cb2e6403501ded90d9246" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static authorizeClient</definition>
+        <argsstring>()</argsstring>
+        <name>authorizeClient</name>
+        <qualifiedname>App\Models\Ups\authorizeClient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Ups.php" line="13" column="28" bodyfile="app/Models/Ups.php" bodystart="13" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_ups_1a6f60050addad0dfcc72a86c2508d48aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getToken</definition>
+        <argsstring>()</argsstring>
+        <name>getToken</name>
+        <qualifiedname>App\Models\Ups\getToken</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Ups.php" line="25" column="28" bodyfile="app/Models/Ups.php" bodystart="25" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_ups_1a4f0fb7af325216fedab694068d9eb8c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getTracking</definition>
+        <argsstring>($shipments)</argsstring>
+        <name>getTracking</name>
+        <qualifiedname>App\Models\Ups\getTracking</qualifiedname>
+        <param>
+          <declname>$shipments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Ups.php" line="53" column="28" bodyfile="app/Models/Ups.php" bodystart="53" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_ups_1a07d27dabfad2a9cf68a6eacb9d2c712d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static generateAccessToken</definition>
+        <argsstring>()</argsstring>
+        <name>generateAccessToken</name>
+        <qualifiedname>App\Models\Ups\generateAccessToken</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Ups.php" line="92" column="28" bodyfile="app/Models/Ups.php" bodystart="92" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Ups</label>
+        <link refid="class_app_1_1_models_1_1_ups"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Ups</label>
+        <link refid="class_app_1_1_models_1_1_ups"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Ups.php" line="9" column="1" bodyfile="app/Models/Ups.php" bodystart="10" bodyend="119"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_ups_1a6908104a359cb2e6403501ded90d9246" prot="public" virt="non-virtual"><scope>App::Models::Ups</scope><name>authorizeClient</name></member>
+      <member refid="class_app_1_1_models_1_1_ups_1a07d27dabfad2a9cf68a6eacb9d2c712d" prot="public" virt="non-virtual"><scope>App::Models::Ups</scope><name>generateAccessToken</name></member>
+      <member refid="class_app_1_1_models_1_1_ups_1a6f60050addad0dfcc72a86c2508d48aa" prot="public" virt="non-virtual"><scope>App::Models::Ups</scope><name>getToken</name></member>
+      <member refid="class_app_1_1_models_1_1_ups_1a4f0fb7af325216fedab694068d9eb8c7" prot="public" virt="non-virtual"><scope>App::Models::Ups</scope><name>getTracking</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

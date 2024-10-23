@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_delta" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Delta</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_delta_1a6cb1356a89cb3f786207beee8a409e3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static calculateChange</definition>
+        <argsstring>($prev_value, $current_value, $column)</argsstring>
+        <name>calculateChange</name>
+        <qualifiedname>App\Models\Delta\calculateChange</qualifiedname>
+        <param>
+          <declname>$prev_value</declname>
+        </param>
+        <param>
+          <declname>$current_value</declname>
+        </param>
+        <param>
+          <declname>$column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Delta.php" line="13" column="28" bodyfile="app/Models/Delta.php" bodystart="13" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_delta_1a9a06513952d13033e30428f4acad3389" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static doesDeltaExist</definition>
+        <argsstring>($ingestion_id, $identifier)</argsstring>
+        <name>doesDeltaExist</name>
+        <qualifiedname>App\Models\Delta\doesDeltaExist</qualifiedname>
+        <param>
+          <declname>$ingestion_id</declname>
+        </param>
+        <param>
+          <declname>$identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Delta.php" line="37" column="28" bodyfile="app/Models/Delta.php" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_delta_1a8cbe7c8971cab8e31cd71fed50eef3e4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static recordChange</definition>
+        <argsstring>($prev_line, $current_line, $column)</argsstring>
+        <name>recordChange</name>
+        <qualifiedname>App\Models\Delta\recordChange</qualifiedname>
+        <param>
+          <declname>$prev_line</declname>
+        </param>
+        <param>
+          <declname>$current_line</declname>
+        </param>
+        <param>
+          <declname>$column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Delta.php" line="41" column="28" bodyfile="app/Models/Delta.php" bodystart="41" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Delta</label>
+        <link refid="class_app_1_1_models_1_1_delta"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Delta</label>
+        <link refid="class_app_1_1_models_1_1_delta"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Delta.php" line="9" column="1" bodyfile="app/Models/Delta.php" bodystart="10" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_delta_1a6cb1356a89cb3f786207beee8a409e3e" prot="public" virt="non-virtual"><scope>App::Models::Delta</scope><name>calculateChange</name></member>
+      <member refid="class_app_1_1_models_1_1_delta_1a9a06513952d13033e30428f4acad3389" prot="public" virt="non-virtual"><scope>App::Models::Delta</scope><name>doesDeltaExist</name></member>
+      <member refid="class_app_1_1_models_1_1_delta_1a8cbe7c8971cab8e31cd71fed50eef3e4" prot="public" virt="non-virtual"><scope>App::Models::Delta</scope><name>recordChange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

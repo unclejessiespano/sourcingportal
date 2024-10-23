@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_plant" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Plant</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_plant_1ade7a3d08c497abd198448fec996c7bc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>orders</definition>
+        <argsstring>()</argsstring>
+        <name>orders</name>
+        <qualifiedname>App\Models\Plant\orders</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Plant.php" line="13" column="21" bodyfile="app/Models/Plant.php" bodystart="13" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_plant_1aa22eab96e67cee274c1924899388a3dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getMapMarkers</definition>
+        <argsstring>($plants)</argsstring>
+        <name>getMapMarkers</name>
+        <qualifiedname>App\Models\Plant\getMapMarkers</qualifiedname>
+        <param>
+          <declname>$plants</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Plant.php" line="17" column="28" bodyfile="app/Models/Plant.php" bodystart="17" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_plant_1a264d614a6db766056f158ee238630836" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getPlants</definition>
+        <argsstring>()</argsstring>
+        <name>getPlants</name>
+        <qualifiedname>App\Models\Plant\getPlants</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Plant.php" line="24" column="28" bodyfile="app/Models/Plant.php" bodystart="24" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_plant_1a3e7d02163468eda4885be5ddeb0cebdb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static savePlant</definition>
+        <argsstring>($request)</argsstring>
+        <name>savePlant</name>
+        <qualifiedname>App\Models\Plant\savePlant</qualifiedname>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Plant.php" line="36" column="28" bodyfile="app/Models/Plant.php" bodystart="36" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Plant</label>
+        <link refid="class_app_1_1_models_1_1_plant"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Plant</label>
+        <link refid="class_app_1_1_models_1_1_plant"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Plant.php" line="9" column="1" bodyfile="app/Models/Plant.php" bodystart="10" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_plant_1aa22eab96e67cee274c1924899388a3dc" prot="public" virt="non-virtual"><scope>App::Models::Plant</scope><name>getMapMarkers</name></member>
+      <member refid="class_app_1_1_models_1_1_plant_1a264d614a6db766056f158ee238630836" prot="public" virt="non-virtual"><scope>App::Models::Plant</scope><name>getPlants</name></member>
+      <member refid="class_app_1_1_models_1_1_plant_1ade7a3d08c497abd198448fec996c7bc9" prot="public" virt="non-virtual"><scope>App::Models::Plant</scope><name>orders</name></member>
+      <member refid="class_app_1_1_models_1_1_plant_1a3e7d02163468eda4885be5ddeb0cebdb" prot="public" virt="non-virtual"><scope>App::Models::Plant</scope><name>savePlant</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

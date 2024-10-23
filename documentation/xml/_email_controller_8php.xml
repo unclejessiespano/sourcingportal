@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_email_controller_8php" kind="file" language="PHP">
+    <compoundname>EmailController.php</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_email_controller" prot="public">App::Http::Controllers::EmailController</innerclass>
+    <innernamespace refid="namespace_app_1_1_http_1_1_controllers">App::Http::Controllers</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_support_1_1_facades_1_1_view">Illuminate::Support::Facades::View</innernamespace>
+    <innernamespace refid="namespace_app_1_1_mail_1_1_weekly_update">App::Mail::WeeklyUpdate</innernamespace>
+    <innernamespace refid="namespace_app_1_1_mail_1_1_data_ingested">App::Mail::DataIngested</innernamespace>
+    <innernamespace refid="namespace_app_1_1_mail_1_1_supplier_request">App::Mail::SupplierRequest</innernamespace>
+    <innernamespace refid="namespace_app_1_1_models_1_1_email">App::Models::Email</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Http\Controllers;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Illuminate\Http\Request;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>Illuminate\Support\Facades\View;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="class_app_1_1_mail_1_1_weekly_update" kindref="compound">App\Mail\WeeklyUpdate</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="class_app_1_1_mail_1_1_data_ingested" kindref="compound">App\Mail\DataIngested</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/><ref refid="class_app_1_1_mail_1_1_supplier_request" kindref="compound">App\Mail\SupplierRequest</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_email" kindref="compound">App\Models\Email</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_line" kindref="compound">App\Models\Line</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_supplier" kindref="compound">App\Models\Supplier</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_app_1_1_http_1_1_controllers_1_1_email_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_http_1_1_controllers_1_1_email_controller" kindref="compound">EmailController</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_controller" kindref="compound">Controller</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a149eb92716c1084a935e04a8d95f7347" kindref="member">index</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>dataIngested(){</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$date<sp/>=<sp/>Email::getDateForWeeklyUpdate();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$linestats<sp/>=<sp/>Line::getStats();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lineChanges<sp/>=<sp/>Line::getLineChangeStats(2);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tablePastDue<sp/>=<sp/>Line::getEmailData_PercentPastDueSuppliers();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tableCommits<sp/>=<sp/>Line::getEmailData_PercentCommitSuppliers();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentPastDueSuppliers<sp/>=<sp/>View::make(</highlight><highlight class="stringliteral">&apos;emails.table.percentPastDueSuppliers&apos;</highlight><highlight class="normal">,<sp/>[</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">=&gt;$tablePastDue])-&gt;render();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentCommitsSuppliers<sp/>=<sp/>View::make(</highlight><highlight class="stringliteral">&apos;emails.table.percentCommitsSuppliers&apos;</highlight><highlight class="normal">,<sp/>[</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">=&gt;$tableCommits])-&gt;render();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_mail_1_1_data_ingested" kindref="compound">DataIngested</ref>(</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$date,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentPastDueSuppliers,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentCommitsSuppliers,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lineChanges</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>weeklyupdate(){</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$date<sp/>=<sp/>Email::getDateForWeeklyUpdate();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$linestats<sp/>=<sp/>Line::getStats();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lineChanges<sp/>=<sp/>Line::getLineChangeStats(2);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tablePastDue<sp/>=<sp/>Line::getEmailData_PercentPastDueSuppliers();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentPastDueSuppliers<sp/>=<sp/>View::make(</highlight><highlight class="stringliteral">&apos;emails.table.percentPastDueSuppliers&apos;</highlight><highlight class="normal">,<sp/>[</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">=&gt;$tablePastDue])-&gt;render();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_mail_1_1_weekly_update" kindref="compound">WeeklyUpdate</ref>(</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$date,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentPastDueSuppliers,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lineChanges</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>supplierRequest($supplier_id){</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$supplier<sp/>=<sp/>Supplier::with(</highlight><highlight class="stringliteral">&apos;contacts&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;lines_.order&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;lines_.sku&apos;</highlight><highlight class="normal">)-&gt;find($supplier_id);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$commitsNeeded<sp/>=<sp/>Line::getCommitsNeededFromSupplier($supplier);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dueThisWeek<sp/>=<sp/>Line::getLinesDueThisWeek($supplier);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$date<sp/>=<sp/>Email::getDateForWeeklyUpdate();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$linestats<sp/>=<sp/>Line::getStats();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lineChanges<sp/>=<sp/>Line::getLineChangeStats(2);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tablePastDue<sp/>=<sp/>Line::getEmailData_PercentPastDueSuppliers();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentPastDueSuppliers<sp/>=<sp/>View::make(</highlight><highlight class="stringliteral">&apos;emails.table.percentPastDueSuppliers&apos;</highlight><highlight class="normal">,<sp/>[</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">=&gt;$tablePastDue])-&gt;render();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_commitsNeeded<sp/>=<sp/>View::make(</highlight><highlight class="stringliteral">&apos;emails.table.commitsNeeded&apos;</highlight><highlight class="normal">,<sp/>[</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">=&gt;$commitsNeeded])-&gt;render();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_dueThisWeek<sp/>=<sp/>View::make(</highlight><highlight class="stringliteral">&apos;emails.table.dueThisWeek&apos;</highlight><highlight class="normal">,<sp/>[</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">=&gt;$dueThisWeek])-&gt;render();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_mail_1_1_supplier_request" kindref="compound">SupplierRequest</ref>(</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$supplier,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_commitsNeeded,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_dueThisWeek,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lineChanges,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$commitsNeeded,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dueThisWeek</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kindref="member">create</ref>()</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a9ef485163104597c12185b53cdacf638" kindref="member">store</ref>(Request<sp/>$request)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1aa1084dca2023d0205f4d383a4fa3276d" kindref="member">show</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>$id)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a770dc774eb0c503adc8523130d7872a9" kindref="member">edit</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>$id)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kindref="member">update</ref>(Request<sp/>$request,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>$id)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a0fdd66e92be5c0f832383e1d2162563f" kindref="member">destroy</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>$id)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Http/Controllers/EmailController.php"/>
+  </compounddef>
+</doxygen>

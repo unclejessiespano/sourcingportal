@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_user" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::User</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Authenticatable</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_user_1a6a90e74ccdf5efd70d51d10c906f8e32" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$fillable</definition>
+        <argsstring></argsstring>
+        <name>$fillable</name>
+        <qualifiedname>App\Models\User\$fillable</qualifiedname>
+        <initializer>= [
+        &apos;name&apos;,
+        &apos;email&apos;,
+        &apos;password&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/User.php" line="23" column="15" bodyfile="app/Models/User.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_user_1a4a374564d2858d8ae869a8fb890aad56" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$hidden</definition>
+        <argsstring></argsstring>
+        <name>$hidden</name>
+        <qualifiedname>App\Models\User\$hidden</qualifiedname>
+        <initializer>= [
+        &apos;password&apos;,
+        &apos;remember_token&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/User.php" line="34" column="15" bodyfile="app/Models/User.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_user_1a1649e00448c72a723c2c79fe5f915b97" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$casts</definition>
+        <argsstring></argsstring>
+        <name>$casts</name>
+        <qualifiedname>App\Models\User\$casts</qualifiedname>
+        <initializer>= [
+        &apos;email_verified_at&apos; =&gt; &apos;datetime&apos;,
+        &apos;password&apos; =&gt; &apos;hashed&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/User.php" line="44" column="15" bodyfile="app/Models/User.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_user_1a562a77dbdcab3dd4b357c811886f1917" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>team</definition>
+        <argsstring>()</argsstring>
+        <name>team</name>
+        <qualifiedname>App\Models\User\team</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/User.php" line="48" column="21" bodyfile="app/Models/User.php" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_user_1ad27682f1652d35b5e4fd90e70d6e35ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>suppliers</definition>
+        <argsstring>()</argsstring>
+        <name>suppliers</name>
+        <qualifiedname>App\Models\User\suppliers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/User.php" line="51" column="21" bodyfile="app/Models/User.php" bodystart="51" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_user_1aa8183e03ae0ad9bc777f3a2127a1853e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static assignUsersToManager</definition>
+        <argsstring>($users, $manager_id)</argsstring>
+        <name>assignUsersToManager</name>
+        <qualifiedname>App\Models\User\assignUsersToManager</qualifiedname>
+        <param>
+          <declname>$users</declname>
+        </param>
+        <param>
+          <declname>$manager_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/User.php" line="54" column="28" bodyfile="app/Models/User.php" bodystart="54" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_user_1a20e870bbf16ce47565d52f2bcaa69e24" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static createUser</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>createUser</name>
+        <qualifiedname>App\Models\User\createUser</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/User.php" line="64" column="28" bodyfile="app/Models/User.php" bodystart="64" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_user_1a9cf25633c312d7cf22455bd87dd9f04e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getUsersForTeam</definition>
+        <argsstring>($id)</argsstring>
+        <name>getUsersForTeam</name>
+        <qualifiedname>App\Models\User\getUsersForTeam</qualifiedname>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/User.php" line="81" column="28" bodyfile="app/Models/User.php" bodystart="81" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_user_1a4be57d44ddce3540272468b0e5509ad6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static updateUser</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>updateUser</name>
+        <qualifiedname>App\Models\User\updateUser</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/User.php" line="86" column="28" bodyfile="app/Models/User.php" bodystart="86" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Authenticatable</label>
+      </node>
+      <node id="1">
+        <label>User</label>
+        <link refid="class_app_1_1_models_1_1_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Authenticatable</label>
+      </node>
+      <node id="1">
+        <label>User</label>
+        <link refid="class_app_1_1_models_1_1_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/User.php" line="14" column="1" bodyfile="app/Models/User.php" bodystart="15" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_user_1a1649e00448c72a723c2c79fe5f915b97" prot="protected" virt="non-virtual"><scope>App::Models::User</scope><name>$casts</name></member>
+      <member refid="class_app_1_1_models_1_1_user_1a6a90e74ccdf5efd70d51d10c906f8e32" prot="protected" virt="non-virtual"><scope>App::Models::User</scope><name>$fillable</name></member>
+      <member refid="class_app_1_1_models_1_1_user_1a4a374564d2858d8ae869a8fb890aad56" prot="protected" virt="non-virtual"><scope>App::Models::User</scope><name>$hidden</name></member>
+      <member refid="class_app_1_1_models_1_1_user_1aa8183e03ae0ad9bc777f3a2127a1853e" prot="public" virt="non-virtual"><scope>App::Models::User</scope><name>assignUsersToManager</name></member>
+      <member refid="class_app_1_1_models_1_1_user_1a20e870bbf16ce47565d52f2bcaa69e24" prot="public" virt="non-virtual"><scope>App::Models::User</scope><name>createUser</name></member>
+      <member refid="class_app_1_1_models_1_1_user_1a9cf25633c312d7cf22455bd87dd9f04e" prot="public" virt="non-virtual"><scope>App::Models::User</scope><name>getUsersForTeam</name></member>
+      <member refid="class_app_1_1_models_1_1_user_1ad27682f1652d35b5e4fd90e70d6e35ef" prot="public" virt="non-virtual"><scope>App::Models::User</scope><name>suppliers</name></member>
+      <member refid="class_app_1_1_models_1_1_user_1a562a77dbdcab3dd4b357c811886f1917" prot="public" virt="non-virtual"><scope>App::Models::User</scope><name>team</name></member>
+      <member refid="class_app_1_1_models_1_1_user_1a4be57d44ddce3540272468b0e5509ad6" prot="public" virt="non-virtual"><scope>App::Models::User</scope><name>updateUser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

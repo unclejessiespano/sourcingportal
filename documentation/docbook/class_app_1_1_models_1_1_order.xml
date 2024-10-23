@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_order" xml:lang="en-US">
+<title>Order Class Reference</title>
+<indexterm><primary>Order</primary></indexterm>
+<para>Inheritance diagram for Order:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_order.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_order_1a65055164939f434481e5ee710bb44a45"/><emphasis role="strong">lines</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_order_1a52b8dffb39035d24d4ed1c7866e651ab"/><emphasis role="strong">plant</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_order_1a9e3d1baac1306bdfadb04fea884e273f"/><emphasis role="strong">supplier</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_order_1a76602be152af4bf8eedc5257678c71b7"/>static <emphasis role="strong">exists</emphasis> ($po)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_order_1a66df5cb83dace1022259ad14373cb8d9"/>static <emphasis role="strong">getOrder</emphasis> ($id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_order_1a6200f790af551e175ff181bb04290314"/>static <emphasis role="strong">getOpenOrders</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_order_1ad42b2aff34a1f08c7eca421112457f72"/>static <emphasis role="strong">import</emphasis> ($supplier_id, $row)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_order_1a6a90e74ccdf5efd70d51d10c906f8e32"/><emphasis role="strong">$fillable</emphasis> = [&apos;PO&apos;, &apos;plant_id&apos;, &apos;supplier_id&apos;, &apos;document_date&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Order.php</section>

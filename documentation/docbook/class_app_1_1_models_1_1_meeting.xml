@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_meeting" xml:lang="en-US">
+<title>Meeting Class Reference</title>
+<indexterm><primary>Meeting</primary></indexterm>
+<para>Inheritance diagram for Meeting:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_meeting.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_meeting_1a29eceff194444a8200e9ab44704c727d"/><emphasis role="strong">agendaitems</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_meeting_1ae8a275690ff1b618e1947378b0ed73ae"/><emphasis role="strong">user</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_meeting_1a9e3d1baac1306bdfadb04fea884e273f"/><emphasis role="strong">supplier</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_meeting_1afc3250fe41c8410e752e6e4cb7e8a00a"/>static <emphasis role="strong">createMeeting</emphasis> ($rows)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_meeting_1a1cfceb68819ba919d7887d348311af48"/>static <emphasis role="strong">generateAttendees</emphasis> ($meeting)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Meeting.php</section>

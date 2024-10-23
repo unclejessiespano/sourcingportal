@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_line" xml:lang="en-US">
+<title>Line Class Reference</title>
+<indexterm><primary>Line</primary></indexterm>
+<para>Inheritance diagram for Line:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_line.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1af338145541356008fbbc6f97de6885e6"/><emphasis role="strong">order</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a0a4ec8218e59771ae86d8737ac252ede"/><emphasis role="strong">sku</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a9e3d1baac1306bdfadb04fea884e273f"/><emphasis role="strong">supplier</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a7cea0cdc4efda379cabc5dece1b03cff"/><emphasis role="strong">activity</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a1f5b39d8a925adbd66e01c8fcbc821fe"/><emphasis role="strong">lineactivity</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a690b75c70bf6a5772431b68d2d9e4863"/><emphasis role="strong">shipments</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1aa099c5dd91f58cffd9c42cd91af9b915"/>static <emphasis role="strong">addComment</emphasis> ($supplier_id, $identifier, $po_id, $sku_id, $line_id, $line, $comment)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a978ff24d4a60fab877616ecdd82ca391"/>static <emphasis role="strong">awardPointsClosedLine</emphasis> ($row)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1ab1649632647c85ad49e80f4e8012ab96"/>static <emphasis role="strong">awardPointsClosedLines</emphasis> ($rows, $supplier_id=&quot;&quot;)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1ad832a4804ceb4eb7daaecffc7527704e"/>static <emphasis role="strong">deactivateAllLines</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a6e53181deac78717782d502babd590f1"/>static <emphasis role="strong">exists</emphasis> ($po, $sku, $line)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a919b5e505b4e7c88cfe491ddc1fa6f6e"/>static <emphasis role="strong">formatExcelDate</emphasis> ($excel_date)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1ae7269df8aef7c27f3b3d2e49d0ecaab3"/>static <emphasis role="strong">fromIngestion</emphasis> ($ingestion_id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a9237633f943587567edbe00e7b69a724"/>static <emphasis role="strong">getLinesByOrders</emphasis> ($orders)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1add56e9bbdddc692de4508950f54fcfc5"/>static <emphasis role="strong">getLine</emphasis> ($po, $sku, $line)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a64a8343eb9c1cff49fe82b3400d4184e"/>static <emphasis role="strong">getCommitsNeededFromSupplier</emphasis> ($supplier)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a93bddc3f3e9e837aa307c9b3702830f4"/>static <emphasis role="strong">getLinesDueThisWeek</emphasis> ($supplier)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a101825a8a84843d1daa2fd4d59cb0b69"/>static <emphasis role="strong">getLineChangeStats</emphasis> ($number_of_ingestions)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1aa034656f74ea999f4ba5bd6222e403e9"/>static <emphasis role="strong">getLinesByIdentifier</emphasis> ($identifier)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a3c91e733a121aa3a924e8ec50e81237e"/>static <emphasis role="strong">getLinesCommitsForDashbord</emphasis> ($user_id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1ab50e6a7d6f019018372424e2085e03e6"/>static <emphasis role="strong">getOpenLines</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1ada1bbdbad6397a5ce4385050c1aff732"/>static <emphasis role="strong">getGoogleChartData_PercentPastDueSuppliers</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a5307c6bb5341adcf5371e59ed04392eb"/>static <emphasis role="strong">getEmailData_PercentCommitSuppliers</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a9c4d2ca7ff25bc289c6ddd9ffb16dbef"/>static <emphasis role="strong">getEmailData_PercentPastDueSuppliers</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a5cd653eb6675511e0631a5c11725cfef"/>static <emphasis role="strong">getSankey</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1ae4843fc5abd23fe2caf9a394b6ad6481"/>static <emphasis role="strong">getStats</emphasis> ($supplier_id=&quot;&quot;)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a6c24d2c322f0fc62139fa384c3a67d07"/>static <emphasis role="strong">makeIdentifier</emphasis> ($row, $purchasing_document, $material, $line)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a9f341dfeb8dee0b65430a1fd178a9716"/>static <emphasis role="strong">import</emphasis> ($ingestion_id, $supplier_id, $po_id, $sku_id, $row, $meetings)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1ab46badd58e1d5a258070bfb15e1fc279"/>static <emphasis role="strong">saveLineActivity</emphasis> ($line, $lineActivity)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a34814e7d7c5e55e1e0183c00eae2f75a"/>static <emphasis role="strong">setCommitForLine</emphasis> ($commit_date, $po_id, $sku_id, $line)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a7fa784dcb6a60d4dc479feb69946ea42"/>static <emphasis role="strong">updateLine</emphasis> ($existing_line, $row)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_line_1a6a90e74ccdf5efd70d51d10c906f8e32"/><emphasis role="strong">$fillable</emphasis> = [&apos;ingestion_id&apos;, &apos;active&apos;, &apos;plant&apos;,&apos;identifier&apos;, &apos;supplier_id&apos;, &apos;po_id&apos;, &apos;sku_id&apos;, &apos;line&apos;, &apos;line_activity_id&apos;, &apos;document_date&apos;, &apos;delivery_date&apos;, &apos;commit_date&apos;, &apos;stat_del_date&apos;, &apos;qty&apos;, &apos;order_unit&apos;, &apos;order_price_unit&apos;, &apos;net_price&apos;, &apos;currency&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Line.php</section>

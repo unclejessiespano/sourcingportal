@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_events_1_1_lead_time_changed" kind="class" language="PHP" prot="public">
+    <compoundname>App::Events::LeadTimeChanged</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_events_1_1_lead_time_changed_1a594752ee3a63172e5741277611d3310a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(public Line $prev_line, public Line $current_line,)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>App\Events\LeadTimeChanged\__construct</qualifiedname>
+        <param>
+          <type>public <ref refid="class_app_1_1_models_1_1_line" kindref="compound">Line</ref></type>
+          <declname>$prev_line</declname>
+        </param>
+        <param>
+          <type>public <ref refid="class_app_1_1_models_1_1_line" kindref="compound">Line</ref></type>
+          <declname>$current_line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new event instance. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Events/LeadTimeChanged.php" line="19" column="21" bodyfile="app/Events/LeadTimeChanged.php" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_events_1_1_lead_time_changed_1afdd67b80d67f15ce0ab9a0c254dad3bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>broadcastOn</definition>
+        <argsstring>()</argsstring>
+        <name>broadcastOn</name>
+        <qualifiedname>App\Events\LeadTimeChanged\broadcastOn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the channels the event should broadcast on.</para>
+<para><simplesect kind="return"><para>array&lt;int, \Illuminate\Broadcasting\Channel&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Events/LeadTimeChanged.php" line="29" column="21" bodyfile="app/Events/LeadTimeChanged.php" bodystart="29" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Events/LeadTimeChanged.php" line="12" column="1" bodyfile="app/Events/LeadTimeChanged.php" bodystart="13" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_events_1_1_lead_time_changed_1a594752ee3a63172e5741277611d3310a" prot="public" virt="non-virtual"><scope>App::Events::LeadTimeChanged</scope><name>__construct</name></member>
+      <member refid="class_app_1_1_events_1_1_lead_time_changed_1afdd67b80d67f15ce0ab9a0c254dad3bc" prot="public" virt="non-virtual"><scope>App::Events::LeadTimeChanged</scope><name>broadcastOn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

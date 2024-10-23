@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Controllers::EscalationController</compoundname>
+    <basecompoundref refid="class_app_1_1_http_1_1_controllers_1_1_controller" prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a20b1427c9e106e89aeef38924a3acc46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addTaskComment</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>addTaskComment</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\addTaskComment</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="16" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a2787ad086707bf16c7f8488117e2cc2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getTaskComments</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>getTaskComments</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\getTaskComments</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="24" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a149eb92716c1084a935e04a8d95f7347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display a listing of the resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="32" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show the form for creating a new resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="42" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a9ef485163104597c12185b53cdacf638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>store</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>store</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\store</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Store a newly created resource in storage. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="50" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1aa1084dca2023d0205f4d383a4fa3276d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>show</definition>
+        <argsstring>(string $id)</argsstring>
+        <name>show</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\show</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display the specified resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="58" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="58" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a243ee210e8c08b60ceb06f1d91078954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>showLine</definition>
+        <argsstring>(string $id, string $identifier)</argsstring>
+        <name>showLine</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\showLine</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>$identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="68" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="68" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a770dc774eb0c503adc8523130d7872a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>edit</definition>
+        <argsstring>(string $id)</argsstring>
+        <name>edit</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\edit</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show the form for editing the specified resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="85" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>update</definition>
+        <argsstring>(Request $request, string $id)</argsstring>
+        <name>update</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\update</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update the specified resource in storage. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="93" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a0c0ad28ec2bc13111bc8784ea626d477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>updateTaskStatus</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>updateTaskStatus</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\updateTaskStatus</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="97" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a0fdd66e92be5c0f832383e1d2162563f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>destroy</definition>
+        <argsstring>(string $id)</argsstring>
+        <name>destroy</name>
+        <qualifiedname>App\Http\Controllers\EscalationController\destroy</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove the specified resource from storage. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/EscalationController.php" line="105" column="21" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="105" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+      <node id="1">
+        <label>EscalationController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+      <node id="1">
+        <label>EscalationController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Http/Controllers/EscalationController.php" line="14" column="1" bodyfile="app/Http/Controllers/EscalationController.php" bodystart="15" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a20b1427c9e106e89aeef38924a3acc46" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>addTaskComment</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>create</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a0fdd66e92be5c0f832383e1d2162563f" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>destroy</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a770dc774eb0c503adc8523130d7872a9" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>edit</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a2787ad086707bf16c7f8488117e2cc2c" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>getTaskComments</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a149eb92716c1084a935e04a8d95f7347" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>index</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1aa1084dca2023d0205f4d383a4fa3276d" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>show</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a243ee210e8c08b60ceb06f1d91078954" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>showLine</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a9ef485163104597c12185b53cdacf638" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>store</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>update</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a0c0ad28ec2bc13111bc8784ea626d477" prot="public" virt="non-virtual"><scope>App::Http::Controllers::EscalationController</scope><name>updateTaskStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_shipment" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Shipment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_shipment_1ababdb36b32e892d4d427f84c2a68a410" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static recordShipment</definition>
+        <argsstring>($request)</argsstring>
+        <name>recordShipment</name>
+        <qualifiedname>App\Models\Shipment\recordShipment</qualifiedname>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Shipment.php" line="13" column="28" bodyfile="app/Models/Shipment.php" bodystart="13" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Shipment</label>
+        <link refid="class_app_1_1_models_1_1_shipment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Shipment</label>
+        <link refid="class_app_1_1_models_1_1_shipment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Shipment.php" line="9" column="1" bodyfile="app/Models/Shipment.php" bodystart="10" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_shipment_1ababdb36b32e892d4d427f84c2a68a410" prot="public" virt="non-virtual"><scope>App::Models::Shipment</scope><name>recordShipment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

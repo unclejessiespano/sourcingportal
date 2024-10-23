@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_http_1_1_controllers" kind="namespace" language="PHP">
+    <compoundname>App::Http::Controllers</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_column_controller" prot="public">App::Http::Controllers::ColumnController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller" prot="public">App::Http::Controllers::ContactController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_controller" prot="public">App::Http::Controllers::Controller</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_dashboard_controller" prot="public">App::Http::Controllers::DashboardController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_email_controller" prot="public">App::Http::Controllers::EmailController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller" prot="public">App::Http::Controllers::EscalationController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller" prot="public">App::Http::Controllers::FinishedPartsController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_home_controller" prot="public">App::Http::Controllers::HomeController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_import_controller" prot="public">App::Http::Controllers::ImportController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller" prot="public">App::Http::Controllers::IngestionController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_line_controller" prot="public">App::Http::Controllers::LineController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller" prot="public">App::Http::Controllers::MeetingController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_order_controller" prot="public">App::Http::Controllers::OrderController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller" prot="public">App::Http::Controllers::PlantController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_profile_controller" prot="public">App::Http::Controllers::ProfileController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller" prot="public">App::Http::Controllers::SKUController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller" prot="public">App::Http::Controllers::SupplierController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller" prot="public">App::Http::Controllers::TouchpointController</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_user_controller" prot="public">App::Http::Controllers::UserController</innerclass>
+    <innernamespace refid="namespace_app_1_1_http_1_1_controllers_1_1_auth">App::Http::Controllers::Auth</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Http/Controllers/ColumnController.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

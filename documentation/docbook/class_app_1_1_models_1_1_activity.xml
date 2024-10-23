@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_activity" xml:lang="en-US">
+<title>Activity Class Reference</title>
+<indexterm><primary>Activity</primary></indexterm>
+<para>Inheritance diagram for Activity:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_activity.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1ae8a275690ff1b618e1947378b0ed73ae"/><emphasis role="strong">user</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1a9e3d1baac1306bdfadb04fea884e273f"/><emphasis role="strong">supplier</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1a7b0226d7ca0a9552a30b08181bebcb19"/><emphasis role="strong">touchpoint</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1af338145541356008fbbc6f97de6885e6"/><emphasis role="strong">order</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1a0a4ec8218e59771ae86d8737ac252ede"/><emphasis role="strong">sku</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1a8171967e96cb49169768dabaa8cb7000"/><emphasis role="strong">line</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1a7d3189ffd934a80c8de6cb7f3b26ebdb"/><emphasis role="strong">liner</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1ab029b547ca3e8596b38f3b1321215790"/><emphasis role="strong">supplierscore</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1a6c55443a9a9c206b6943939762c359c6"/><emphasis role="strong">shipment</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1ae2095edae4e260d028c208cead4e5c9a"/><emphasis role="strong">comment</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1aac9012fea10937475db533a325a17e79"/>static <emphasis role="strong">addActivity</emphasis> ($identifier, $user_id, $supplier_id, $po_id=&quot;&quot;, $sku_id=&quot;&quot;, $line=&quot;&quot;, $touchpoint_id, $supplierscore_id, $shipment_id=&quot;0&quot;, $comment_id=&quot;0&quot;)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1abaab463fa11b7651fdd3a17e5f60b0eb"/>static <emphasis role="strong">addCommentToActivity</emphasis> ($comment_id, $activity)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_activity_1a4635390f29d404a6fa54fcbfca522ec9"/>static <emphasis role="strong">getActivity</emphasis> ($supplier_id=&quot;&quot;, $po_id=&quot;&quot;, $sku_id=&quot;&quot;, $line_id=&quot;&quot;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Activity.php</section>

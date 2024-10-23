@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_http_1_1_controllers_1_1_controller" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Controllers::Controller</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseController</basecompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller" prot="public" virt="non-virtual">AuthenticatedSessionController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_confirmable_password_controller" prot="public" virt="non-virtual">ConfirmablePasswordController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_email_verification_notification_controller" prot="public" virt="non-virtual">EmailVerificationNotificationController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_email_verification_prompt_controller" prot="public" virt="non-virtual">EmailVerificationPromptController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_new_password_controller" prot="public" virt="non-virtual">NewPasswordController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_password_controller" prot="public" virt="non-virtual">PasswordController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_password_reset_link_controller" prot="public" virt="non-virtual">PasswordResetLinkController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_registered_user_controller" prot="public" virt="non-virtual">RegisteredUserController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_verify_email_controller" prot="public" virt="non-virtual">VerifyEmailController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_column_controller" prot="public" virt="non-virtual">ColumnController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller" prot="public" virt="non-virtual">ContactController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_dashboard_controller" prot="public" virt="non-virtual">DashboardController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_email_controller" prot="public" virt="non-virtual">EmailController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller" prot="public" virt="non-virtual">EscalationController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller" prot="public" virt="non-virtual">FinishedPartsController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_home_controller" prot="public" virt="non-virtual">HomeController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_import_controller" prot="public" virt="non-virtual">ImportController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller" prot="public" virt="non-virtual">IngestionController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_line_controller" prot="public" virt="non-virtual">LineController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller" prot="public" virt="non-virtual">MeetingController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_order_controller" prot="public" virt="non-virtual">OrderController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller" prot="public" virt="non-virtual">PlantController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_profile_controller" prot="public" virt="non-virtual">ProfileController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller" prot="public" virt="non-virtual">SKUController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller" prot="public" virt="non-virtual">SupplierController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller" prot="public" virt="non-virtual">TouchpointController</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_http_1_1_controllers_1_1_user_controller" prot="public" virt="non-virtual">UserController</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>AuthenticatedSessionController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ConfirmablePasswordController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_confirmable_password_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>EmailVerificationNotificationController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_email_verification_notification_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>EmailVerificationPromptController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_email_verification_prompt_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>NewPasswordController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_new_password_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>PasswordController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_password_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>PasswordResetLinkController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_password_reset_link_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>RegisteredUserController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_registered_user_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>VerifyEmailController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_verify_email_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>ColumnController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_column_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ContactController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>DashboardController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_dashboard_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>EmailController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_email_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>EscalationController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>FinishedPartsController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>HomeController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>ImportController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_import_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>IngestionController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>LineController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_line_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MeetingController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>OrderController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_order_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>PlantController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>ProfileController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_profile_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>SKUController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>SupplierController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>TouchpointController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>UserController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_user_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>BaseController</label>
+      </node>
+      <node id="1">
+        <label>Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseController</label>
+      </node>
+      <node id="1">
+        <label>Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Http/Controllers/Controller.php" line="9" column="1" bodyfile="app/Http/Controllers/Controller.php" bodystart="10" bodyend="12"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

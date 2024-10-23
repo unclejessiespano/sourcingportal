@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_touchpoint" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Touchpoint</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_touchpoint_1a1f5b39d8a925adbd66e01c8fcbc821fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lineactivity</definition>
+        <argsstring>()</argsstring>
+        <name>lineactivity</name>
+        <qualifiedname>App\Models\Touchpoint\lineactivity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Touchpoint.php" line="11" column="21" bodyfile="app/Models/Touchpoint.php" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_touchpoint_1ae2095edae4e260d028c208cead4e5c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>comment</definition>
+        <argsstring>()</argsstring>
+        <name>comment</name>
+        <qualifiedname>App\Models\Touchpoint\comment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Touchpoint.php" line="14" column="21" bodyfile="app/Models/Touchpoint.php" bodystart="14" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_touchpoint_1a6206684f573939931a30c88eb53eb54d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getTouchpoints</definition>
+        <argsstring>()</argsstring>
+        <name>getTouchpoints</name>
+        <qualifiedname>App\Models\Touchpoint\getTouchpoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Touchpoint.php" line="17" column="28" bodyfile="app/Models/Touchpoint.php" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_touchpoint_1aa0a38255ba81e71a06a02e7d51ae6d30" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getTouchpointsNegativelyAffectingScore</definition>
+        <argsstring>($activities)</argsstring>
+        <name>getTouchpointsNegativelyAffectingScore</name>
+        <qualifiedname>App\Models\Touchpoint\getTouchpointsNegativelyAffectingScore</qualifiedname>
+        <param>
+          <declname>$activities</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Touchpoint.php" line="21" column="28" bodyfile="app/Models/Touchpoint.php" bodystart="21" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_touchpoint_1a20ecc85de7fd5b1ef537e4e5dd127c84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static createTouchpoint</definition>
+        <argsstring>($request)</argsstring>
+        <name>createTouchpoint</name>
+        <qualifiedname>App\Models\Touchpoint\createTouchpoint</qualifiedname>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Touchpoint.php" line="41" column="28" bodyfile="app/Models/Touchpoint.php" bodystart="41" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_touchpoint_1ad5e9641ac094c3a0d547bc4df512f090" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getByCode</definition>
+        <argsstring>($code)</argsstring>
+        <name>getByCode</name>
+        <qualifiedname>App\Models\Touchpoint\getByCode</qualifiedname>
+        <param>
+          <declname>$code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Touchpoint.php" line="53" column="28" bodyfile="app/Models/Touchpoint.php" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_touchpoint_1aabb75c2f24ee1c3c24ebc2279ee38cc2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getTouchpoint</definition>
+        <argsstring>($id)</argsstring>
+        <name>getTouchpoint</name>
+        <qualifiedname>App\Models\Touchpoint\getTouchpoint</qualifiedname>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Touchpoint.php" line="57" column="28" bodyfile="app/Models/Touchpoint.php" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_touchpoint_1a77517a9a4e8307beccbbadaad1347c98" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static updateTouchpoint</definition>
+        <argsstring>($request)</argsstring>
+        <name>updateTouchpoint</name>
+        <qualifiedname>App\Models\Touchpoint\updateTouchpoint</qualifiedname>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Touchpoint.php" line="61" column="28" bodyfile="app/Models/Touchpoint.php" bodystart="61" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Touchpoint</label>
+        <link refid="class_app_1_1_models_1_1_touchpoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Touchpoint</label>
+        <link refid="class_app_1_1_models_1_1_touchpoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Touchpoint.php" line="8" column="1" bodyfile="app/Models/Touchpoint.php" bodystart="9" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_touchpoint_1ae2095edae4e260d028c208cead4e5c9a" prot="public" virt="non-virtual"><scope>App::Models::Touchpoint</scope><name>comment</name></member>
+      <member refid="class_app_1_1_models_1_1_touchpoint_1a20ecc85de7fd5b1ef537e4e5dd127c84" prot="public" virt="non-virtual"><scope>App::Models::Touchpoint</scope><name>createTouchpoint</name></member>
+      <member refid="class_app_1_1_models_1_1_touchpoint_1ad5e9641ac094c3a0d547bc4df512f090" prot="public" virt="non-virtual"><scope>App::Models::Touchpoint</scope><name>getByCode</name></member>
+      <member refid="class_app_1_1_models_1_1_touchpoint_1aabb75c2f24ee1c3c24ebc2279ee38cc2" prot="public" virt="non-virtual"><scope>App::Models::Touchpoint</scope><name>getTouchpoint</name></member>
+      <member refid="class_app_1_1_models_1_1_touchpoint_1a6206684f573939931a30c88eb53eb54d" prot="public" virt="non-virtual"><scope>App::Models::Touchpoint</scope><name>getTouchpoints</name></member>
+      <member refid="class_app_1_1_models_1_1_touchpoint_1aa0a38255ba81e71a06a02e7d51ae6d30" prot="public" virt="non-virtual"><scope>App::Models::Touchpoint</scope><name>getTouchpointsNegativelyAffectingScore</name></member>
+      <member refid="class_app_1_1_models_1_1_touchpoint_1a1f5b39d8a925adbd66e01c8fcbc821fe" prot="public" virt="non-virtual"><scope>App::Models::Touchpoint</scope><name>lineactivity</name></member>
+      <member refid="class_app_1_1_models_1_1_touchpoint_1a77517a9a4e8307beccbbadaad1347c98" prot="public" virt="non-virtual"><scope>App::Models::Touchpoint</scope><name>updateTouchpoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

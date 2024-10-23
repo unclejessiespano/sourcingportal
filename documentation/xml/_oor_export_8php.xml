@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_oor_export_8php" kind="file" language="PHP">
+    <compoundname>OorExport.php</compoundname>
+    <innerclass refid="class_app_1_1_exports_1_1_oor_export" prot="public">App::Exports::OorExport</innerclass>
+    <innernamespace refid="namespace_app_1_1_exports">App::Exports</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_contracts_1_1_view_1_1_view">Illuminate::Contracts::View::View</innernamespace>
+    <innernamespace refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_from_view">Maatwebsite::Excel::Concerns::FromView</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Exports;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_order" kindref="compound">App\Models\Order</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>Illuminate\Contracts\View\View;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>Maatwebsite\Excel\Concerns\FromView;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_line" kindref="compound">App\Models\Line</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_app_1_1_exports_1_1_oor_export" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_exports_1_1_oor_export" kindref="compound">OorExport</ref><sp/></highlight><highlight class="keyword">implements</highlight><highlight class="normal"><sp/>FromView</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$id;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>__construct($id){</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>$id;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_exports_1_1_oor_export_1a33a6fe9ba5c60d6abbf88d65d55895a9" kindref="member">view</ref>():<ref refid="class_app_1_1_exports_1_1_oor_export_1a33a6fe9ba5c60d6abbf88d65d55895a9" kindref="member">view</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dates<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$orders<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lines<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lines<sp/>=<sp/>Line::with([</highlight><highlight class="stringliteral">&apos;order.plant&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;order.supplier&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;sku&apos;</highlight><highlight class="normal">])-&gt;get();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$orders<sp/>=<sp/>Order::with([</highlight><highlight class="stringliteral">&apos;lines.sku&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;supplier&apos;</highlight><highlight class="normal">])-&gt;where(</highlight><highlight class="stringliteral">&apos;supplier_id&apos;</highlight><highlight class="normal">,<sp/>$this-&gt;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)-&gt;get();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($orders<sp/>as<sp/>$order){</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$orders_array[$order-&gt;PO][]<sp/>=<sp/>$order-&gt;PO;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$late_lines<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($order-&gt;lines<sp/>as<sp/>$line){</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">($line-&gt;stat_del_date<sp/>&lt;<sp/>$line-&gt;delivery_date){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$late_lines++;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dates[$order-&gt;document_date][</highlight><highlight class="stringliteral">&apos;lines&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$order-&gt;lines-&gt;count();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dates[$order-&gt;document_date][</highlight><highlight class="stringliteral">&apos;orders&apos;</highlight><highlight class="normal">]<sp/>=<sp/>count($orders_array);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dates[$order-&gt;document_date][</highlight><highlight class="stringliteral">&apos;late_lines&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$late_lines;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_exports_1_1_oor_export_1a33a6fe9ba5c60d6abbf88d65d55895a9" kindref="member">view</ref>(</highlight><highlight class="stringliteral">&apos;exports.oor&apos;</highlight><highlight class="normal">,[</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;orders&apos;</highlight><highlight class="normal">=&gt;$orders</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Exports/OorExport.php"/>
+  </compounddef>
+</doxygen>

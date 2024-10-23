@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_listeners_1_1_part_image_uploaded_listener" kind="class" language="PHP" prot="public">
+    <compoundname>App::Listeners::PartImageUploadedListener</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_listeners_1_1_part_image_uploaded_listener_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <qualifiedname>App\Listeners\PartImageUploadedListener\__construct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create the event listener. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Listeners/PartImageUploadedListener.php" line="20" column="21" bodyfile="app/Listeners/PartImageUploadedListener.php" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_listeners_1_1_part_image_uploaded_listener_1adc5e6956c0d87455416aec13918fd28f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>handle</definition>
+        <argsstring>(PartImageUploaded $event)</argsstring>
+        <name>handle</name>
+        <qualifiedname>App\Listeners\PartImageUploadedListener\handle</qualifiedname>
+        <param>
+          <type><ref refid="class_app_1_1_events_1_1_part_image_uploaded" kindref="compound">PartImageUploaded</ref></type>
+          <declname>$event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handle the event. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Listeners/PartImageUploadedListener.php" line="28" column="21" bodyfile="app/Listeners/PartImageUploadedListener.php" bodystart="28" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Listeners/PartImageUploadedListener.php" line="15" column="1" bodyfile="app/Listeners/PartImageUploadedListener.php" bodystart="16" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>App::Listeners::PartImageUploadedListener</scope><name>__construct</name></member>
+      <member refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener_1adc5e6956c0d87455416aec13918fd28f" prot="public" virt="non-virtual"><scope>App::Listeners::PartImageUploadedListener</scope><name>handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_line" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Line</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_line_1a6a90e74ccdf5efd70d51d10c906f8e32" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$fillable</definition>
+        <argsstring></argsstring>
+        <name>$fillable</name>
+        <qualifiedname>App\Models\Line\$fillable</qualifiedname>
+        <initializer>= [&apos;ingestion_id&apos;, &apos;active&apos;, &apos;plant&apos;,&apos;identifier&apos;, &apos;supplier_id&apos;, &apos;po_id&apos;, &apos;sku_id&apos;, &apos;line&apos;, &apos;line_activity_id&apos;, &apos;document_date&apos;, &apos;delivery_date&apos;, &apos;commit_date&apos;, &apos;stat_del_date&apos;, &apos;qty&apos;, &apos;order_unit&apos;, &apos;order_price_unit&apos;, &apos;net_price&apos;, &apos;currency&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="22" column="15" bodyfile="app/Models/Line.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1af338145541356008fbbc6f97de6885e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>order</definition>
+        <argsstring>()</argsstring>
+        <name>order</name>
+        <qualifiedname>App\Models\Line\order</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="24" column="21" bodyfile="app/Models/Line.php" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a0a4ec8218e59771ae86d8737ac252ede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sku</definition>
+        <argsstring>()</argsstring>
+        <name>sku</name>
+        <qualifiedname>App\Models\Line\sku</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="27" column="21" bodyfile="app/Models/Line.php" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a9e3d1baac1306bdfadb04fea884e273f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>supplier</definition>
+        <argsstring>()</argsstring>
+        <name>supplier</name>
+        <qualifiedname>App\Models\Line\supplier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="30" column="21" bodyfile="app/Models/Line.php" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a7cea0cdc4efda379cabc5dece1b03cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>activity</definition>
+        <argsstring>()</argsstring>
+        <name>activity</name>
+        <qualifiedname>App\Models\Line\activity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="33" column="21" bodyfile="app/Models/Line.php" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a1f5b39d8a925adbd66e01c8fcbc821fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lineactivity</definition>
+        <argsstring>()</argsstring>
+        <name>lineactivity</name>
+        <qualifiedname>App\Models\Line\lineactivity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="36" column="21" bodyfile="app/Models/Line.php" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a690b75c70bf6a5772431b68d2d9e4863" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>shipments</definition>
+        <argsstring>()</argsstring>
+        <name>shipments</name>
+        <qualifiedname>App\Models\Line\shipments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="39" column="21" bodyfile="app/Models/Line.php" bodystart="39" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1aa099c5dd91f58cffd9c42cd91af9b915" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static addComment</definition>
+        <argsstring>($supplier_id, $identifier, $po_id, $sku_id, $line_id, $line, $comment)</argsstring>
+        <name>addComment</name>
+        <qualifiedname>App\Models\Line\addComment</qualifiedname>
+        <param>
+          <declname>$supplier_id</declname>
+        </param>
+        <param>
+          <declname>$identifier</declname>
+        </param>
+        <param>
+          <declname>$po_id</declname>
+        </param>
+        <param>
+          <declname>$sku_id</declname>
+        </param>
+        <param>
+          <declname>$line_id</declname>
+        </param>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <param>
+          <declname>$comment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="43" column="28" bodyfile="app/Models/Line.php" bodystart="43" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a978ff24d4a60fab877616ecdd82ca391" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static awardPointsClosedLine</definition>
+        <argsstring>($row)</argsstring>
+        <name>awardPointsClosedLine</name>
+        <qualifiedname>App\Models\Line\awardPointsClosedLine</qualifiedname>
+        <param>
+          <declname>$row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="61" column="28" bodyfile="app/Models/Line.php" bodystart="61" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1ab1649632647c85ad49e80f4e8012ab96" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static awardPointsClosedLines</definition>
+        <argsstring>($rows, $supplier_id=&quot;&quot;)</argsstring>
+        <name>awardPointsClosedLines</name>
+        <qualifiedname>App\Models\Line\awardPointsClosedLines</qualifiedname>
+        <param>
+          <declname>$rows</declname>
+        </param>
+        <param>
+          <declname>$supplier_id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="91" column="28" bodyfile="app/Models/Line.php" bodystart="91" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1ad832a4804ceb4eb7daaecffc7527704e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static deactivateAllLines</definition>
+        <argsstring>()</argsstring>
+        <name>deactivateAllLines</name>
+        <qualifiedname>App\Models\Line\deactivateAllLines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="125" column="28" bodyfile="app/Models/Line.php" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a6e53181deac78717782d502babd590f1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static exists</definition>
+        <argsstring>($po, $sku, $line)</argsstring>
+        <name>exists</name>
+        <qualifiedname>App\Models\Line\exists</qualifiedname>
+        <param>
+          <declname>$po</declname>
+        </param>
+        <param>
+          <declname>$sku</declname>
+        </param>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="132" column="28" bodyfile="app/Models/Line.php" bodystart="132" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a919b5e505b4e7c88cfe491ddc1fa6f6e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static formatExcelDate</definition>
+        <argsstring>($excel_date)</argsstring>
+        <name>formatExcelDate</name>
+        <qualifiedname>App\Models\Line\formatExcelDate</qualifiedname>
+        <param>
+          <declname>$excel_date</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="146" column="28" bodyfile="app/Models/Line.php" bodystart="146" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1ae7269df8aef7c27f3b3d2e49d0ecaab3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static fromIngestion</definition>
+        <argsstring>($ingestion_id)</argsstring>
+        <name>fromIngestion</name>
+        <qualifiedname>App\Models\Line\fromIngestion</qualifiedname>
+        <param>
+          <declname>$ingestion_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="151" column="28" bodyfile="app/Models/Line.php" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a9237633f943587567edbe00e7b69a724" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getLinesByOrders</definition>
+        <argsstring>($orders)</argsstring>
+        <name>getLinesByOrders</name>
+        <qualifiedname>App\Models\Line\getLinesByOrders</qualifiedname>
+        <param>
+          <declname>$orders</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="155" column="28" bodyfile="app/Models/Line.php" bodystart="155" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1add56e9bbdddc692de4508950f54fcfc5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getLine</definition>
+        <argsstring>($po, $sku, $line)</argsstring>
+        <name>getLine</name>
+        <qualifiedname>App\Models\Line\getLine</qualifiedname>
+        <param>
+          <declname>$po</declname>
+        </param>
+        <param>
+          <declname>$sku</declname>
+        </param>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="164" column="28" bodyfile="app/Models/Line.php" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a64a8343eb9c1cff49fe82b3400d4184e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getCommitsNeededFromSupplier</definition>
+        <argsstring>($supplier)</argsstring>
+        <name>getCommitsNeededFromSupplier</name>
+        <qualifiedname>App\Models\Line\getCommitsNeededFromSupplier</qualifiedname>
+        <param>
+          <declname>$supplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="168" column="28" bodyfile="app/Models/Line.php" bodystart="168" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a93bddc3f3e9e837aa307c9b3702830f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getLinesDueThisWeek</definition>
+        <argsstring>($supplier)</argsstring>
+        <name>getLinesDueThisWeek</name>
+        <qualifiedname>App\Models\Line\getLinesDueThisWeek</qualifiedname>
+        <param>
+          <declname>$supplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="178" column="28" bodyfile="app/Models/Line.php" bodystart="178" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a101825a8a84843d1daa2fd4d59cb0b69" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getLineChangeStats</definition>
+        <argsstring>($number_of_ingestions)</argsstring>
+        <name>getLineChangeStats</name>
+        <qualifiedname>App\Models\Line\getLineChangeStats</qualifiedname>
+        <param>
+          <declname>$number_of_ingestions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="190" column="28" bodyfile="app/Models/Line.php" bodystart="190" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1aa034656f74ea999f4ba5bd6222e403e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getLinesByIdentifier</definition>
+        <argsstring>($identifier)</argsstring>
+        <name>getLinesByIdentifier</name>
+        <qualifiedname>App\Models\Line\getLinesByIdentifier</qualifiedname>
+        <param>
+          <declname>$identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="251" column="28" bodyfile="app/Models/Line.php" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a3c91e733a121aa3a924e8ec50e81237e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getLinesCommitsForDashbord</definition>
+        <argsstring>($user_id)</argsstring>
+        <name>getLinesCommitsForDashbord</name>
+        <qualifiedname>App\Models\Line\getLinesCommitsForDashbord</qualifiedname>
+        <param>
+          <declname>$user_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="255" column="28" bodyfile="app/Models/Line.php" bodystart="255" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1ab50e6a7d6f019018372424e2085e03e6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getOpenLines</definition>
+        <argsstring>()</argsstring>
+        <name>getOpenLines</name>
+        <qualifiedname>App\Models\Line\getOpenLines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="283" column="28" bodyfile="app/Models/Line.php" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1ada1bbdbad6397a5ce4385050c1aff732" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getGoogleChartData_PercentPastDueSuppliers</definition>
+        <argsstring>()</argsstring>
+        <name>getGoogleChartData_PercentPastDueSuppliers</name>
+        <qualifiedname>App\Models\Line\getGoogleChartData_PercentPastDueSuppliers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="287" column="28" bodyfile="app/Models/Line.php" bodystart="287" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a5307c6bb5341adcf5371e59ed04392eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getEmailData_PercentCommitSuppliers</definition>
+        <argsstring>()</argsstring>
+        <name>getEmailData_PercentCommitSuppliers</name>
+        <qualifiedname>App\Models\Line\getEmailData_PercentCommitSuppliers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="310" column="28" bodyfile="app/Models/Line.php" bodystart="310" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a9c4d2ca7ff25bc289c6ddd9ffb16dbef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getEmailData_PercentPastDueSuppliers</definition>
+        <argsstring>()</argsstring>
+        <name>getEmailData_PercentPastDueSuppliers</name>
+        <qualifiedname>App\Models\Line\getEmailData_PercentPastDueSuppliers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="343" column="28" bodyfile="app/Models/Line.php" bodystart="343" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a5cd653eb6675511e0631a5c11725cfef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getSankey</definition>
+        <argsstring>()</argsstring>
+        <name>getSankey</name>
+        <qualifiedname>App\Models\Line\getSankey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="376" column="28" bodyfile="app/Models/Line.php" bodystart="376" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1ae4843fc5abd23fe2caf9a394b6ad6481" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getStats</definition>
+        <argsstring>($supplier_id=&quot;&quot;)</argsstring>
+        <name>getStats</name>
+        <qualifiedname>App\Models\Line\getStats</qualifiedname>
+        <param>
+          <declname>$supplier_id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="400" column="28" bodyfile="app/Models/Line.php" bodystart="400" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a6c24d2c322f0fc62139fa384c3a67d07" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static makeIdentifier</definition>
+        <argsstring>($row, $purchasing_document, $material, $line)</argsstring>
+        <name>makeIdentifier</name>
+        <qualifiedname>App\Models\Line\makeIdentifier</qualifiedname>
+        <param>
+          <declname>$row</declname>
+        </param>
+        <param>
+          <declname>$purchasing_document</declname>
+        </param>
+        <param>
+          <declname>$material</declname>
+        </param>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="431" column="28" bodyfile="app/Models/Line.php" bodystart="431" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a9f341dfeb8dee0b65430a1fd178a9716" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static import</definition>
+        <argsstring>($ingestion_id, $supplier_id, $po_id, $sku_id, $row, $meetings)</argsstring>
+        <name>import</name>
+        <qualifiedname>App\Models\Line\import</qualifiedname>
+        <param>
+          <declname>$ingestion_id</declname>
+        </param>
+        <param>
+          <declname>$supplier_id</declname>
+        </param>
+        <param>
+          <declname>$po_id</declname>
+        </param>
+        <param>
+          <declname>$sku_id</declname>
+        </param>
+        <param>
+          <declname>$row</declname>
+        </param>
+        <param>
+          <declname>$meetings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="445" column="28" bodyfile="app/Models/Line.php" bodystart="445" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1ab46badd58e1d5a258070bfb15e1fc279" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static saveLineActivity</definition>
+        <argsstring>($line, $lineActivity)</argsstring>
+        <name>saveLineActivity</name>
+        <qualifiedname>App\Models\Line\saveLineActivity</qualifiedname>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <param>
+          <declname>$lineActivity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="529" column="28" bodyfile="app/Models/Line.php" bodystart="529" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a34814e7d7c5e55e1e0183c00eae2f75a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static setCommitForLine</definition>
+        <argsstring>($commit_date, $po_id, $sku_id, $line)</argsstring>
+        <name>setCommitForLine</name>
+        <qualifiedname>App\Models\Line\setCommitForLine</qualifiedname>
+        <param>
+          <declname>$commit_date</declname>
+        </param>
+        <param>
+          <declname>$po_id</declname>
+        </param>
+        <param>
+          <declname>$sku_id</declname>
+        </param>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="537" column="28" bodyfile="app/Models/Line.php" bodystart="537" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_1a7fa784dcb6a60d4dc479feb69946ea42" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static updateLine</definition>
+        <argsstring>($existing_line, $row)</argsstring>
+        <name>updateLine</name>
+        <qualifiedname>App\Models\Line\updateLine</qualifiedname>
+        <param>
+          <declname>$existing_line</declname>
+        </param>
+        <param>
+          <declname>$row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Line.php" line="551" column="28" bodyfile="app/Models/Line.php" bodystart="551" bodyend="598"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Line</label>
+        <link refid="class_app_1_1_models_1_1_line"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Line</label>
+        <link refid="class_app_1_1_models_1_1_line"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Line.php" line="19" column="1" bodyfile="app/Models/Line.php" bodystart="20" bodyend="599"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_line_1a6a90e74ccdf5efd70d51d10c906f8e32" prot="protected" virt="non-virtual"><scope>App::Models::Line</scope><name>$fillable</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a7cea0cdc4efda379cabc5dece1b03cff" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>activity</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1aa099c5dd91f58cffd9c42cd91af9b915" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>addComment</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a978ff24d4a60fab877616ecdd82ca391" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>awardPointsClosedLine</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1ab1649632647c85ad49e80f4e8012ab96" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>awardPointsClosedLines</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1ad832a4804ceb4eb7daaecffc7527704e" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>deactivateAllLines</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a6e53181deac78717782d502babd590f1" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>exists</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a919b5e505b4e7c88cfe491ddc1fa6f6e" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>formatExcelDate</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1ae7269df8aef7c27f3b3d2e49d0ecaab3" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>fromIngestion</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a64a8343eb9c1cff49fe82b3400d4184e" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getCommitsNeededFromSupplier</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a5307c6bb5341adcf5371e59ed04392eb" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getEmailData_PercentCommitSuppliers</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a9c4d2ca7ff25bc289c6ddd9ffb16dbef" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getEmailData_PercentPastDueSuppliers</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1ada1bbdbad6397a5ce4385050c1aff732" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getGoogleChartData_PercentPastDueSuppliers</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1add56e9bbdddc692de4508950f54fcfc5" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getLine</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a101825a8a84843d1daa2fd4d59cb0b69" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getLineChangeStats</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1aa034656f74ea999f4ba5bd6222e403e9" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getLinesByIdentifier</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a9237633f943587567edbe00e7b69a724" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getLinesByOrders</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a3c91e733a121aa3a924e8ec50e81237e" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getLinesCommitsForDashbord</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a93bddc3f3e9e837aa307c9b3702830f4" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getLinesDueThisWeek</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1ab50e6a7d6f019018372424e2085e03e6" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getOpenLines</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a5cd653eb6675511e0631a5c11725cfef" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getSankey</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1ae4843fc5abd23fe2caf9a394b6ad6481" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>getStats</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a9f341dfeb8dee0b65430a1fd178a9716" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>import</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a1f5b39d8a925adbd66e01c8fcbc821fe" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>lineactivity</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a6c24d2c322f0fc62139fa384c3a67d07" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>makeIdentifier</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1af338145541356008fbbc6f97de6885e6" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>order</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1ab46badd58e1d5a258070bfb15e1fc279" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>saveLineActivity</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a34814e7d7c5e55e1e0183c00eae2f75a" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>setCommitForLine</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a690b75c70bf6a5772431b68d2d9e4863" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>shipments</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a0a4ec8218e59771ae86d8737ac252ede" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>sku</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a9e3d1baac1306bdfadb04fea884e273f" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>supplier</name></member>
+      <member refid="class_app_1_1_models_1_1_line_1a7fa784dcb6a60d4dc479feb69946ea42" prot="public" virt="non-virtual"><scope>App::Models::Line</scope><name>updateLine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

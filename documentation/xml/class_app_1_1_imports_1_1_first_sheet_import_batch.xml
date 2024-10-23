@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_imports_1_1_first_sheet_import_batch" kind="class" language="PHP" prot="public">
+    <compoundname>App::Imports::FirstSheetImportBatch</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ToModel</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">WithBatchInserts</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">WithHeadingRow</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_imports_1_1_first_sheet_import_batch_1ab9b55813efe64b7901eb87e8f2724dac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>model</definition>
+        <argsstring>(array $row)</argsstring>
+        <name>model</name>
+        <qualifiedname>App\Imports\FirstSheetImportBatch\model</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Imports/FirstSheetImportBatch.php" line="21" column="21" bodyfile="app/Imports/FirstSheetImportBatch.php" bodystart="21" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_imports_1_1_first_sheet_import_batch_1a48262ad055e1de04cea1c66db1ab0988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>batchSize</definition>
+        <argsstring>()</argsstring>
+        <name>batchSize</name>
+        <qualifiedname>App\Imports\FirstSheetImportBatch\batchSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Imports/FirstSheetImportBatch.php" line="63" column="21" bodyfile="app/Imports/FirstSheetImportBatch.php" bodystart="63" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FirstSheetImportBatch</label>
+        <link refid="class_app_1_1_imports_1_1_first_sheet_import_batch"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ToModel</label>
+      </node>
+      <node id="3">
+        <label>WithBatchInserts</label>
+      </node>
+      <node id="4">
+        <label>WithHeadingRow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FirstSheetImportBatch</label>
+        <link refid="class_app_1_1_imports_1_1_first_sheet_import_batch"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ToModel</label>
+      </node>
+      <node id="3">
+        <label>WithBatchInserts</label>
+      </node>
+      <node id="4">
+        <label>WithHeadingRow</label>
+      </node>
+    </collaborationgraph>
+    <location file="app/Imports/FirstSheetImportBatch.php" line="19" column="1" bodyfile="app/Imports/FirstSheetImportBatch.php" bodystart="20" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_imports_1_1_first_sheet_import_batch_1a48262ad055e1de04cea1c66db1ab0988" prot="public" virt="non-virtual"><scope>App::Imports::FirstSheetImportBatch</scope><name>batchSize</name></member>
+      <member refid="class_app_1_1_imports_1_1_first_sheet_import_batch_1ab9b55813efe64b7901eb87e8f2724dac" prot="public" virt="non-virtual"><scope>App::Imports::FirstSheetImportBatch</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

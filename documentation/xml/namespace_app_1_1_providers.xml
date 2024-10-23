@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_providers" kind="namespace" language="PHP">
+    <compoundname>App::Providers</compoundname>
+    <innerclass refid="class_app_1_1_providers_1_1_app_service_provider" prot="public">App::Providers::AppServiceProvider</innerclass>
+    <innerclass refid="class_app_1_1_providers_1_1_auth_service_provider" prot="public">App::Providers::AuthServiceProvider</innerclass>
+    <innerclass refid="class_app_1_1_providers_1_1_broadcast_service_provider" prot="public">App::Providers::BroadcastServiceProvider</innerclass>
+    <innerclass refid="class_app_1_1_providers_1_1_event_service_provider" prot="public">App::Providers::EventServiceProvider</innerclass>
+    <innerclass refid="class_app_1_1_providers_1_1_route_service_provider" prot="public">App::Providers::RouteServiceProvider</innerclass>
+    <innerclass refid="class_app_1_1_providers_1_1_tenancy_service_provider" prot="public">App::Providers::TenancyServiceProvider</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Providers/AppServiceProvider.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

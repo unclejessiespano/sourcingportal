@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_ingestion" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Ingestion</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_ingestion_1a65055164939f434481e5ee710bb44a45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lines</definition>
+        <argsstring>()</argsstring>
+        <name>lines</name>
+        <qualifiedname>App\Models\Ingestion\lines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Ingestion.php" line="17" column="21" bodyfile="app/Models/Ingestion.php" bodystart="17" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_ingestion_1ac9935d1f96048ef021407f5cb6d50884" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static add</definition>
+        <argsstring>($filename)</argsstring>
+        <name>add</name>
+        <qualifiedname>App\Models\Ingestion\add</qualifiedname>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Ingestion.php" line="21" column="28" bodyfile="app/Models/Ingestion.php" bodystart="21" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_ingestion_1a5299da2bcd69ab08a4d72da1da090f38" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getColumnNames</definition>
+        <argsstring>($row)</argsstring>
+        <name>getColumnNames</name>
+        <qualifiedname>App\Models\Ingestion\getColumnNames</qualifiedname>
+        <param>
+          <declname>$row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Ingestion.php" line="31" column="28" bodyfile="app/Models/Ingestion.php" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_ingestion_1ad1489054b4b8710ecfd363be2f9f3251" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getIngestions</definition>
+        <argsstring>()</argsstring>
+        <name>getIngestions</name>
+        <qualifiedname>App\Models\Ingestion\getIngestions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Ingestion.php" line="38" column="28" bodyfile="app/Models/Ingestion.php" bodystart="38" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_ingestion_1a5aec7c1eb27b8ce1ebbcb0a54a11c84b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getLastTwoIngestions</definition>
+        <argsstring>()</argsstring>
+        <name>getLastTwoIngestions</name>
+        <qualifiedname>App\Models\Ingestion\getLastTwoIngestions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Ingestion.php" line="61" column="28" bodyfile="app/Models/Ingestion.php" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_ingestion_1a4c9904d28da70d0641fbf932ab02bce5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static updateSupplierScores</definition>
+        <argsstring>()</argsstring>
+        <name>updateSupplierScores</name>
+        <qualifiedname>App\Models\Ingestion\updateSupplierScores</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Ingestion.php" line="65" column="28" bodyfile="app/Models/Ingestion.php" bodystart="65" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Ingestion</label>
+        <link refid="class_app_1_1_models_1_1_ingestion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Ingestion</label>
+        <link refid="class_app_1_1_models_1_1_ingestion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Ingestion.php" line="13" column="1" bodyfile="app/Models/Ingestion.php" bodystart="14" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_ingestion_1ac9935d1f96048ef021407f5cb6d50884" prot="public" virt="non-virtual"><scope>App::Models::Ingestion</scope><name>add</name></member>
+      <member refid="class_app_1_1_models_1_1_ingestion_1a5299da2bcd69ab08a4d72da1da090f38" prot="public" virt="non-virtual"><scope>App::Models::Ingestion</scope><name>getColumnNames</name></member>
+      <member refid="class_app_1_1_models_1_1_ingestion_1ad1489054b4b8710ecfd363be2f9f3251" prot="public" virt="non-virtual"><scope>App::Models::Ingestion</scope><name>getIngestions</name></member>
+      <member refid="class_app_1_1_models_1_1_ingestion_1a5aec7c1eb27b8ce1ebbcb0a54a11c84b" prot="public" virt="non-virtual"><scope>App::Models::Ingestion</scope><name>getLastTwoIngestions</name></member>
+      <member refid="class_app_1_1_models_1_1_ingestion_1a65055164939f434481e5ee710bb44a45" prot="public" virt="non-virtual"><scope>App::Models::Ingestion</scope><name>lines</name></member>
+      <member refid="class_app_1_1_models_1_1_ingestion_1a4c9904d28da70d0641fbf932ab02bce5" prot="public" virt="non-virtual"><scope>App::Models::Ingestion</scope><name>updateSupplierScores</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

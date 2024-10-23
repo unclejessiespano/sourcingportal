@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_plant" xml:lang="en-US">
+<title>Plant Class Reference</title>
+<indexterm><primary>Plant</primary></indexterm>
+<para>Inheritance diagram for Plant:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_plant.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_plant_1ade7a3d08c497abd198448fec996c7bc9"/><emphasis role="strong">orders</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_plant_1aa22eab96e67cee274c1924899388a3dc"/>static <emphasis role="strong">getMapMarkers</emphasis> ($plants)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_plant_1a264d614a6db766056f158ee238630836"/>static <emphasis role="strong">getPlants</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_plant_1a3e7d02163468eda4885be5ddeb0cebdb"/>static <emphasis role="strong">savePlant</emphasis> ($request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Plant.php</section>

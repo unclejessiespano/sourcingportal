@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request" xml:lang="en-US">
+<title>LoginRequest Class Reference</title>
+<indexterm><primary>LoginRequest</primary></indexterm>
+<para>Inheritance diagram for LoginRequest:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a49fd51a5864a57e7549db5c97c1fb610">authorize</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a17dba92d96b9dd48c62f3ede3eef94d4">rules</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a750c93a7dfab5314f2bf662a407bc5a6">authenticate</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1ac41aec88950bcb59df0d1d71d6ecc070">ensureIsNotRateLimited</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a024c3da726834e18b1b9fc7841a9f5d2">throttleKey</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a750c93a7dfab5314f2bf662a407bc5a6"/><section>
+    <title>authenticate()</title>
+<indexterm><primary>authenticate</primary><secondary>LoginRequest</secondary></indexterm>
+<indexterm><primary>LoginRequest</primary><secondary>authenticate</secondary></indexterm>
+<para><computeroutput>authenticate ( )</computeroutput></para>
+<para>Attempt to authenticate the request&apos;s credentials.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry></entry>
+<entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                Illuminate\Validation\ValidationException </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a49fd51a5864a57e7549db5c97c1fb610"/><section>
+    <title>authorize()</title>
+<indexterm><primary>authorize</primary><secondary>LoginRequest</secondary></indexterm>
+<indexterm><primary>LoginRequest</primary><secondary>authorize</secondary></indexterm>
+<para><computeroutput>authorize ( )</computeroutput></para>
+<para>Determine if the user is authorized to make this request. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1ac41aec88950bcb59df0d1d71d6ecc070"/><section>
+    <title>ensureIsNotRateLimited()</title>
+<indexterm><primary>ensureIsNotRateLimited</primary><secondary>LoginRequest</secondary></indexterm>
+<indexterm><primary>LoginRequest</primary><secondary>ensureIsNotRateLimited</secondary></indexterm>
+<para><computeroutput>ensureIsNotRateLimited ( )</computeroutput></para>
+<para>Ensure the login request is not rate limited.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry></entry>
+<entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                Illuminate\Validation\ValidationException </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a17dba92d96b9dd48c62f3ede3eef94d4"/><section>
+    <title>rules()</title>
+<indexterm><primary>rules</primary><secondary>LoginRequest</secondary></indexterm>
+<indexterm><primary>LoginRequest</primary><secondary>rules</secondary></indexterm>
+<para><computeroutput>rules ( )</computeroutput></para>
+<para>Get the validation rules that apply to the request.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>array&lt;string, \Illuminate\Contracts\Validation\Rule|array|string&gt; </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a024c3da726834e18b1b9fc7841a9f5d2"/><section>
+    <title>throttleKey()</title>
+<indexterm><primary>throttleKey</primary><secondary>LoginRequest</secondary></indexterm>
+<indexterm><primary>LoginRequest</primary><secondary>throttleKey</secondary></indexterm>
+<para><computeroutput>throttleKey ( )</computeroutput></para>
+<para>Get the rate limiting throttle key for the request. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Requests/Auth/LoginRequest.php</section>
+</section>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_exports_1_1_oor_export" xml:lang="en-US">
+<title>OorExport Class Reference</title>
+<indexterm><primary>OorExport</primary></indexterm>
+<para>Inheritance diagram for OorExport:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_exports_1_1_oor_export.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_exports_1_1_oor_export_1a1340871f436b81e1f225567b6cce4e79"/><emphasis role="strong">__construct</emphasis> ($id)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_exports_1_1_oor_export_1a33a6fe9ba5c60d6abbf88d65d55895a9">view</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_exports_1_1_oor_export_1ae97941710d863131c700f069b109991e"/><emphasis role="strong">$id</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_exports_1_1_oor_export_1a33a6fe9ba5c60d6abbf88d65d55895a9"/><section>
+    <title>view()</title>
+<indexterm><primary>view</primary><secondary>OorExport</secondary></indexterm>
+<indexterm><primary>OorExport</primary><secondary>view</secondary></indexterm>
+<para><computeroutput>view ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>OOR $oor </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Exports/OorExport.php</section>
+</section>

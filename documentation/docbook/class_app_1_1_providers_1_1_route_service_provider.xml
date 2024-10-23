@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_providers_1_1_route_service_provider" xml:lang="en-US">
+<title>RouteServiceProvider Class Reference</title>
+<indexterm><primary>RouteServiceProvider</primary></indexterm>
+<para>Inheritance diagram for RouteServiceProvider:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_providers_1_1_route_service_provider.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_providers_1_1_route_service_provider_1a8814ea4b5beba763c570b4818980814e">boot</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Data Fields    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_route_service_provider_1ad5937d1b8a0dcaa1c2ffdca45ec67bf2"/>const <emphasis role="strong">HOME</emphasis> = &apos;/suppliers&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_route_service_provider_1ac887962db9a9a8f344572bd205a02165"/><emphasis role="strong">mapWebRoutes</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_route_service_provider_1ad400e7ca0cea76b9680eeb68b55ea0e0"/><emphasis role="strong">mapApiRoutes</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_route_service_provider_1a01e8f6bce886a115c6e95b6582fe18e5"/><emphasis role="strong">centralDomains</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_providers_1_1_route_service_provider_1a8814ea4b5beba763c570b4818980814e"/><section>
+    <title>boot()</title>
+<indexterm><primary>boot</primary><secondary>RouteServiceProvider</secondary></indexterm>
+<indexterm><primary>RouteServiceProvider</primary><secondary>boot</secondary></indexterm>
+<para><computeroutput>boot ( )</computeroutput></para>
+<para>Define your route model bindings, pattern filters, and other route configuration. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Providers/RouteServiceProvider.php</section>
+</section>

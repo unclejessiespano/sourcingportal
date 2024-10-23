@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_console_1_1_kernel" kind="class" language="PHP" prot="public">
+    <compoundname>App::Console::Kernel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ConsoleKernel</basecompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_app_1_1_console_1_1_kernel_1ac8f0af578c80277b7a25381c6a9e268c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>schedule</definition>
+        <argsstring>(Schedule $schedule)</argsstring>
+        <name>schedule</name>
+        <qualifiedname>App\Console\Kernel\schedule</qualifiedname>
+        <param>
+          <type>Schedule</type>
+          <declname>$schedule</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Define the application&apos;s command schedule. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Console/Kernel.php" line="13" column="24" bodyfile="app/Console/Kernel.php" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_console_1_1_kernel_1af0afefa0d79d09344a638cf6c532aa39" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>commands</definition>
+        <argsstring>()</argsstring>
+        <name>commands</name>
+        <qualifiedname>App\Console\Kernel\commands</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Register the commands for the application. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Console/Kernel.php" line="21" column="24" bodyfile="app/Console/Kernel.php" bodystart="21" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ConsoleKernel</label>
+      </node>
+      <node id="1">
+        <label>Kernel</label>
+        <link refid="class_app_1_1_console_1_1_kernel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ConsoleKernel</label>
+      </node>
+      <node id="1">
+        <label>Kernel</label>
+        <link refid="class_app_1_1_console_1_1_kernel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Console/Kernel.php" line="8" column="1" bodyfile="app/Console/Kernel.php" bodystart="9" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_console_1_1_kernel_1af0afefa0d79d09344a638cf6c532aa39" prot="protected" virt="non-virtual"><scope>App::Console::Kernel</scope><name>commands</name></member>
+      <member refid="class_app_1_1_console_1_1_kernel_1ac8f0af578c80277b7a25381c6a9e268c" prot="protected" virt="non-virtual"><scope>App::Console::Kernel</scope><name>schedule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

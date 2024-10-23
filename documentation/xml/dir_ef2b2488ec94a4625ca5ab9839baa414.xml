@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_ef2b2488ec94a4625ca5ab9839baa414" kind="dir">
+    <compoundname>app/Http/Middleware</compoundname>
+    <innerfile refid="_authenticate_8php">Authenticate.php</innerfile>
+    <innerfile refid="_encrypt_cookies_8php">EncryptCookies.php</innerfile>
+    <innerfile refid="_handle_inertia_requests_8php">HandleInertiaRequests.php</innerfile>
+    <innerfile refid="_prevent_requests_during_maintenance_8php">PreventRequestsDuringMaintenance.php</innerfile>
+    <innerfile refid="_redirect_if_authenticated_8php">RedirectIfAuthenticated.php</innerfile>
+    <innerfile refid="_trim_strings_8php">TrimStrings.php</innerfile>
+    <innerfile refid="_trust_hosts_8php">TrustHosts.php</innerfile>
+    <innerfile refid="_trust_proxies_8php">TrustProxies.php</innerfile>
+    <innerfile refid="_validate_signature_8php">ValidateSignature.php</innerfile>
+    <innerfile refid="_verify_csrf_token_8php">VerifyCsrfToken.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Http/Middleware/"/>
+  </compounddef>
+</doxygen>

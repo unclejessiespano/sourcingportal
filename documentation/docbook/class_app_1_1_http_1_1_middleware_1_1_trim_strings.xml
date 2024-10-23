@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_middleware_1_1_trim_strings" xml:lang="en-US">
+<title>TrimStrings Class Reference</title>
+<indexterm><primary>TrimStrings</primary></indexterm>
+<para>Inheritance diagram for TrimStrings:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_middleware_1_1_trim_strings.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_middleware_1_1_trim_strings_1a20aee92e768748d175898c2dba356c51">$except</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Field Documentation</title>
+<anchor xml:id="_class_app_1_1_http_1_1_middleware_1_1_trim_strings_1a20aee92e768748d175898c2dba356c51"/><section>
+    <title>$except</title>
+<indexterm><primary>$except</primary><secondary>TrimStrings</secondary></indexterm>
+<indexterm><primary>TrimStrings</primary><secondary>$except</secondary></indexterm>
+<para><computeroutput>$except<computeroutput>[protected]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;current_password&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;password&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;password_confirmation&apos;</emphasis>,
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Middleware/TrimStrings.php</section>
+</section>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_part_image_uploaded_listener_8php" kind="file" language="PHP">
+    <compoundname>PartImageUploadedListener.php</compoundname>
+    <innerclass refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener" prot="public">App::Listeners::PartImageUploadedListener</innerclass>
+    <innernamespace refid="namespace_app_1_1_listeners">App::Listeners</innernamespace>
+    <innernamespace refid="namespace_intervention_1_1_image_1_1_drivers_1_1_imagick_1_1_driver">Intervention::Image::Drivers::Imagick::Driver</innernamespace>
+    <innernamespace refid="namespace_intervention_1_1_image_1_1_image_manager">Intervention::Image::ImageManager</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Listeners;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_part_image_uploaded" kindref="compound">App\Events\PartImageUploaded</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_activity" kindref="compound">App\Models\Activity</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_supplierscore" kindref="compound">App\Models\Supplierscore</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_touchpoint" kindref="compound">App\Models\Touchpoint</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_skudetail" kindref="compound">App\Models\Skudetail</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/>Auth;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/>Illuminate\Support\Facades\Storage;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">use<sp/>Intervention\Image\Drivers\Imagick\Driver;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">use<sp/>Intervention\Image\ImageManager;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener" kindref="compound">PartImageUploadedListener</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener_1a095c5d389db211932136b53f25f39685" kindref="member">__construct</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener_1adc5e6956c0d87455416aec13918fd28f" kindref="member">handle</ref>(<ref refid="class_app_1_1_events_1_1_part_image_uploaded" kindref="compound">PartImageUploaded</ref><sp/>$event):<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//create<sp/>the<sp/>directory<sp/>if<sp/>it<sp/>doesn&apos;t<sp/>exist</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!is_dir(storage_path(</highlight><highlight class="stringliteral">&apos;/app/public/parts/&apos;</highlight><highlight class="normal">))){</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mkdir(storage_path(</highlight><highlight class="stringliteral">&apos;/app/public/parts/&apos;</highlight><highlight class="normal">),<sp/>0755,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//upload<sp/>the<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$file<sp/>=<sp/>$event-&gt;request-&gt;file(</highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$file<sp/>=<sp/>$file[0];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$new_filename<sp/>=<sp/>uniqid().</highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">.$file-&gt;extension();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tenant_directory<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;tenant&quot;</highlight><highlight class="normal">.tenancy()-&gt;tenant-&gt;id;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$file_path<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;/storage/parts/&quot;</highlight><highlight class="normal">.$new_filename;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$path_to_file<sp/>=<sp/>storage_path(</highlight><highlight class="stringliteral">&apos;/app/public/parts/&apos;</highlight><highlight class="normal">.$new_filename);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$manager<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ImageManager(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Driver());</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$x<sp/>=<sp/>$manager-&gt;read($file);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$temp_file_path<sp/>=<sp/>$x-&gt;origin()-&gt;filePath();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$img<sp/>=<sp/>$manager-&gt;read($temp_file_path)-&gt;scaleDown(width:400)-&gt;save($path_to_file);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//save<sp/>the<sp/>uploaded<sp/>image<sp/>to<sp/>the<sp/>sku<sp/>details</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Skudetail::saveImage($event-&gt;sku-&gt;id,<sp/>$file_path);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Listeners/PartImageUploadedListener.php"/>
+  </compounddef>
+</doxygen>

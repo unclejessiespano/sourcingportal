@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_event_service_provider_8php" kind="file" language="PHP">
+    <compoundname>EventServiceProvider.php</compoundname>
+    <innerclass refid="class_app_1_1_providers_1_1_event_service_provider" prot="public">App::Providers::EventServiceProvider</innerclass>
+    <innernamespace refid="namespace_app_1_1_providers">App::Providers</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_line_delivery_date_changed_listener">App::Listeners::LineDeliveryDateChangedListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_line_late_listener">App::Listeners::LineLateListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_line_net_price_changed_listener">App::Listeners::LineNetPriceChangedListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_line_quantity_changed_listener">App::Listeners::LineQuantityChangedListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_o_o_r_uploaded_listener">App::Listeners::OORUploadedListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_supplier_column_map_needed_listener">App::Listeners::SupplierColumnMapNeededListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_supplier_o_o_r_uploaded_listener">App::Listeners::SupplierOORUploadedListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_update_supplier_score">App::Listeners::UpdateSupplierScore</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_line_delivered_listener">App::Listeners::LineDeliveredListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_supplier_added_listener">App::Listeners::SupplierAddedListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_part_image_uploaded_listener">App::Listeners::PartImageUploadedListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_lead_time_changed_listener">App::Listeners::LeadTimeChangedListener</innernamespace>
+    <innernamespace refid="namespace_app_1_1_listeners_1_1_comment_changed_listener">App::Listeners::CommentChangedListener</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_auth_1_1_listeners_1_1_send_email_verification_notification">Illuminate::Auth::Listeners::SendEmailVerificationNotification</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Providers;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_commit_received" kindref="compound">App\Events\CommitReceived</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_line_delivery_date_changed" kindref="compound">App\Events\LineDeliveryDateChanged</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_line_late" kindref="compound">App\Events\LineLate</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_line_net_price_changed" kindref="compound">App\Events\LineNetPriceChanged</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_line_quantity_changed" kindref="compound">App\Events\LineQuantityChanged</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_o_o_r_uploaded" kindref="compound">App\Events\OORUploaded</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_supplier_o_o_r_uploaded" kindref="compound">App\Events\SupplierOORUploaded</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_line_delivered" kindref="compound">App\Events\LineDelivered</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_part_image_uploaded" kindref="compound">App\Events\PartImageUploaded</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_supplier_added" kindref="compound">App\Events\SupplierAdded</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_supplier_column_map_needed" kindref="compound">App\Events\SupplierColumnMapNeeded</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_lead_time_changed" kindref="compound">App\Events\LeadTimeChanged</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_comment_changed" kindref="compound">App\Events\CommentChanged</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_line_delivery_date_changed_listener" kindref="compound">App\Listeners\LineDeliveryDateChangedListener</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_line_late_listener" kindref="compound">App\Listeners\LineLateListener</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_line_net_price_changed_listener" kindref="compound">App\Listeners\LineNetPriceChangedListener</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_line_quantity_changed_listener" kindref="compound">App\Listeners\LineQuantityChangedListener</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_o_o_r_uploaded_listener" kindref="compound">App\Listeners\OORUploadedListener</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_supplier_column_map_needed_listener" kindref="compound">App\Listeners\SupplierColumnMapNeededListener</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_supplier_o_o_r_uploaded_listener" kindref="compound">App\Listeners\SupplierOORUploadedListener</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_update_supplier_score" kindref="compound">App\Listeners\UpdateSupplierScore</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_line_delivered_listener" kindref="compound">App\Listeners\LineDeliveredListener</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_supplier_added_listener" kindref="compound">App\Listeners\SupplierAddedListener</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener" kindref="compound">App\Listeners\PartImageUploadedListener</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_lead_time_changed_listener" kindref="compound">App\Listeners\LeadTimeChangedListener</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">use<sp/><ref refid="class_app_1_1_listeners_1_1_comment_changed_listener" kindref="compound">App\Listeners\CommentChangedListener</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">use<sp/>Illuminate\Auth\Events\Registered;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">use<sp/>Illuminate\Auth\Listeners\SendEmailVerificationNotification;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">use<sp/>Illuminate\Foundation\Support\Providers\EventServiceProvider<sp/>as<sp/>ServiceProvider;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_app_1_1_providers_1_1_event_service_provider" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_providers_1_1_event_service_provider" kindref="compound">EventServiceProvider</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>ServiceProvider</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$listen<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Registered::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SendEmailVerificationNotification::class,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CommitReceived::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UpdateSupplierScore::class</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OORUploaded::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OORUploadedListener::class</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SupplierColumnMapNeeded::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SupplierColumnMapNeededListener::class</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SupplierOORUploaded::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SupplierOORUploadedListener::class</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LineQuantityChanged::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LineQuantityChangedListener::class</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LineDeliveryDateChanged::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LineDeliveryDateChangedListener::class</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LineNetPriceChanged::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LineNetPriceChangedListener::class</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LineLate::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LineLateListener::class</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LineDelivered::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LineDeliveredListener::class</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SupplierAdded::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SupplierAddedListener::class</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PartImageUploaded::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PartImageUploadedListener::class</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LeadTimeChanged::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LeadTimeChangedListener::class</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CommentChanged::class<sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CommentChangedListener::class</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_providers_1_1_event_service_provider_1a8814ea4b5beba763c570b4818980814e" kindref="member">boot</ref>():<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_providers_1_1_event_service_provider_1a364bb57fa3279a24dbf7090e064a5ade" kindref="member">shouldDiscoverEvents</ref>():<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Providers/EventServiceProvider.php"/>
+  </compounddef>
+</doxygen>

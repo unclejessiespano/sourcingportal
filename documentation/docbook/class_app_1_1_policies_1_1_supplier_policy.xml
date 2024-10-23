@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_policies_1_1_supplier_policy" xml:lang="en-US">
+<title>SupplierPolicy Class Reference</title>
+<indexterm><primary>SupplierPolicy</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_supplier_policy_1ab91821546d40b791783ecdfab9622e7d">viewAny</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_supplier_policy_1a473b0c02c88a0fa078c4cf3e84875457">view</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_supplier">Supplier</link> $supplier)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_supplier_policy_1a7626db07d2ee9a50d2839c019dbf037d">create</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_supplier_policy_1a358a423d9f8cd9199b8744b6f90626fd">update</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_supplier">Supplier</link> $supplier)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_supplier_policy_1accf6af06442da3f3cef703eb84c38a5b">delete</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, User_Supplier $userSupplier)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_supplier_policy_1a1a4a4c2f601bb661f5c314dddf7717db">restore</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_supplier">Supplier</link> $supplier)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_supplier_policy_1a134d9545dacc345d74e53276e0f3ddbf">forceDelete</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_supplier">Supplier</link> $supplier)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_policies_1_1_supplier_policy_1a7626db07d2ee9a50d2839c019dbf037d"/><section>
+    <title>create()</title>
+<indexterm><primary>create</primary><secondary>SupplierPolicy</secondary></indexterm>
+<indexterm><primary>SupplierPolicy</primary><secondary>create</secondary></indexterm>
+<para><computeroutput>create (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user)</computeroutput></para>
+<para>Determine whether the user can create models. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_supplier_policy_1accf6af06442da3f3cef703eb84c38a5b"/><section>
+    <title>delete()</title>
+<indexterm><primary>delete</primary><secondary>SupplierPolicy</secondary></indexterm>
+<indexterm><primary>SupplierPolicy</primary><secondary>delete</secondary></indexterm>
+<para><computeroutput>delete (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, User_Supplier $userSupplier)</computeroutput></para>
+<para>Determine whether the user can delete the model. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_supplier_policy_1a134d9545dacc345d74e53276e0f3ddbf"/><section>
+    <title>forceDelete()</title>
+<indexterm><primary>forceDelete</primary><secondary>SupplierPolicy</secondary></indexterm>
+<indexterm><primary>SupplierPolicy</primary><secondary>forceDelete</secondary></indexterm>
+<para><computeroutput>forceDelete (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_supplier">Supplier</link> $supplier)</computeroutput></para>
+<para>Determine whether the user can permanently delete the model. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_supplier_policy_1a1a4a4c2f601bb661f5c314dddf7717db"/><section>
+    <title>restore()</title>
+<indexterm><primary>restore</primary><secondary>SupplierPolicy</secondary></indexterm>
+<indexterm><primary>SupplierPolicy</primary><secondary>restore</secondary></indexterm>
+<para><computeroutput>restore (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_supplier">Supplier</link> $supplier)</computeroutput></para>
+<para>Determine whether the user can restore the model. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_supplier_policy_1a358a423d9f8cd9199b8744b6f90626fd"/><section>
+    <title>update()</title>
+<indexterm><primary>update</primary><secondary>SupplierPolicy</secondary></indexterm>
+<indexterm><primary>SupplierPolicy</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>update (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_supplier">Supplier</link> $supplier)</computeroutput></para>
+<para>Determine whether the user can update the model. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_supplier_policy_1a473b0c02c88a0fa078c4cf3e84875457"/><section>
+    <title>view()</title>
+<indexterm><primary>view</primary><secondary>SupplierPolicy</secondary></indexterm>
+<indexterm><primary>SupplierPolicy</primary><secondary>view</secondary></indexterm>
+<para><computeroutput>view (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_supplier">Supplier</link> $supplier)</computeroutput></para>
+<para>Determine whether the user can view the model. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_supplier_policy_1ab91821546d40b791783ecdfab9622e7d"/><section>
+    <title>viewAny()</title>
+<indexterm><primary>viewAny</primary><secondary>SupplierPolicy</secondary></indexterm>
+<indexterm><primary>SupplierPolicy</primary><secondary>viewAny</secondary></indexterm>
+<para><computeroutput>viewAny (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user)</computeroutput></para>
+<para>Determine whether the user can view any models. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Policies/SupplierPolicy.php</section>
+</section>

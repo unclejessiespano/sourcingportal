@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_column___map" xml:lang="en-US">
+<title>Column_Map Class Reference</title>
+<indexterm><primary>Column_Map</primary></indexterm>
+<para>Inheritance diagram for Column_Map:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_column___map.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_column___map_1a82eff5db5af823485d3b336ccab7a228"/>static <emphasis role="strong">getColumnByColumnID</emphasis> ($column_id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_column___map_1ae37bf9e58907129b48229de747808ada"/>static <emphasis role="strong">getMappedColumn</emphasis> ($column)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_column___map_1a68323f013426ad91be95543ea1ccbf25"/>static <emphasis role="strong">mapColumn</emphasis> ($request)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_column___map_1a0b1cb6f4937adb979912f2915917a2d1"/>static <emphasis role="strong">mapColumns</emphasis> ($rows)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_column___map_1ae8876a14058f368335baccf35af4a22b"/><emphasis role="strong">$table</emphasis> = &quot;column_maps&quot;</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_column___map_1a6a90e74ccdf5efd70d51d10c906f8e32"/><emphasis role="strong">$fillable</emphasis> = [&apos;column_id&apos;, &apos;column&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Column_Map.php</section>

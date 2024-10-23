@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_supplier_column_map" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::SupplierColumnMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_column_map_1aad676d74bf9ed6e6953eb33975b3acaa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static addSupplierColumnMap</definition>
+        <argsstring>($supplier_id, $json)</argsstring>
+        <name>addSupplierColumnMap</name>
+        <qualifiedname>App\Models\SupplierColumnMap\addSupplierColumnMap</qualifiedname>
+        <param>
+          <declname>$supplier_id</declname>
+        </param>
+        <param>
+          <declname>$json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/SupplierColumnMap.php" line="14" column="28" bodyfile="app/Models/SupplierColumnMap.php" bodystart="14" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_column_map_1a11a2bcb8692b4fad4f17b6ca4c48e7a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static doesSupplierMapExist</definition>
+        <argsstring>($supplier_id)</argsstring>
+        <name>doesSupplierMapExist</name>
+        <qualifiedname>App\Models\SupplierColumnMap\doesSupplierMapExist</qualifiedname>
+        <param>
+          <declname>$supplier_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/SupplierColumnMap.php" line="25" column="28" bodyfile="app/Models/SupplierColumnMap.php" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_column_map_1a13109c3f3482b7dfd7c98932425bad22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static createMap</definition>
+        <argsstring>($request)</argsstring>
+        <name>createMap</name>
+        <qualifiedname>App\Models\SupplierColumnMap\createMap</qualifiedname>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/SupplierColumnMap.php" line="29" column="28" bodyfile="app/Models/SupplierColumnMap.php" bodystart="29" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>SupplierColumnMap</label>
+        <link refid="class_app_1_1_models_1_1_supplier_column_map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>SupplierColumnMap</label>
+        <link refid="class_app_1_1_models_1_1_supplier_column_map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/SupplierColumnMap.php" line="10" column="1" bodyfile="app/Models/SupplierColumnMap.php" bodystart="11" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_supplier_column_map_1aad676d74bf9ed6e6953eb33975b3acaa" prot="public" virt="non-virtual"><scope>App::Models::SupplierColumnMap</scope><name>addSupplierColumnMap</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_column_map_1a13109c3f3482b7dfd7c98932425bad22" prot="public" virt="non-virtual"><scope>App::Models::SupplierColumnMap</scope><name>createMap</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_column_map_1a11a2bcb8692b4fad4f17b6ca4c48e7a4" prot="public" virt="non-virtual"><scope>App::Models::SupplierColumnMap</scope><name>doesSupplierMapExist</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

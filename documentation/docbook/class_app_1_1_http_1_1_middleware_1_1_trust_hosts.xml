@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_middleware_1_1_trust_hosts" xml:lang="en-US">
+<title>TrustHosts Class Reference</title>
+<indexterm><primary>TrustHosts</primary></indexterm>
+<para>Inheritance diagram for TrustHosts:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_middleware_1_1_trust_hosts.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_middleware_1_1_trust_hosts_1af5de9ee37ade338fbd85cf8ab9969651">hosts</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_http_1_1_middleware_1_1_trust_hosts_1af5de9ee37ade338fbd85cf8ab9969651"/><section>
+    <title>hosts()</title>
+<indexterm><primary>hosts</primary><secondary>TrustHosts</secondary></indexterm>
+<indexterm><primary>TrustHosts</primary><secondary>hosts</secondary></indexterm>
+<para><computeroutput>hosts ( )</computeroutput></para>
+<para>Get the host patterns that should be trusted.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>array&lt;int, string|null&gt; </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Middleware/TrustHosts.php</section>
+</section>

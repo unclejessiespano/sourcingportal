@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_imports" kind="namespace" language="PHP">
+    <compoundname>App::Imports</compoundname>
+    <innerclass refid="class_app_1_1_imports_1_1_first_sheet_import" prot="public">App::Imports::FirstSheetImport</innerclass>
+    <innerclass refid="class_app_1_1_imports_1_1_first_sheet_import_batch" prot="public">App::Imports::FirstSheetImportBatch</innerclass>
+    <innerclass refid="class_app_1_1_imports_1_1_first_sheet_import_supplier" prot="public">App::Imports::FirstSheetImportSupplier</innerclass>
+    <innerclass refid="class_app_1_1_imports_1_1_first_sheet_import_supplier_column_map_needed" prot="public">App::Imports::FirstSheetImportSupplierColumnMapNeeded</innerclass>
+    <innerclass refid="class_app_1_1_imports_1_1_o_o_r_import" prot="public">App::Imports::OORImport</innerclass>
+    <innerclass refid="class_app_1_1_imports_1_1_supplier_column_map_needed_import" prot="public">App::Imports::SupplierColumnMapNeededImport</innerclass>
+    <innerclass refid="class_app_1_1_imports_1_1_supplier_o_o_r_import" prot="public">App::Imports::SupplierOORImport</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Imports/FirstSheetImport.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Requests::Auth::LoginRequest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FormRequest</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a49fd51a5864a57e7549db5c97c1fb610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>authorize</definition>
+        <argsstring>()</argsstring>
+        <name>authorize</name>
+        <qualifiedname>App\Http\Requests\Auth\LoginRequest\authorize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine if the user is authorized to make this request. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Requests/Auth/LoginRequest.php" line="17" column="21" bodyfile="app/Http/Requests/Auth/LoginRequest.php" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a17dba92d96b9dd48c62f3ede3eef94d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rules</definition>
+        <argsstring>()</argsstring>
+        <name>rules</name>
+        <qualifiedname>App\Http\Requests\Auth\LoginRequest\rules</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the validation rules that apply to the request.</para>
+<para><simplesect kind="return"><para>array&lt;string, \Illuminate\Contracts\Validation\Rule|array|string&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Requests/Auth/LoginRequest.php" line="27" column="21" bodyfile="app/Http/Requests/Auth/LoginRequest.php" bodystart="27" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a750c93a7dfab5314f2bf662a407bc5a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>authenticate</definition>
+        <argsstring>()</argsstring>
+        <name>authenticate</name>
+        <qualifiedname>App\Http\Requests\Auth\LoginRequest\authenticate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attempt to authenticate the request&apos;s credentials.</para>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Illuminate\Validation\ValidationException </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Requests/Auth/LoginRequest.php" line="40" column="21" bodyfile="app/Http/Requests/Auth/LoginRequest.php" bodystart="40" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1ac41aec88950bcb59df0d1d71d6ecc070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ensureIsNotRateLimited</definition>
+        <argsstring>()</argsstring>
+        <name>ensureIsNotRateLimited</name>
+        <qualifiedname>App\Http\Requests\Auth\LoginRequest\ensureIsNotRateLimited</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ensure the login request is not rate limited.</para>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Illuminate\Validation\ValidationException </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Requests/Auth/LoginRequest.php" line="60" column="21" bodyfile="app/Http/Requests/Auth/LoginRequest.php" bodystart="60" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a024c3da726834e18b1b9fc7841a9f5d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>throttleKey</definition>
+        <argsstring>()</argsstring>
+        <name>throttleKey</name>
+        <qualifiedname>App\Http\Requests\Auth\LoginRequest\throttleKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the rate limiting throttle key for the request. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Requests/Auth/LoginRequest.php" line="81" column="21" bodyfile="app/Http/Requests/Auth/LoginRequest.php" bodystart="81" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FormRequest</label>
+      </node>
+      <node id="1">
+        <label>LoginRequest</label>
+        <link refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FormRequest</label>
+      </node>
+      <node id="1">
+        <label>LoginRequest</label>
+        <link refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Http/Requests/Auth/LoginRequest.php" line="12" column="1" bodyfile="app/Http/Requests/Auth/LoginRequest.php" bodystart="13" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a750c93a7dfab5314f2bf662a407bc5a6" prot="public" virt="non-virtual"><scope>App::Http::Requests::Auth::LoginRequest</scope><name>authenticate</name></member>
+      <member refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a49fd51a5864a57e7549db5c97c1fb610" prot="public" virt="non-virtual"><scope>App::Http::Requests::Auth::LoginRequest</scope><name>authorize</name></member>
+      <member refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1ac41aec88950bcb59df0d1d71d6ecc070" prot="public" virt="non-virtual"><scope>App::Http::Requests::Auth::LoginRequest</scope><name>ensureIsNotRateLimited</name></member>
+      <member refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a17dba92d96b9dd48c62f3ede3eef94d4" prot="public" virt="non-virtual"><scope>App::Http::Requests::Auth::LoginRequest</scope><name>rules</name></member>
+      <member refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a024c3da726834e18b1b9fc7841a9f5d2" prot="public" virt="non-virtual"><scope>App::Http::Requests::Auth::LoginRequest</scope><name>throttleKey</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

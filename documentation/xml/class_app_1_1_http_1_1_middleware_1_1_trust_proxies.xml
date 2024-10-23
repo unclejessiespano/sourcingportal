@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_http_1_1_middleware_1_1_trust_proxies" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Middleware::TrustProxies</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Middleware</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_http_1_1_middleware_1_1_trust_proxies_1a9fed7e7c82160e6b32d7ed4c8193c195" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$proxies</definition>
+        <argsstring></argsstring>
+        <name>$proxies</name>
+        <qualifiedname>App\Http\Middleware\TrustProxies\$proxies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Middleware/TrustProxies.php" line="15" column="15" bodyfile="app/Http/Middleware/TrustProxies.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_http_1_1_middleware_1_1_trust_proxies_1a52500036ee807241b8b4b7e2367c49ef" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$headers</definition>
+        <argsstring></argsstring>
+        <name>$headers</name>
+        <qualifiedname>App\Http\Middleware\TrustProxies\$headers</qualifiedname>
+        <initializer>=
+        Request::HEADER_X_FORWARDED_FOR |
+        Request::HEADER_X_FORWARDED_HOST |
+        Request::HEADER_X_FORWARDED_PORT |
+        Request::HEADER_X_FORWARDED_PROTO |
+        Request::HEADER_X_FORWARDED_AWS_ELB</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Middleware/TrustProxies.php" line="22" column="15" bodyfile="app/Http/Middleware/TrustProxies.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Middleware</label>
+      </node>
+      <node id="1">
+        <label>TrustProxies</label>
+        <link refid="class_app_1_1_http_1_1_middleware_1_1_trust_proxies"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Middleware</label>
+      </node>
+      <node id="1">
+        <label>TrustProxies</label>
+        <link refid="class_app_1_1_http_1_1_middleware_1_1_trust_proxies"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Http/Middleware/TrustProxies.php" line="8" column="1" bodyfile="app/Http/Middleware/TrustProxies.php" bodystart="9" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_middleware_1_1_trust_proxies_1a52500036ee807241b8b4b7e2367c49ef" prot="protected" virt="non-virtual"><scope>App::Http::Middleware::TrustProxies</scope><name>$headers</name></member>
+      <member refid="class_app_1_1_http_1_1_middleware_1_1_trust_proxies_1a9fed7e7c82160e6b32d7ed4c8193c195" prot="protected" virt="non-virtual"><scope>App::Http::Middleware::TrustProxies</scope><name>$proxies</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

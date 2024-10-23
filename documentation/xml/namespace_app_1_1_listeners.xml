@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_listeners" kind="namespace" language="PHP">
+    <compoundname>App::Listeners</compoundname>
+    <innerclass refid="class_app_1_1_listeners_1_1_comment_changed_listener" prot="public">App::Listeners::CommentChangedListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_lead_time_changed_listener" prot="public">App::Listeners::LeadTimeChangedListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_line_delivered_listener" prot="public">App::Listeners::LineDeliveredListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_line_delivery_date_changed_listener" prot="public">App::Listeners::LineDeliveryDateChangedListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_line_late_listener" prot="public">App::Listeners::LineLateListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_line_net_price_changed_listener" prot="public">App::Listeners::LineNetPriceChangedListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_line_quantity_changed_listener" prot="public">App::Listeners::LineQuantityChangedListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_o_o_r_uploaded_listener" prot="public">App::Listeners::OORUploadedListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener" prot="public">App::Listeners::PartImageUploadedListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_supplier_added_listener" prot="public">App::Listeners::SupplierAddedListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_supplier_column_map_needed_listener" prot="public">App::Listeners::SupplierColumnMapNeededListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_supplier_o_o_r_uploaded_listener" prot="public">App::Listeners::SupplierOORUploadedListener</innerclass>
+    <innerclass refid="class_app_1_1_listeners_1_1_update_supplier_score" prot="public">App::Listeners::UpdateSupplierScore</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Listeners/CommentChangedListener.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

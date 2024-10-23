@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_taskcomment" xml:lang="en-US">
+<title>Taskcomment Class Reference</title>
+<indexterm><primary>Taskcomment</primary></indexterm>
+<para>Inheritance diagram for Taskcomment:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_taskcomment.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_taskcomment_1ae8a275690ff1b618e1947378b0ed73ae"/><emphasis role="strong">user</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_taskcomment_1aa89f99dee64b065845e3454379806711"/><emphasis role="strong">task</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_taskcomment_1a228fc85d9a08c7e909a0ecf14eead8e9"/>static <emphasis role="strong">addComment</emphasis> ($task_id, $comment)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_taskcomment_1a84c44cc27b7b620f56db447818fd510c"/>static <emphasis role="strong">getTaskComments</emphasis> ($tasks)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Taskcomment.php</section>

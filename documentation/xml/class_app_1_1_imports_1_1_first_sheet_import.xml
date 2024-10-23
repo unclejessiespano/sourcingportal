@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_imports_1_1_first_sheet_import" kind="class" language="PHP" prot="public">
+    <compoundname>App::Imports::FirstSheetImport</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ToCollection</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">WithHeadingRow</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_imports_1_1_first_sheet_import_1a935540baa141dcd4a829c2f07bf94cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>collection</definition>
+        <argsstring>(Collection $rows)</argsstring>
+        <name>collection</name>
+        <qualifiedname>App\Imports\FirstSheetImport\collection</qualifiedname>
+        <param>
+          <type>Collection</type>
+          <declname>$rows</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Imports/FirstSheetImport.php" line="56" column="21" bodyfile="app/Imports/FirstSheetImport.php" bodystart="56" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_imports_1_1_first_sheet_import_1afe6a84453942a529cb5b358513773821" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chunkSize</definition>
+        <argsstring>()</argsstring>
+        <name>chunkSize</name>
+        <qualifiedname>App\Imports\FirstSheetImport\chunkSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Imports/FirstSheetImport.php" line="108" column="21" bodyfile="app/Imports/FirstSheetImport.php" bodystart="108" bodyend="111"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FirstSheetImport</label>
+        <link refid="class_app_1_1_imports_1_1_first_sheet_import"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ToCollection</label>
+      </node>
+      <node id="3">
+        <label>WithHeadingRow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FirstSheetImport</label>
+        <link refid="class_app_1_1_imports_1_1_first_sheet_import"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ToCollection</label>
+      </node>
+      <node id="3">
+        <label>WithHeadingRow</label>
+      </node>
+    </collaborationgraph>
+    <location file="app/Imports/FirstSheetImport.php" line="23" column="1" bodyfile="app/Imports/FirstSheetImport.php" bodystart="24" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_imports_1_1_first_sheet_import_1afe6a84453942a529cb5b358513773821" prot="public" virt="non-virtual"><scope>App::Imports::FirstSheetImport</scope><name>chunkSize</name></member>
+      <member refid="class_app_1_1_imports_1_1_first_sheet_import_1a935540baa141dcd4a829c2f07bf94cef" prot="public" virt="non-virtual"><scope>App::Imports::FirstSheetImport</scope><name>collection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

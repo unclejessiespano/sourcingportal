@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_delta" xml:lang="en-US">
+<title>Delta Class Reference</title>
+<indexterm><primary>Delta</primary></indexterm>
+<para>Inheritance diagram for Delta:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_delta.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_delta_1a6cb1356a89cb3f786207beee8a409e3e"/>static <emphasis role="strong">calculateChange</emphasis> ($prev_value, $current_value, $column)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_delta_1a9a06513952d13033e30428f4acad3389"/>static <emphasis role="strong">doesDeltaExist</emphasis> ($ingestion_id, $identifier)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_delta_1a8cbe7c8971cab8e31cd71fed50eef3e4"/>static <emphasis role="strong">recordChange</emphasis> ($prev_line, $current_line, $column)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Delta.php</section>

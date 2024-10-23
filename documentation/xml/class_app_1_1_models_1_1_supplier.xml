@@ -1,0 +1,594 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_supplier" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Supplier</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_supplier_1a6a90e74ccdf5efd70d51d10c906f8e32" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$fillable</definition>
+        <argsstring></argsstring>
+        <name>$fillable</name>
+        <qualifiedname>App\Models\Supplier\$fillable</qualifiedname>
+        <initializer>= [&apos;supplier_id&apos;, &apos;slug&apos;,&apos;parent_id&apos;, &apos;name&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="14" column="15" bodyfile="app/Models/Supplier.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1ade7a3d08c497abd198448fec996c7bc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>orders</definition>
+        <argsstring>()</argsstring>
+        <name>orders</name>
+        <qualifiedname>App\Models\Supplier\orders</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="16" column="21" bodyfile="app/Models/Supplier.php" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1ac1a4d2f6c3d33d277a8b4db470f95bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lines_</definition>
+        <argsstring>()</argsstring>
+        <name>lines_</name>
+        <qualifiedname>App\Models\Supplier\lines_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="19" column="21" bodyfile="app/Models/Supplier.php" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a7bd9758dcac671e8df54d93e5c21e69a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>network</definition>
+        <argsstring>()</argsstring>
+        <name>network</name>
+        <qualifiedname>App\Models\Supplier\network</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="22" column="21" bodyfile="app/Models/Supplier.php" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a3249177749c4f2274ed77044179f7f6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parent</definition>
+        <argsstring>()</argsstring>
+        <name>parent</name>
+        <qualifiedname>App\Models\Supplier\parent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="25" column="21" bodyfile="app/Models/Supplier.php" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a8f0a82d1f20291f573fa6385c24bf7dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>scores</definition>
+        <argsstring>()</argsstring>
+        <name>scores</name>
+        <qualifiedname>App\Models\Supplier\scores</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="28" column="21" bodyfile="app/Models/Supplier.php" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a7cea0cdc4efda379cabc5dece1b03cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>activity</definition>
+        <argsstring>()</argsstring>
+        <name>activity</name>
+        <qualifiedname>App\Models\Supplier\activity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="31" column="21" bodyfile="app/Models/Supplier.php" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a8fd1d3746c237308ff22624dfd1b759f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>escalation</definition>
+        <argsstring>()</argsstring>
+        <name>escalation</name>
+        <qualifiedname>App\Models\Supplier\escalation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="34" column="21" bodyfile="app/Models/Supplier.php" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1ae8a275690ff1b618e1947378b0ed73ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user</definition>
+        <argsstring>()</argsstring>
+        <name>user</name>
+        <qualifiedname>App\Models\Supplier\user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="37" column="21" bodyfile="app/Models/Supplier.php" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1ae97d8e719525c3493e02d63c6373a11b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>users</definition>
+        <argsstring>()</argsstring>
+        <name>users</name>
+        <qualifiedname>App\Models\Supplier\users</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="40" column="21" bodyfile="app/Models/Supplier.php" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1ac0757e6d6fabc17e0312713835602130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>shippinglocation</definition>
+        <argsstring>()</argsstring>
+        <name>shippinglocation</name>
+        <qualifiedname>App\Models\Supplier\shippinglocation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="43" column="21" bodyfile="app/Models/Supplier.php" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1adf7e5165c026279812fb997df6fd1d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>contacts</definition>
+        <argsstring>()</argsstring>
+        <name>contacts</name>
+        <qualifiedname>App\Models\Supplier\contacts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="46" column="21" bodyfile="app/Models/Supplier.php" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a65055164939f434481e5ee710bb44a45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lines</definition>
+        <argsstring>()</argsstring>
+        <name>lines</name>
+        <qualifiedname>App\Models\Supplier\lines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="519" column="21" bodyfile="app/Models/Supplier.php" bodystart="519" bodyend="528"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a260aa2671b2fc14c3516175e6ba003b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static exists</definition>
+        <argsstring>($supplier)</argsstring>
+        <name>exists</name>
+        <qualifiedname>App\Models\Supplier\exists</qualifiedname>
+        <param>
+          <declname>$supplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="49" column="28" bodyfile="app/Models/Supplier.php" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a5fdb7909720d80b07e83923d4e185c7d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getAverageDaysPastDue</definition>
+        <argsstring>($supplier_id)</argsstring>
+        <name>getAverageDaysPastDue</name>
+        <qualifiedname>App\Models\Supplier\getAverageDaysPastDue</qualifiedname>
+        <param>
+          <declname>$supplier_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="53" column="28" bodyfile="app/Models/Supplier.php" bodystart="53" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1ae38ac9d272256a03db53148a5c3f7bdb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getSankeySupplyChain</definition>
+        <argsstring>()</argsstring>
+        <name>getSankeySupplyChain</name>
+        <qualifiedname>App\Models\Supplier\getSankeySupplyChain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="72" column="28" bodyfile="app/Models/Supplier.php" bodystart="72" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1aade05f66de9a66827a8889b37931ad0a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getSankeyLineStats</definition>
+        <argsstring>($supplier_id=&quot;&quot;)</argsstring>
+        <name>getSankeyLineStats</name>
+        <qualifiedname>App\Models\Supplier\getSankeyLineStats</qualifiedname>
+        <param>
+          <declname>$supplier_id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="96" column="28" bodyfile="app/Models/Supplier.php" bodystart="96" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a3592402f8541e013d6b581a9b6948d0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getStats</definition>
+        <argsstring>($supplier_id)</argsstring>
+        <name>getStats</name>
+        <qualifiedname>App\Models\Supplier\getStats</qualifiedname>
+        <param>
+          <declname>$supplier_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="192" column="28" bodyfile="app/Models/Supplier.php" bodystart="192" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a7e1136d54892472ef775a028cd627923" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getSupplyChainTree</definition>
+        <argsstring>()</argsstring>
+        <name>getSupplyChainTree</name>
+        <qualifiedname>App\Models\Supplier\getSupplyChainTree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="224" column="28" bodyfile="app/Models/Supplier.php" bodystart="224" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a9d7454d93b2749bef289b600297eaaa9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getUsersSuppliers</definition>
+        <argsstring>($user)</argsstring>
+        <name>getUsersSuppliers</name>
+        <qualifiedname>App\Models\Supplier\getUsersSuppliers</qualifiedname>
+        <param>
+          <declname>$user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="300" column="28" bodyfile="app/Models/Supplier.php" bodystart="300" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1aef45f69c0df7510f79d654cfb275b467" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static makeNode</definition>
+        <argsstring>($x, $children=&quot;&quot;)</argsstring>
+        <name>makeNode</name>
+        <qualifiedname>App\Models\Supplier\makeNode</qualifiedname>
+        <param>
+          <declname>$x</declname>
+        </param>
+        <param>
+          <declname>$children</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="315" column="28" bodyfile="app/Models/Supplier.php" bodystart="315" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a8fc4ceabab98b5b08ac7c1760366f588" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static formatNetwork</definition>
+        <argsstring>($network)</argsstring>
+        <name>formatNetwork</name>
+        <qualifiedname>App\Models\Supplier\formatNetwork</qualifiedname>
+        <param>
+          <declname>$network</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="332" column="28" bodyfile="app/Models/Supplier.php" bodystart="332" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a54d14c8be271bcdc336af6c209f3635d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static calculateSupplierScore</definition>
+        <argsstring>($scores)</argsstring>
+        <name>calculateSupplierScore</name>
+        <qualifiedname>App\Models\Supplier\calculateSupplierScore</qualifiedname>
+        <param>
+          <declname>$scores</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="364" column="28" bodyfile="app/Models/Supplier.php" bodystart="364" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a1f701e4bf6576d98761f5f0d102eab68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getCommitsForCalendar</definition>
+        <argsstring>($supplier_id)</argsstring>
+        <name>getCommitsForCalendar</name>
+        <qualifiedname>App\Models\Supplier\getCommitsForCalendar</qualifiedname>
+        <param>
+          <declname>$supplier_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="381" column="28" bodyfile="app/Models/Supplier.php" bodystart="381" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1aea8d60e275a666253b2f4142dc032688" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getSupplier</definition>
+        <argsstring>($slug)</argsstring>
+        <name>getSupplier</name>
+        <qualifiedname>App\Models\Supplier\getSupplier</qualifiedname>
+        <param>
+          <declname>$slug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="392" column="28" bodyfile="app/Models/Supplier.php" bodystart="392" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a87c43686ede2a43f0f891a14349e858f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getSupplierBySlug</definition>
+        <argsstring>($slug)</argsstring>
+        <name>getSupplierBySlug</name>
+        <qualifiedname>App\Models\Supplier\getSupplierBySlug</qualifiedname>
+        <param>
+          <declname>$slug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="398" column="28" bodyfile="app/Models/Supplier.php" bodystart="398" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a1b44acc446ec29888565719cb51f8286" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getSuppliers</definition>
+        <argsstring>()</argsstring>
+        <name>getSuppliers</name>
+        <qualifiedname>App\Models\Supplier\getSuppliers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="404" column="28" bodyfile="app/Models/Supplier.php" bodystart="404" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a096909bb96d3b4b01abac9a11d9c5a75" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getSuppliersBelowScore</definition>
+        <argsstring>($target_score)</argsstring>
+        <name>getSuppliersBelowScore</name>
+        <qualifiedname>App\Models\Supplier\getSuppliersBelowScore</qualifiedname>
+        <param>
+          <declname>$target_score</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="436" column="28" bodyfile="app/Models/Supplier.php" bodystart="436" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a05a65ce7610a9280ffc72a96d4771288" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static findOrGetSupplier</definition>
+        <argsstring>($row)</argsstring>
+        <name>findOrGetSupplier</name>
+        <qualifiedname>App\Models\Supplier\findOrGetSupplier</qualifiedname>
+        <param>
+          <declname>$row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="465" column="28" bodyfile="app/Models/Supplier.php" bodystart="465" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1acdcb31a766c0811c8f1c8bd599d00424" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static import</definition>
+        <argsstring>($row)</argsstring>
+        <name>import</name>
+        <qualifiedname>App\Models\Supplier\import</qualifiedname>
+        <param>
+          <declname>$row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="485" column="28" bodyfile="app/Models/Supplier.php" bodystart="485" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a3e7d02163468eda4885be5ddeb0cebdb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static savePlant</definition>
+        <argsstring>($request)</argsstring>
+        <name>savePlant</name>
+        <qualifiedname>App\Models\Supplier\savePlant</qualifiedname>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="529" column="28" bodyfile="app/Models/Supplier.php" bodystart="529" bodyend="563"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a9449914295f3d7f74858c4826dba83fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static saveSupplier</definition>
+        <argsstring>($request)</argsstring>
+        <name>saveSupplier</name>
+        <qualifiedname>App\Models\Supplier\saveSupplier</qualifiedname>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="564" column="28" bodyfile="app/Models/Supplier.php" bodystart="564" bodyend="622"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_supplier_1a4101590cd10eaf65e5a0bd9674c3590d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static updateInfo</definition>
+        <argsstring>($request)</argsstring>
+        <name>updateInfo</name>
+        <qualifiedname>App\Models\Supplier\updateInfo</qualifiedname>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Supplier.php" line="623" column="28" bodyfile="app/Models/Supplier.php" bodystart="623" bodyend="634"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Supplier</label>
+        <link refid="class_app_1_1_models_1_1_supplier"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Supplier</label>
+        <link refid="class_app_1_1_models_1_1_supplier"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Supplier.php" line="10" column="1" bodyfile="app/Models/Supplier.php" bodystart="11" bodyend="635"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_supplier_1a6a90e74ccdf5efd70d51d10c906f8e32" prot="protected" virt="non-virtual"><scope>App::Models::Supplier</scope><name>$fillable</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a7cea0cdc4efda379cabc5dece1b03cff" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>activity</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a54d14c8be271bcdc336af6c209f3635d" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>calculateSupplierScore</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1adf7e5165c026279812fb997df6fd1d09" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>contacts</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a8fd1d3746c237308ff22624dfd1b759f" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>escalation</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a260aa2671b2fc14c3516175e6ba003b4" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>exists</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a05a65ce7610a9280ffc72a96d4771288" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>findOrGetSupplier</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a8fc4ceabab98b5b08ac7c1760366f588" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>formatNetwork</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a5fdb7909720d80b07e83923d4e185c7d" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getAverageDaysPastDue</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a1f701e4bf6576d98761f5f0d102eab68" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getCommitsForCalendar</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1aade05f66de9a66827a8889b37931ad0a" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getSankeyLineStats</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1ae38ac9d272256a03db53148a5c3f7bdb" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getSankeySupplyChain</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a3592402f8541e013d6b581a9b6948d0f" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getStats</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1aea8d60e275a666253b2f4142dc032688" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getSupplier</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a87c43686ede2a43f0f891a14349e858f" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getSupplierBySlug</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a1b44acc446ec29888565719cb51f8286" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getSuppliers</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a096909bb96d3b4b01abac9a11d9c5a75" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getSuppliersBelowScore</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a7e1136d54892472ef775a028cd627923" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getSupplyChainTree</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a9d7454d93b2749bef289b600297eaaa9" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>getUsersSuppliers</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1acdcb31a766c0811c8f1c8bd599d00424" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>import</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a65055164939f434481e5ee710bb44a45" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>lines</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1ac1a4d2f6c3d33d277a8b4db470f95bc8" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>lines_</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1aef45f69c0df7510f79d654cfb275b467" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>makeNode</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a7bd9758dcac671e8df54d93e5c21e69a" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>network</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1ade7a3d08c497abd198448fec996c7bc9" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>orders</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a3249177749c4f2274ed77044179f7f6b" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>parent</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a3e7d02163468eda4885be5ddeb0cebdb" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>savePlant</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a9449914295f3d7f74858c4826dba83fd" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>saveSupplier</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a8f0a82d1f20291f573fa6385c24bf7dc" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>scores</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1ac0757e6d6fabc17e0312713835602130" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>shippinglocation</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1a4101590cd10eaf65e5a0bd9674c3590d" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>updateInfo</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1ae8a275690ff1b618e1947378b0ed73ae" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>user</name></member>
+      <member refid="class_app_1_1_models_1_1_supplier_1ae97d8e719525c3493e02d63c6373a11b" prot="public" virt="non-virtual"><scope>App::Models::Supplier</scope><name>users</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

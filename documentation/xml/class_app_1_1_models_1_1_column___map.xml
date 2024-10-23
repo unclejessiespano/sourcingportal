@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_column___map" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Column_Map</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_column___map_1ae8876a14058f368335baccf35af4a22b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$table</definition>
+        <argsstring></argsstring>
+        <name>$table</name>
+        <qualifiedname>App\Models\Column_Map\$table</qualifiedname>
+        <initializer>= &quot;column_maps&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Column_Map.php" line="11" column="15" bodyfile="app/Models/Column_Map.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_column___map_1a6a90e74ccdf5efd70d51d10c906f8e32" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$fillable</definition>
+        <argsstring></argsstring>
+        <name>$fillable</name>
+        <qualifiedname>App\Models\Column_Map\$fillable</qualifiedname>
+        <initializer>= [&apos;column_id&apos;, &apos;column&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Column_Map.php" line="12" column="15" bodyfile="app/Models/Column_Map.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_column___map_1a82eff5db5af823485d3b336ccab7a228" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getColumnByColumnID</definition>
+        <argsstring>($column_id)</argsstring>
+        <name>getColumnByColumnID</name>
+        <qualifiedname>App\Models\Column_Map\getColumnByColumnID</qualifiedname>
+        <param>
+          <declname>$column_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Column_Map.php" line="13" column="28" bodyfile="app/Models/Column_Map.php" bodystart="13" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_column___map_1ae37bf9e58907129b48229de747808ada" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getMappedColumn</definition>
+        <argsstring>($column)</argsstring>
+        <name>getMappedColumn</name>
+        <qualifiedname>App\Models\Column_Map\getMappedColumn</qualifiedname>
+        <param>
+          <declname>$column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Column_Map.php" line="23" column="28" bodyfile="app/Models/Column_Map.php" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_column___map_1a68323f013426ad91be95543ea1ccbf25" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mapColumn</definition>
+        <argsstring>($request)</argsstring>
+        <name>mapColumn</name>
+        <qualifiedname>App\Models\Column_Map\mapColumn</qualifiedname>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Column_Map.php" line="27" column="28" bodyfile="app/Models/Column_Map.php" bodystart="27" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_column___map_1a0b1cb6f4937adb979912f2915917a2d1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mapColumns</definition>
+        <argsstring>($rows)</argsstring>
+        <name>mapColumns</name>
+        <qualifiedname>App\Models\Column_Map\mapColumns</qualifiedname>
+        <param>
+          <declname>$rows</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Column_Map.php" line="35" column="28" bodyfile="app/Models/Column_Map.php" bodystart="35" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Column_Map</label>
+        <link refid="class_app_1_1_models_1_1_column___map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Column_Map</label>
+        <link refid="class_app_1_1_models_1_1_column___map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Column_Map.php" line="8" column="1" bodyfile="app/Models/Column_Map.php" bodystart="9" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_column___map_1a6a90e74ccdf5efd70d51d10c906f8e32" prot="protected" virt="non-virtual"><scope>App::Models::Column_Map</scope><name>$fillable</name></member>
+      <member refid="class_app_1_1_models_1_1_column___map_1ae8876a14058f368335baccf35af4a22b" prot="protected" virt="non-virtual"><scope>App::Models::Column_Map</scope><name>$table</name></member>
+      <member refid="class_app_1_1_models_1_1_column___map_1a82eff5db5af823485d3b336ccab7a228" prot="public" virt="non-virtual"><scope>App::Models::Column_Map</scope><name>getColumnByColumnID</name></member>
+      <member refid="class_app_1_1_models_1_1_column___map_1ae37bf9e58907129b48229de747808ada" prot="public" virt="non-virtual"><scope>App::Models::Column_Map</scope><name>getMappedColumn</name></member>
+      <member refid="class_app_1_1_models_1_1_column___map_1a68323f013426ad91be95543ea1ccbf25" prot="public" virt="non-virtual"><scope>App::Models::Column_Map</scope><name>mapColumn</name></member>
+      <member refid="class_app_1_1_models_1_1_column___map_1a0b1cb6f4937adb979912f2915917a2d1" prot="public" virt="non-virtual"><scope>App::Models::Column_Map</scope><name>mapColumns</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

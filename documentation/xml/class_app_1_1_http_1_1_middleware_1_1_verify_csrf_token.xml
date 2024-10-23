@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_http_1_1_middleware_1_1_verify_csrf_token" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Middleware::VerifyCsrfToken</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Middleware</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_http_1_1_middleware_1_1_verify_csrf_token_1a20aee92e768748d175898c2dba356c51" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$except</definition>
+        <argsstring></argsstring>
+        <name>$except</name>
+        <qualifiedname>App\Http\Middleware\VerifyCsrfToken\$except</qualifiedname>
+        <initializer>= [
+        
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Middleware/VerifyCsrfToken.php" line="14" column="15" bodyfile="app/Http/Middleware/VerifyCsrfToken.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Middleware</label>
+      </node>
+      <node id="1">
+        <label>VerifyCsrfToken</label>
+        <link refid="class_app_1_1_http_1_1_middleware_1_1_verify_csrf_token"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Middleware</label>
+      </node>
+      <node id="1">
+        <label>VerifyCsrfToken</label>
+        <link refid="class_app_1_1_http_1_1_middleware_1_1_verify_csrf_token"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Http/Middleware/VerifyCsrfToken.php" line="7" column="1" bodyfile="app/Http/Middleware/VerifyCsrfToken.php" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_middleware_1_1_verify_csrf_token_1a20aee92e768748d175898c2dba356c51" prot="protected" virt="non-virtual"><scope>App::Http::Middleware::VerifyCsrfToken</scope><name>$except</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_touchpoint" xml:lang="en-US">
+<title>Touchpoint Class Reference</title>
+<indexterm><primary>Touchpoint</primary></indexterm>
+<para>Inheritance diagram for Touchpoint:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_touchpoint.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_touchpoint_1a1f5b39d8a925adbd66e01c8fcbc821fe"/><emphasis role="strong">lineactivity</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_touchpoint_1ae2095edae4e260d028c208cead4e5c9a"/><emphasis role="strong">comment</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_touchpoint_1a6206684f573939931a30c88eb53eb54d"/>static <emphasis role="strong">getTouchpoints</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_touchpoint_1aa0a38255ba81e71a06a02e7d51ae6d30"/>static <emphasis role="strong">getTouchpointsNegativelyAffectingScore</emphasis> ($activities)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_touchpoint_1a20ecc85de7fd5b1ef537e4e5dd127c84"/>static <emphasis role="strong">createTouchpoint</emphasis> ($request)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_touchpoint_1ad5e9641ac094c3a0d547bc4df512f090"/>static <emphasis role="strong">getByCode</emphasis> ($code)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_touchpoint_1aabb75c2f24ee1c3c24ebc2279ee38cc2"/>static <emphasis role="strong">getTouchpoint</emphasis> ($id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_touchpoint_1a77517a9a4e8307beccbbadaad1347c98"/>static <emphasis role="strong">updateTouchpoint</emphasis> ($request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Touchpoint.php</section>

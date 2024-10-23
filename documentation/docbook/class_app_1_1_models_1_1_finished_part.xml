@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_finished_part" xml:lang="en-US">
+<title>FinishedPart Class Reference</title>
+<indexterm><primary>FinishedPart</primary></indexterm>
+<para>Inheritance diagram for FinishedPart:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_finished_part.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_finished_part_1a3e7fe2bdb873fdb126de3f37c1fb1f01"/><emphasis role="strong">parts</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_finished_part_1a0a4ec8218e59771ae86d8737ac252ede"/><emphasis role="strong">sku</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_finished_part_1a4a4e4db681483fb8a0f07d71cac88be6"/>static <emphasis role="strong">buildSupplyChain</emphasis> ($parts)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_finished_part_1a1546574284d4a046b0c8522e6a302eed"/>static <emphasis role="strong">getCommitsForCalendar</emphasis> ($parts)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_finished_part_1abdc98ae57f9ed6a52f658985b62e444f"/>static <emphasis role="strong">writePartDescription</emphasis> ($finishedpart)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/FinishedPart.php</section>

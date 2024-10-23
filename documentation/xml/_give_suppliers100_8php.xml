@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_give_suppliers100_8php" kind="file" language="PHP">
+    <compoundname>GiveSuppliers100.php</compoundname>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1_give_suppliers100" prot="public">App::Console::Commands::GiveSuppliers100</innerclass>
+    <innernamespace refid="namespace_app_1_1_console_1_1_commands">App::Console::Commands</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Console\Commands;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Illuminate\Console\Command;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_supplier" kindref="compound">App\Models\Supplier</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_supplierscore" kindref="compound">App\Models\Supplierscore</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_touchpoint" kindref="compound">App\Models\Touchpoint</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_activity" kindref="compound">App\Models\Activity</ref>;</highlight></codeline>
+<codeline lineno="10" refid="class_app_1_1_console_1_1_commands_1_1_give_suppliers100" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_console_1_1_commands_1_1_give_suppliers100" kindref="compound">GiveSuppliers100</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Command</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$signature<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;app:give-suppliers100&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$description<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Gives<sp/>suppliers<sp/>100<sp/>points<sp/>to<sp/>start&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_console_1_1_commands_1_1_give_suppliers100_1a66eb7514ea7f7f8a5738a180b14e9b48" kindref="member">handle</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$suppliers<sp/>=<sp/>Supplier::all();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$code<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;supadd&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//get<sp/>the<sp/>touchpoint<sp/>-<sp/>supapp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$touchpoint<sp/>=<sp/>Touchpoint::getByCode($code);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($suppliers<sp/>as<sp/>$supplier){</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//add<sp/>the<sp/>score</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$supplier_score<sp/>=<sp/>Supplierscore::addScore($supplier-&gt;id,<sp/>$touchpoint);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//add<sp/>the<sp/>activity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//$identifier,<sp/>$user_id,<sp/>$supplier_id,<sp/>$po_id=&quot;&quot;,<sp/>$sku_id=&quot;&quot;,<sp/>$line=&quot;&quot;,<sp/>$touchpoint_id,<sp/>$supplierscore_id,<sp/>$shipment_id=&quot;0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$activity<sp/>=<sp/>Activity::addActivity($supplier-&gt;id,<sp/>0,<sp/>$supplier-&gt;id,<sp/>0,<sp/>0,<sp/>0,<sp/>$touchpoint-&gt;id,<sp/>0);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Console/Commands/GiveSuppliers100.php"/>
+  </compounddef>
+</doxygen>

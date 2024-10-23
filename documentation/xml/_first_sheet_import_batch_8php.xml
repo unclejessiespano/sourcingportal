@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_first_sheet_import_batch_8php" kind="file" language="PHP">
+    <compoundname>FirstSheetImportBatch.php</compoundname>
+    <innerclass refid="class_app_1_1_imports_1_1_first_sheet_import_batch" prot="public">App::Imports::FirstSheetImportBatch</innerclass>
+    <innernamespace refid="namespace_app_1_1_imports">App::Imports</innernamespace>
+    <innernamespace refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_with_batch_inserts">Maatwebsite::Excel::Concerns::WithBatchInserts</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Imports;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_column___map" kindref="compound">App\Models\Column_Map</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_ingestion" kindref="compound">App\Models\Ingestion</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_line" kindref="compound">App\Models\Line</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_meeting" kindref="compound">App\Models\Meeting</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_order" kindref="compound">App\Models\Order</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_sku" kindref="compound">App\Models\Sku</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_supplier" kindref="compound">App\Models\Supplier</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_email" kindref="compound">App\Models\Email</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_user" kindref="compound">App\Models\User</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">use<sp/>Maatwebsite\Excel\Concerns\ToModel;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">use<sp/>Maatwebsite\Excel\Concerns\WithBatchInserts;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">use<sp/>Maatwebsite\Excel\Concerns\WithHeadingRow;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">use<sp/>Illuminate\Support\Facades\Mail;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">use<sp/>Illuminate\Support\Facades\View;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_app_1_1_imports_1_1_first_sheet_import_batch" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_imports_1_1_first_sheet_import_batch" kindref="compound">FirstSheetImportBatch</ref><sp/></highlight><highlight class="keyword">implements</highlight><highlight class="normal"><sp/>ToModel,<sp/>WithBatchInserts,<sp/>WithHeadingRow</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>model(array<sp/>$row){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//award<sp/>the<sp/>points<sp/>for<sp/>lines<sp/>that<sp/>are<sp/>no<sp/>longer<sp/>in<sp/>the<sp/>oor...assume<sp/>they&apos;re<sp/>closed?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Line::awardPointsClosedLines($row);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//import<sp/>the<sp/>supplier</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$supplier_id<sp/>=<sp/>Supplier::import($row);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//import<sp/>the<sp/>POs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$po_id<sp/>=<sp/>Order::import($supplier_id,<sp/>$row);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//import<sp/>the<sp/>SKUs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$sku_id<sp/>=<sp/>SKU::import($supplier_id,<sp/>$po_id,<sp/>$row);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//import<sp/>the<sp/>lines</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Line::import($ingestion-&gt;id,<sp/>$supplier_id,<sp/>$po_id,<sp/>$sku_id,<sp/>$row,<sp/>$meetings);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Line::import(</highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>$supplier_id,<sp/>$po_id,<sp/>$sku_id,<sp/>$row,<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lineChanges<sp/>=<sp/>Line::getLineChangeStats(2);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$date<sp/>=<sp/>Email::getDateForWeeklyUpdate();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$linestats<sp/>=<sp/>Line::getStats();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lineChanges<sp/>=<sp/>Line::getLineChangeStats(2);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tablePastDue<sp/>=<sp/>Line::getEmailData_PercentPastDueSuppliers();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tableCommits<sp/>=<sp/>Line::getEmailData_PercentCommitSuppliers();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentPastDueSuppliers<sp/>=<sp/>View::make(</highlight><highlight class="stringliteral">&apos;emails.table.percentPastDueSuppliers&apos;</highlight><highlight class="normal">,<sp/>[</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">=&gt;$tablePastDue])-&gt;render();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentCommitsSuppliers<sp/>=<sp/>View::make(</highlight><highlight class="stringliteral">&apos;emails.table.percentCommitsSuppliers&apos;</highlight><highlight class="normal">,<sp/>[</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">=&gt;$tableCommits])-&gt;render();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mail::to(</highlight><highlight class="stringliteral">&apos;kruiz@corbus.com&apos;</highlight><highlight class="normal">)-&gt;send(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_mail_1_1_data_ingested" kindref="compound">DataIngested</ref>(</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$date,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentPastDueSuppliers,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markdown_table_percentCommitsSuppliers,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lineChanges</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_models_1_1_supplier" kindref="compound">Supplier</ref>([</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;boom&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>batchSize():<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>100;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Imports/FirstSheetImportBatch.php"/>
+  </compounddef>
+</doxygen>

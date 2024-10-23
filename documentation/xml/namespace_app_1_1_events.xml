@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_events" kind="namespace" language="PHP">
+    <compoundname>App::Events</compoundname>
+    <innerclass refid="class_app_1_1_events_1_1_comment_changed" prot="public">App::Events::CommentChanged</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_commit_received" prot="public">App::Events::CommitReceived</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_lead_time_changed" prot="public">App::Events::LeadTimeChanged</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_line_delivered" prot="public">App::Events::LineDelivered</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_line_delivery_date_changed" prot="public">App::Events::LineDeliveryDateChanged</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_line_late" prot="public">App::Events::LineLate</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_line_net_price_changed" prot="public">App::Events::LineNetPriceChanged</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_line_quantity_changed" prot="public">App::Events::LineQuantityChanged</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_o_o_r_uploaded" prot="public">App::Events::OORUploaded</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_part_image_uploaded" prot="public">App::Events::PartImageUploaded</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_supplier_added" prot="public">App::Events::SupplierAdded</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_supplier_column_map_needed" prot="public">App::Events::SupplierColumnMapNeeded</innerclass>
+    <innerclass refid="class_app_1_1_events_1_1_supplier_o_o_r_uploaded" prot="public">App::Events::SupplierOORUploaded</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Events/CommentChanged.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

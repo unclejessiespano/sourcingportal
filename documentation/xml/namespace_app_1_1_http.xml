@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_http" kind="namespace" language="PHP">
+    <compoundname>App::Http</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_kernel" prot="public">App::Http::Kernel</innerclass>
+    <innernamespace refid="namespace_app_1_1_http_1_1_controllers">App::Http::Controllers</innernamespace>
+    <innernamespace refid="namespace_app_1_1_http_1_1_middleware">App::Http::Middleware</innernamespace>
+    <innernamespace refid="namespace_app_1_1_http_1_1_requests">App::Http::Requests</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Http/Kernel.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_registered_user_controller_8php" kind="file" language="PHP">
+    <compoundname>RegisteredUserController.php</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_registered_user_controller" prot="public">App::Http::Controllers::Auth::RegisteredUserController</innerclass>
+    <innernamespace refid="namespace_app_1_1_http_1_1_controllers_1_1_auth">App::Http::Controllers::Auth</innernamespace>
+    <innernamespace refid="namespace_app_1_1_models_1_1_user">App::Models::User</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_auth_1_1_events_1_1_registered">Illuminate::Auth::Events::Registered</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Http\Controllers\Auth;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_controller" kindref="compound">App\Http\Controllers\Controller</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_user" kindref="compound">App\Models\User</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="class_app_1_1_providers_1_1_route_service_provider" kindref="compound">App\Providers\RouteServiceProvider</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/>Illuminate\Auth\Events\Registered;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/>Illuminate\Http\RedirectResponse;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/>Illuminate\Http\Request;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/>Illuminate\Support\Facades\Auth;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">use<sp/>Illuminate\Support\Facades\Hash;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">use<sp/>Illuminate\Validation\Rules;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">use<sp/>Inertia\Inertia;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">use<sp/>Inertia\Response;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_registered_user_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_registered_user_controller" kindref="compound">RegisteredUserController</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_controller" kindref="compound">Controller</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_registered_user_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kindref="member">create</ref>():<sp/>Response</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Inertia::render(</highlight><highlight class="stringliteral">&apos;Auth/Register&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_registered_user_controller_1a9ef485163104597c12185b53cdacf638" kindref="member">store</ref>(Request<sp/>$request):<sp/>RedirectResponse</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$request-&gt;validate([</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;required|string|max:255&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;email&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;required|string|email|max:255|unique:&apos;</highlight><highlight class="normal">.User::class,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;password&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>[</highlight><highlight class="stringliteral">&apos;required&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;confirmed&apos;</highlight><highlight class="normal">,<sp/>Rules\Password::defaults()],</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$user<sp/>=<sp/>User::create([</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$request-&gt;name,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;email&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$request-&gt;email,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;password&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>Hash::make($request-&gt;password),</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>event(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Registered($user));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Auth::login($user);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>redirect(RouteServiceProvider::HOME);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Http/Controllers/Auth/RegisteredUserController.php"/>
+  </compounddef>
+</doxygen>

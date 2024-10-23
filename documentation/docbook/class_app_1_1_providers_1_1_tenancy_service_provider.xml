@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_providers_1_1_tenancy_service_provider" xml:lang="en-US">
+<title>TenancyServiceProvider Class Reference</title>
+<indexterm><primary>TenancyServiceProvider</primary></indexterm>
+<para>Inheritance diagram for TenancyServiceProvider:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_providers_1_1_tenancy_service_provider.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_tenancy_service_provider_1ade509b07f1df45730d31589b81a26efb"/><emphasis role="strong">events</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_tenancy_service_provider_1acc294a6cc8e69743746820e3d15e3f78"/><emphasis role="strong">register</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_tenancy_service_provider_1a8814ea4b5beba763c570b4818980814e"/><emphasis role="strong">boot</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_tenancy_service_provider_1ae582bada8cc78bbad086dee95f56b26f"/>static string <emphasis role="strong">$controllerNamespace</emphasis> = &apos;&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_tenancy_service_provider_1ae5f4bf9f75ede45cadfb8b72782a6a45"/><emphasis role="strong">bootEvents</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_tenancy_service_provider_1ae1cd840516ad0a60f43b133e86182cb2"/><emphasis role="strong">mapRoutes</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_providers_1_1_tenancy_service_provider_1a3fbef4ab608bc4cdfa13d8f93d75a221"/><emphasis role="strong">makeTenancyMiddlewareHighestPriority</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Providers/TenancyServiceProvider.php</section>

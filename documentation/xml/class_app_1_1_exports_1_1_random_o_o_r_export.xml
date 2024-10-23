@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_exports_1_1_random_o_o_r_export" kind="class" language="PHP" prot="public">
+    <compoundname>App::Exports::RandomOORExport</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FromGenerator</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_exports_1_1_random_o_o_r_export_1a3d46f2f84b0bf0de1921a0cb899bedff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>generator</definition>
+        <argsstring>()</argsstring>
+        <name>generator</name>
+        <qualifiedname>App\Exports\RandomOORExport\generator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>\Illuminate\Support\Collection </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Exports/RandomOORExport.php" line="18" column="21" bodyfile="app/Exports/RandomOORExport.php" bodystart="18" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FromGenerator</label>
+      </node>
+      <node id="1">
+        <label>RandomOORExport</label>
+        <link refid="class_app_1_1_exports_1_1_random_o_o_r_export"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FromGenerator</label>
+      </node>
+      <node id="1">
+        <label>RandomOORExport</label>
+        <link refid="class_app_1_1_exports_1_1_random_o_o_r_export"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Exports/RandomOORExport.php" line="10" column="1" bodyfile="app/Exports/RandomOORExport.php" bodystart="11" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_exports_1_1_random_o_o_r_export_1a3d46f2f84b0bf0de1921a0cb899bedff" prot="public" virt="non-virtual"><scope>App::Exports::RandomOORExport</scope><name>generator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

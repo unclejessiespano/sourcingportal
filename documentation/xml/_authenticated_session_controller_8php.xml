@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_authenticated_session_controller_8php" kind="file" language="PHP">
+    <compoundname>AuthenticatedSessionController.php</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller" prot="public">App::Http::Controllers::Auth::AuthenticatedSessionController</innerclass>
+    <innernamespace refid="namespace_app_1_1_http_1_1_controllers_1_1_auth">App::Http::Controllers::Auth</innernamespace>
+    <innernamespace refid="namespace_app_1_1_http_1_1_controllers_1_1_controller">App::Http::Controllers::Controller</innernamespace>
+    <innernamespace refid="namespace_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request">App::Http::Requests::Auth::LoginRequest</innernamespace>
+    <innernamespace refid="namespace_app_1_1_providers_1_1_route_service_provider">App::Providers::RouteServiceProvider</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_http_1_1_redirect_response">Illuminate::Http::RedirectResponse</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_support_1_1_facades_1_1_auth">Illuminate::Support::Facades::Auth</innernamespace>
+    <innernamespace refid="namespace_illuminate_1_1_support_1_1_facades_1_1_route">Illuminate::Support::Facades::Route</innernamespace>
+    <innernamespace refid="namespace_inertia_1_1_inertia">Inertia::Inertia</innernamespace>
+    <innernamespace refid="namespace_inertia_1_1_response">Inertia::Response</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Http\Controllers\Auth;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_controller" kindref="compound">App\Http\Controllers\Controller</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request" kindref="compound">App\Http\Requests\Auth\LoginRequest</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="class_app_1_1_providers_1_1_route_service_provider" kindref="compound">App\Providers\RouteServiceProvider</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/>Illuminate\Http\RedirectResponse;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/>Illuminate\Http\Request;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/>Illuminate\Support\Facades\Auth;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/>Illuminate\Support\Facades\Route;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">use<sp/>Inertia\Inertia;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">use<sp/>Inertia\Response;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller" kindref="compound">AuthenticatedSessionController</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_controller" kindref="compound">Controller</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kindref="member">create</ref>():<sp/>Response</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Inertia::render(</highlight><highlight class="stringliteral">&apos;Auth/Login&apos;</highlight><highlight class="normal">,<sp/>[</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;canResetPassword&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>Route::has(</highlight><highlight class="stringliteral">&apos;password.request&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>session(</highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a31d19f914d8010e1147877288fa974b5" kindref="member">store</ref>(<ref refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request" kindref="compound">LoginRequest</ref><sp/>$request):<sp/>RedirectResponse</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$request-&gt;<ref refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a750c93a7dfab5314f2bf662a407bc5a6" kindref="member">authenticate</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$request-&gt;session()-&gt;regenerate();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>redirect()-&gt;intended(RouteServiceProvider::HOME);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1acf421ebc9a80cdacabf896fc936a8c25" kindref="member">destroy</ref>(Request<sp/>$request):<sp/>RedirectResponse</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Auth::guard(</highlight><highlight class="stringliteral">&apos;web&apos;</highlight><highlight class="normal">)-&gt;logout();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$request-&gt;session()-&gt;invalidate();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$request-&gt;session()-&gt;regenerateToken();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>redirect(</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Http/Controllers/Auth/AuthenticatedSessionController.php"/>
+  </compounddef>
+</doxygen>

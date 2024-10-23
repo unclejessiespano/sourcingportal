@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_events_1_1_o_o_r_uploaded" xml:lang="en-US">
+<title>OORUploaded Class Reference</title>
+<indexterm><primary>OORUploaded</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_events_1_1_o_o_r_uploaded_1adcb0201173fc59334d35f9713b149a9a">__construct</link> (public Request $request, public UploadedFile $file)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_events_1_1_o_o_r_uploaded_1afdd67b80d67f15ce0ab9a0c254dad3bc">broadcastOn</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_app_1_1_events_1_1_o_o_r_uploaded_1adcb0201173fc59334d35f9713b149a9a"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>OORUploaded</secondary></indexterm>
+<indexterm><primary>OORUploaded</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct (public Request $request, public UploadedFile $file)</computeroutput></para>
+<para>Create a new event instance. </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_events_1_1_o_o_r_uploaded_1afdd67b80d67f15ce0ab9a0c254dad3bc"/><section>
+    <title>broadcastOn()</title>
+<indexterm><primary>broadcastOn</primary><secondary>OORUploaded</secondary></indexterm>
+<indexterm><primary>OORUploaded</primary><secondary>broadcastOn</secondary></indexterm>
+<para><computeroutput>broadcastOn ( )</computeroutput></para>
+<para>Get the channels the event should broadcast on.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>array&lt;int, \Illuminate\Broadcasting\Channel&gt; </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Events/OORUploaded.php</section>
+</section>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_line_activity" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::LineActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_activity_1a7b0226d7ca0a9552a30b08181bebcb19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>touchpoint</definition>
+        <argsstring>()</argsstring>
+        <name>touchpoint</name>
+        <qualifiedname>App\Models\LineActivity\touchpoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/LineActivity.php" line="12" column="21" bodyfile="app/Models/LineActivity.php" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_line_activity_1a7bee968bbaeed4f119c55911770ed081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>touchpointmodel</definition>
+        <argsstring>()</argsstring>
+        <name>touchpointmodel</name>
+        <qualifiedname>App\Models\LineActivity\touchpointmodel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/LineActivity.php" line="15" column="21" bodyfile="app/Models/LineActivity.php" bodystart="15" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>LineActivity</label>
+        <link refid="class_app_1_1_models_1_1_line_activity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>LineActivity</label>
+        <link refid="class_app_1_1_models_1_1_line_activity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/LineActivity.php" line="8" column="1" bodyfile="app/Models/LineActivity.php" bodystart="9" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_line_activity_1a7b0226d7ca0a9552a30b08181bebcb19" prot="public" virt="non-virtual"><scope>App::Models::LineActivity</scope><name>touchpoint</name></member>
+      <member refid="class_app_1_1_models_1_1_line_activity_1a7bee968bbaeed4f119c55911770ed081" prot="public" virt="non-virtual"><scope>App::Models::LineActivity</scope><name>touchpointmodel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_illuminate_1_1_database_1_1_eloquent_1_1_model" kind="namespace" language="PHP">
+    <compoundname>Illuminate::Database::Eloquent::Model</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Models/Activity.php" line="1" column="1"/>
+  </compounddef>
+</doxygen>

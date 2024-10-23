@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_07d79607a5b3b5e8afcff74e4c422a5d" kind="dir">
+    <compoundname>app/Providers</compoundname>
+    <innerfile refid="_app_service_provider_8php">AppServiceProvider.php</innerfile>
+    <innerfile refid="_auth_service_provider_8php">AuthServiceProvider.php</innerfile>
+    <innerfile refid="_broadcast_service_provider_8php">BroadcastServiceProvider.php</innerfile>
+    <innerfile refid="_event_service_provider_8php">EventServiceProvider.php</innerfile>
+    <innerfile refid="_route_service_provider_8php">RouteServiceProvider.php</innerfile>
+    <innerfile refid="_tenancy_service_provider_8php">TenancyServiceProvider.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Providers/"/>
+  </compounddef>
+</doxygen>

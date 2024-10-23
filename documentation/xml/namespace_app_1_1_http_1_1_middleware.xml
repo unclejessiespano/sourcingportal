@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_http_1_1_middleware" kind="namespace" language="PHP">
+    <compoundname>App::Http::Middleware</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_middleware_1_1_authenticate" prot="public">App::Http::Middleware::Authenticate</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_middleware_1_1_encrypt_cookies" prot="public">App::Http::Middleware::EncryptCookies</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests" prot="public">App::Http::Middleware::HandleInertiaRequests</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_middleware_1_1_prevent_requests_during_maintenance" prot="public">App::Http::Middleware::PreventRequestsDuringMaintenance</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_middleware_1_1_redirect_if_authenticated" prot="public">App::Http::Middleware::RedirectIfAuthenticated</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_middleware_1_1_trim_strings" prot="public">App::Http::Middleware::TrimStrings</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_middleware_1_1_trust_hosts" prot="public">App::Http::Middleware::TrustHosts</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_middleware_1_1_trust_proxies" prot="public">App::Http::Middleware::TrustProxies</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_middleware_1_1_validate_signature" prot="public">App::Http::Middleware::ValidateSignature</innerclass>
+    <innerclass refid="class_app_1_1_http_1_1_middleware_1_1_verify_csrf_token" prot="public">App::Http::Middleware::VerifyCsrfToken</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Http/Middleware/Authenticate.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

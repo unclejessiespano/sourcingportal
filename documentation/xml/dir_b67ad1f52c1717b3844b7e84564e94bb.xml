@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_b67ad1f52c1717b3844b7e84564e94bb" kind="dir">
+    <compoundname>app/Console</compoundname>
+    <innerdir refid="dir_2aabf48db7e26e6e05c13fa13c60612c">app/Console/Commands</innerdir>
+    <innerfile refid="_console_2_kernel_8php">Kernel.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Console/"/>
+  </compounddef>
+</doxygen>

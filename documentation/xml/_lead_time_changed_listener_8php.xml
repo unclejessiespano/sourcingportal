@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_lead_time_changed_listener_8php" kind="file" language="PHP">
+    <compoundname>LeadTimeChangedListener.php</compoundname>
+    <innerclass refid="class_app_1_1_listeners_1_1_lead_time_changed_listener" prot="public">App::Listeners::LeadTimeChangedListener</innerclass>
+    <innernamespace refid="namespace_app_1_1_listeners">App::Listeners</innernamespace>
+    <innernamespace refid="namespace_app_1_1_events_1_1_lead_time_changed">App::Events::LeadTimeChanged</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Listeners;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_lead_time_changed" kindref="compound">App\Events\LeadTimeChanged</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_supplierscore" kindref="compound">App\Models\Supplierscore</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>DateTime;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_touchpoint" kindref="compound">App\Models\Touchpoint</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_activity" kindref="compound">App\Models\Activity</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_sku" kindref="compound">App\Models\Sku</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/>Auth;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_app_1_1_listeners_1_1_lead_time_changed_listener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_listeners_1_1_lead_time_changed_listener" kindref="compound">LeadTimeChangedListener</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_listeners_1_1_lead_time_changed_listener_1a095c5d389db211932136b53f25f39685" kindref="member">__construct</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_listeners_1_1_lead_time_changed_listener_1aeac6ca62e0228e4362e248dcf4bb1f5e" kindref="member">handle</ref>(<ref refid="class_app_1_1_events_1_1_lead_time_changed" kindref="compound">LeadTimeChanged</ref><sp/>$event):<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO<sp/>-<sp/>how<sp/>do<sp/>I<sp/>best<sp/>communicate<sp/>lead<sp/>time<sp/>changes?<sp/>Do<sp/>I<sp/>need<sp/>to?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//save<sp/>the<sp/>new<sp/>leadtime</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$sku<sp/>=<sp/>$event-&gt;current_line-&gt;sku-&gt;sku;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sku::updateLeadtime($sku,<sp/>$event-&gt;current_line-&gt;new_leadtime);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$a=1;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Listeners/LeadTimeChangedListener.php"/>
+  </compounddef>
+</doxygen>

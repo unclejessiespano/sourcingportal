@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_listeners_1_1_comment_changed_listener" xml:lang="en-US">
+<title>CommentChangedListener Class Reference</title>
+<indexterm><primary>CommentChangedListener</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_listeners_1_1_comment_changed_listener_1a095c5d389db211932136b53f25f39685">__construct</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_listeners_1_1_comment_changed_listener_1afbf357c9f8f9720a648fffb5ad02620a">handle</link> (<link linkend="_class_app_1_1_events_1_1_comment_changed">CommentChanged</link> $event)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_app_1_1_listeners_1_1_comment_changed_listener_1a095c5d389db211932136b53f25f39685"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>CommentChangedListener</secondary></indexterm>
+<indexterm><primary>CommentChangedListener</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct ( )</computeroutput></para>
+<para>Create the event listener. </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_listeners_1_1_comment_changed_listener_1afbf357c9f8f9720a648fffb5ad02620a"/><section>
+    <title>handle()</title>
+<indexterm><primary>handle</primary><secondary>CommentChangedListener</secondary></indexterm>
+<indexterm><primary>CommentChangedListener</primary><secondary>handle</secondary></indexterm>
+<para><computeroutput>handle (<link linkend="_class_app_1_1_events_1_1_comment_changed">CommentChanged</link> $event)</computeroutput></para>
+<para>Handle the event. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Listeners/CommentChangedListener.php</section>
+</section>

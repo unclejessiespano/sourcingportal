@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_escalation" xml:lang="en-US">
+<title>Escalation Class Reference</title>
+<indexterm><primary>Escalation</primary></indexterm>
+<para>Inheritance diagram for Escalation:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_escalation.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_escalation_1a9e3d1baac1306bdfadb04fea884e273f"/><emphasis role="strong">supplier</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_escalation_1a9d78843b03ba825b0d353173b1078543"/>static <emphasis role="strong">EscalateSupplier</emphasis> ($supplier)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_escalation_1aa4d06d5e5d8f91a4ad8213f9e81f3a85"/>static <emphasis role="strong">EscalateSuppliers</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_escalation_1ad64da6efa237cda352755d4725e6d416"/>static <emphasis role="strong">generateAIPrompt</emphasis> ($escalation, $touchpoints_negative, $line=&quot;&quot;)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_escalation_1a2ea375b1eaa6393f04419b29cd680cbb"/>static <emphasis role="strong">generateExecutiveSummary</emphasis> ($escalation)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_escalation_1a5bab1d6f7c60bbcbbeece42ffae34853"/>static <emphasis role="strong">getEscalations</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_escalation_1a69bfb50648a561acabf184d08063d00e"/>static <emphasis role="strong">getStats</emphasis> ($escalations)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Escalation.php</section>

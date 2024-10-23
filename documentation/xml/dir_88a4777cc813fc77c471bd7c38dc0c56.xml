@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_88a4777cc813fc77c471bd7c38dc0c56" kind="dir">
+    <compoundname>app/Http/Controllers/Auth</compoundname>
+    <innerfile refid="_authenticated_session_controller_8php">AuthenticatedSessionController.php</innerfile>
+    <innerfile refid="_confirmable_password_controller_8php">ConfirmablePasswordController.php</innerfile>
+    <innerfile refid="_email_verification_notification_controller_8php">EmailVerificationNotificationController.php</innerfile>
+    <innerfile refid="_email_verification_prompt_controller_8php">EmailVerificationPromptController.php</innerfile>
+    <innerfile refid="_new_password_controller_8php">NewPasswordController.php</innerfile>
+    <innerfile refid="_password_controller_8php">PasswordController.php</innerfile>
+    <innerfile refid="_password_reset_link_controller_8php">PasswordResetLinkController.php</innerfile>
+    <innerfile refid="_registered_user_controller_8php">RegisteredUserController.php</innerfile>
+    <innerfile refid="_verify_email_controller_8php">VerifyEmailController.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Http/Controllers/Auth/"/>
+  </compounddef>
+</doxygen>

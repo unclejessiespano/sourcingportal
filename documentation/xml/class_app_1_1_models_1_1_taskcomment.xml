@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_taskcomment" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Taskcomment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_taskcomment_1ae8a275690ff1b618e1947378b0ed73ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user</definition>
+        <argsstring>()</argsstring>
+        <name>user</name>
+        <qualifiedname>App\Models\Taskcomment\user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Taskcomment.php" line="13" column="21" bodyfile="app/Models/Taskcomment.php" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_taskcomment_1aa89f99dee64b065845e3454379806711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>task</definition>
+        <argsstring>()</argsstring>
+        <name>task</name>
+        <qualifiedname>App\Models\Taskcomment\task</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Taskcomment.php" line="16" column="21" bodyfile="app/Models/Taskcomment.php" bodystart="16" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_taskcomment_1a228fc85d9a08c7e909a0ecf14eead8e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static addComment</definition>
+        <argsstring>($task_id, $comment)</argsstring>
+        <name>addComment</name>
+        <qualifiedname>App\Models\Taskcomment\addComment</qualifiedname>
+        <param>
+          <declname>$task_id</declname>
+        </param>
+        <param>
+          <declname>$comment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Taskcomment.php" line="20" column="28" bodyfile="app/Models/Taskcomment.php" bodystart="20" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_taskcomment_1a84c44cc27b7b620f56db447818fd510c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getTaskComments</definition>
+        <argsstring>($tasks)</argsstring>
+        <name>getTaskComments</name>
+        <qualifiedname>App\Models\Taskcomment\getTaskComments</qualifiedname>
+        <param>
+          <declname>$tasks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Taskcomment.php" line="32" column="28" bodyfile="app/Models/Taskcomment.php" bodystart="32" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Taskcomment</label>
+        <link refid="class_app_1_1_models_1_1_taskcomment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Taskcomment</label>
+        <link refid="class_app_1_1_models_1_1_taskcomment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Taskcomment.php" line="9" column="1" bodyfile="app/Models/Taskcomment.php" bodystart="10" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_taskcomment_1a228fc85d9a08c7e909a0ecf14eead8e9" prot="public" virt="non-virtual"><scope>App::Models::Taskcomment</scope><name>addComment</name></member>
+      <member refid="class_app_1_1_models_1_1_taskcomment_1a84c44cc27b7b620f56db447818fd510c" prot="public" virt="non-virtual"><scope>App::Models::Taskcomment</scope><name>getTaskComments</name></member>
+      <member refid="class_app_1_1_models_1_1_taskcomment_1aa89f99dee64b065845e3454379806711" prot="public" virt="non-virtual"><scope>App::Models::Taskcomment</scope><name>task</name></member>
+      <member refid="class_app_1_1_models_1_1_taskcomment_1ae8a275690ff1b618e1947378b0ed73ae" prot="public" virt="non-virtual"><scope>App::Models::Taskcomment</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

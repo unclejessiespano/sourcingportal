@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_contact" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Contact</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_contact_1a5955dc44903644b1ec7a71d3929bf565" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static deleteContact</definition>
+        <argsstring>($contact_id)</argsstring>
+        <name>deleteContact</name>
+        <qualifiedname>App\Models\Contact\deleteContact</qualifiedname>
+        <param>
+          <declname>$contact_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Contact.php" line="12" column="28" bodyfile="app/Models/Contact.php" bodystart="12" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_contact_1a1e97def58b947612aaca08a4e31f835a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static saveContact</definition>
+        <argsstring>($request)</argsstring>
+        <name>saveContact</name>
+        <qualifiedname>App\Models\Contact\saveContact</qualifiedname>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Contact.php" line="21" column="28" bodyfile="app/Models/Contact.php" bodystart="21" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Contact</label>
+        <link refid="class_app_1_1_models_1_1_contact"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Contact</label>
+        <link refid="class_app_1_1_models_1_1_contact"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Contact.php" line="8" column="1" bodyfile="app/Models/Contact.php" bodystart="9" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_contact_1a5955dc44903644b1ec7a71d3929bf565" prot="public" virt="non-virtual"><scope>App::Models::Contact</scope><name>deleteContact</name></member>
+      <member refid="class_app_1_1_models_1_1_contact_1a1e97def58b947612aaca08a4e31f835a" prot="public" virt="non-virtual"><scope>App::Models::Contact</scope><name>saveContact</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

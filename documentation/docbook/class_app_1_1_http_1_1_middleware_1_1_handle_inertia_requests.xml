@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests" xml:lang="en-US">
+<title>HandleInertiaRequests Class Reference</title>
+<indexterm><primary>HandleInertiaRequests</primary></indexterm>
+<para>Inheritance diagram for HandleInertiaRequests:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests_1ada914a5261ec0cf0d0f9445008e10ae5">version</link> (Request $request)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests_1aa7bf504d74d6ce0e824dfae62f195fd6">share</link> (Request $request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests_1abe9871e07ec20588b497453ce980bad3"/><emphasis role="strong">$rootView</emphasis> = &apos;app&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests_1aa7bf504d74d6ce0e824dfae62f195fd6"/><section>
+    <title>share()</title>
+<indexterm><primary>share</primary><secondary>HandleInertiaRequests</secondary></indexterm>
+<indexterm><primary>HandleInertiaRequests</primary><secondary>share</secondary></indexterm>
+<para><computeroutput>share (Request $request)</computeroutput></para>
+<para>Define the props that are shared by default.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>array&lt;string, mixed&gt; </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests_1ada914a5261ec0cf0d0f9445008e10ae5"/><section>
+    <title>version()</title>
+<indexterm><primary>version</primary><secondary>HandleInertiaRequests</secondary></indexterm>
+<indexterm><primary>HandleInertiaRequests</primary><secondary>version</secondary></indexterm>
+<para><computeroutput>version (Request $request)</computeroutput></para>
+<para>Determine the current asset version. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Middleware/HandleInertiaRequests.php</section>
+</section>

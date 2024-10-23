@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller" xml:lang="en-US">
+<title>AuthenticatedSessionController Class Reference</title>
+<indexterm><primary>AuthenticatedSessionController</primary></indexterm>
+<para>Inheritance diagram for AuthenticatedSessionController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6">create</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a31d19f914d8010e1147877288fa974b5">store</link> (<link linkend="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request">LoginRequest</link> $request)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1acf421ebc9a80cdacabf896fc936a8c25">destroy</link> (Request $request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6"/><section>
+    <title>create()</title>
+<indexterm><primary>create</primary><secondary>AuthenticatedSessionController</secondary></indexterm>
+<indexterm><primary>AuthenticatedSessionController</primary><secondary>create</secondary></indexterm>
+<para><computeroutput>create ( )</computeroutput></para>
+<para>Display the login view. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1acf421ebc9a80cdacabf896fc936a8c25"/><section>
+    <title>destroy()</title>
+<indexterm><primary>destroy</primary><secondary>AuthenticatedSessionController</secondary></indexterm>
+<indexterm><primary>AuthenticatedSessionController</primary><secondary>destroy</secondary></indexterm>
+<para><computeroutput>destroy (Request $request)</computeroutput></para>
+<para>Destroy an authenticated session. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a31d19f914d8010e1147877288fa974b5"/><section>
+    <title>store()</title>
+<indexterm><primary>store</primary><secondary>AuthenticatedSessionController</secondary></indexterm>
+<indexterm><primary>AuthenticatedSessionController</primary><secondary>store</secondary></indexterm>
+<para><computeroutput>store (<link linkend="_class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request">LoginRequest</link> $request)</computeroutput></para>
+<para>Handle an incoming authentication request. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Controllers/Auth/AuthenticatedSessionController.php</section>
+</section>

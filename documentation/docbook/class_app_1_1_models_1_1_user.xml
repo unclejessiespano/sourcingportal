@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_user" xml:lang="en-US">
+<title>User Class Reference</title>
+<indexterm><primary>User</primary></indexterm>
+<para>Inheritance diagram for User:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_user.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_user_1a562a77dbdcab3dd4b357c811886f1917"/><emphasis role="strong">team</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_user_1ad27682f1652d35b5e4fd90e70d6e35ef"/><emphasis role="strong">suppliers</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_user_1aa8183e03ae0ad9bc777f3a2127a1853e"/>static <emphasis role="strong">assignUsersToManager</emphasis> ($users, $manager_id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_user_1a20e870bbf16ce47565d52f2bcaa69e24"/>static <emphasis role="strong">createUser</emphasis> (Request $request)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_user_1a9cf25633c312d7cf22455bd87dd9f04e"/>static <emphasis role="strong">getUsersForTeam</emphasis> ($id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_user_1a4be57d44ddce3540272468b0e5509ad6"/>static <emphasis role="strong">updateUser</emphasis> (Request $request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_models_1_1_user_1a6a90e74ccdf5efd70d51d10c906f8e32">$fillable</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_models_1_1_user_1a4a374564d2858d8ae869a8fb890aad56">$hidden</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_models_1_1_user_1a1649e00448c72a723c2c79fe5f915b97">$casts</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Field Documentation</title>
+<anchor xml:id="_class_app_1_1_models_1_1_user_1a1649e00448c72a723c2c79fe5f915b97"/><section>
+    <title>$casts</title>
+<indexterm><primary>$casts</primary><secondary>User</secondary></indexterm>
+<indexterm><primary>User</primary><secondary>$casts</secondary></indexterm>
+<para><computeroutput>$casts<computeroutput>[protected]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;email_verified_at&apos;</emphasis>&#32;=&gt;&#32;<emphasis role="stringliteral">&apos;datetime&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;password&apos;</emphasis>&#32;=&gt;&#32;<emphasis role="stringliteral">&apos;hashed&apos;</emphasis>,
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_class_app_1_1_models_1_1_user_1a6a90e74ccdf5efd70d51d10c906f8e32"/><section>
+    <title>$fillable</title>
+<indexterm><primary>$fillable</primary><secondary>User</secondary></indexterm>
+<indexterm><primary>User</primary><secondary>$fillable</secondary></indexterm>
+<para><computeroutput>$fillable<computeroutput>[protected]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;name&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;email&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;password&apos;</emphasis>,
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_class_app_1_1_models_1_1_user_1a4a374564d2858d8ae869a8fb890aad56"/><section>
+    <title>$hidden</title>
+<indexterm><primary>$hidden</primary><secondary>User</secondary></indexterm>
+<indexterm><primary>User</primary><secondary>$hidden</secondary></indexterm>
+<para><computeroutput>$hidden<computeroutput>[protected]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;password&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;remember_token&apos;</emphasis>,
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/User.php</section>
+</section>

@@ -1,0 +1,1465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.12.0" xml:lang="en-US">
+  <compound refid="class_app_1_1_models_1_1_activity" kind="class"><name>App::Models::Activity</name>
+    <member refid="class_app_1_1_models_1_1_activity_1ae8a275690ff1b618e1947378b0ed73ae" kind="function"><name>user</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1a9e3d1baac1306bdfadb04fea884e273f" kind="function"><name>supplier</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1a7b0226d7ca0a9552a30b08181bebcb19" kind="function"><name>touchpoint</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1af338145541356008fbbc6f97de6885e6" kind="function"><name>order</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1a0a4ec8218e59771ae86d8737ac252ede" kind="function"><name>sku</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1a8171967e96cb49169768dabaa8cb7000" kind="function"><name>line</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1a7d3189ffd934a80c8de6cb7f3b26ebdb" kind="function"><name>liner</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1ab029b547ca3e8596b38f3b1321215790" kind="function"><name>supplierscore</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1a6c55443a9a9c206b6943939762c359c6" kind="function"><name>shipment</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1ae2095edae4e260d028c208cead4e5c9a" kind="function"><name>comment</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1aac9012fea10937475db533a325a17e79" kind="function"><name>addActivity</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1abaab463fa11b7651fdd3a17e5f60b0eb" kind="function"><name>addCommentToActivity</name></member>
+    <member refid="class_app_1_1_models_1_1_activity_1a4635390f29d404a6fa54fcbfca522ec9" kind="function"><name>getActivity</name></member>
+  </compound>
+  <compound refid="class_app_1_1_console_1_1_commands_1_1add_subtier_suppliers" kind="class"><name>App::Console::Commands::addSubtierSuppliers</name>
+    <member refid="class_app_1_1_console_1_1_commands_1_1add_subtier_suppliers_1a8f34ca1e46a621ab10a3a40addb794f5" kind="variable"><name>$signature</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1add_subtier_suppliers_1a87b032cba06009e3467abf1c8018d960" kind="variable"><name>$description</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1add_subtier_suppliers_1a66eb7514ea7f7f8a5738a180b14e9b48" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_agendaitem" kind="class"><name>App::Models::Agendaitem</name>
+    <member refid="class_app_1_1_models_1_1_agendaitem_1a8171967e96cb49169768dabaa8cb7000" kind="function"><name>line</name></member>
+    <member refid="class_app_1_1_models_1_1_agendaitem_1a9a576618e6e7a26f3db976aa32137993" kind="function"><name>formatAgendaItems</name></member>
+    <member refid="class_app_1_1_models_1_1_agendaitem_1a780c8be10942beb2a3cc10cc0d47d29e" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="class_app_1_1_providers_1_1_app_service_provider" kind="class"><name>App::Providers::AppServiceProvider</name>
+    <member refid="class_app_1_1_providers_1_1_app_service_provider_1acc294a6cc8e69743746820e3d15e3f78" kind="function"><name>register</name></member>
+    <member refid="class_app_1_1_providers_1_1_app_service_provider_1a8814ea4b5beba763c570b4818980814e" kind="function"><name>boot</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_middleware_1_1_authenticate" kind="class"><name>App::Http::Middleware::Authenticate</name>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_authenticate_1a427c6e9474256652a4df41523ea51251" kind="function"><name>redirectTo</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller" kind="class"><name>App::Http::Controllers::Auth::AuthenticatedSessionController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a31d19f914d8010e1147877288fa974b5" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1acf421ebc9a80cdacabf896fc936a8c25" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_providers_1_1_auth_service_provider" kind="class"><name>App::Providers::AuthServiceProvider</name>
+    <member refid="class_app_1_1_providers_1_1_auth_service_provider_1a3f85b7feacec002a67ba0b150ae3d222" kind="variable"><name>$policies</name></member>
+    <member refid="class_app_1_1_providers_1_1_auth_service_provider_1a8814ea4b5beba763c570b4818980814e" kind="function"><name>boot</name></member>
+  </compound>
+  <compound refid="class_app_1_1_providers_1_1_broadcast_service_provider" kind="class"><name>App::Providers::BroadcastServiceProvider</name>
+    <member refid="class_app_1_1_providers_1_1_broadcast_service_provider_1a8814ea4b5beba763c570b4818980814e" kind="function"><name>boot</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_chart" kind="class"><name>App::Models::Chart</name>
+    <member refid="class_app_1_1_models_1_1_chart_1ae2bb28a8a8761507081df5a37ff8f6c0" kind="function"><name>formatData</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_column" kind="class"><name>App::Models::Column</name>
+    <member refid="class_app_1_1_models_1_1_column_1ad717a9b46e250b9c7403b8fb9b4d4d70" kind="function"><name>column_map</name></member>
+    <member refid="class_app_1_1_models_1_1_column_1adc4b618986404754c1e1b649cb3b22ca" kind="function"><name>getColumns</name></member>
+    <member refid="class_app_1_1_models_1_1_column_1a0859c9671e509f56d90e382ae652f151" kind="function"><name>makeSupplierColumnMap</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_column___map" kind="class"><name>App::Models::Column_Map</name>
+    <member refid="class_app_1_1_models_1_1_column___map_1ae8876a14058f368335baccf35af4a22b" kind="variable"><name>$table</name></member>
+    <member refid="class_app_1_1_models_1_1_column___map_1a6a90e74ccdf5efd70d51d10c906f8e32" kind="variable"><name>$fillable</name></member>
+    <member refid="class_app_1_1_models_1_1_column___map_1a82eff5db5af823485d3b336ccab7a228" kind="function"><name>getColumnByColumnID</name></member>
+    <member refid="class_app_1_1_models_1_1_column___map_1ae37bf9e58907129b48229de747808ada" kind="function"><name>getMappedColumn</name></member>
+    <member refid="class_app_1_1_models_1_1_column___map_1a68323f013426ad91be95543ea1ccbf25" kind="function"><name>mapColumn</name></member>
+    <member refid="class_app_1_1_models_1_1_column___map_1a0b1cb6f4937adb979912f2915917a2d1" kind="function"><name>mapColumns</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_column_controller" kind="class"><name>App::Http::Controllers::ColumnController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_column_controller_1a72c2be6fc60c42d0bb21d444ec81e80b" kind="function"><name>mapcolumn</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_column_controller_1a0a81ff2820010ff89e08481e381c223b" kind="function"><name>mapcolumns</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_column_controller_1afe92f4525cd4b87443786d345b1ef34b" kind="function"><name>mapcolumnssupplier</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_comment" kind="class"><name>App::Models::Comment</name>
+    <member refid="class_app_1_1_models_1_1_comment_1ae8a275690ff1b618e1947378b0ed73ae" kind="function"><name>user</name></member>
+    <member refid="class_app_1_1_models_1_1_comment_1a47a5904f0cf1e429ae46d6113786e2b0" kind="function"><name>addComment</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_comment_changed" kind="class"><name>App::Events::CommentChanged</name>
+    <member refid="class_app_1_1_events_1_1_comment_changed_1adb5028d00a25a3f36360b5c28491e3a5" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_comment_changed_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_comment_changed_listener" kind="class"><name>App::Listeners::CommentChangedListener</name>
+    <member refid="class_app_1_1_listeners_1_1_comment_changed_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_comment_changed_listener_1afbf357c9f8f9720a648fffb5ad02620a" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_commit_received" kind="class"><name>App::Events::CommitReceived</name>
+    <member refid="class_app_1_1_events_1_1_commit_received_1a03a6b28464242c672f08ddd24a5a195b" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_commit_received_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_confirmable_password_controller" kind="class"><name>App::Http::Controllers::Auth::ConfirmablePasswordController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_confirmable_password_controller_1a2b8e3779f5bd8c38f70307574859bd36" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_confirmable_password_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_contact" kind="class"><name>App::Models::Contact</name>
+    <member refid="class_app_1_1_models_1_1_contact_1a5955dc44903644b1ec7a71d3929bf565" kind="function"><name>deleteContact</name></member>
+    <member refid="class_app_1_1_models_1_1_contact_1a1e97def58b947612aaca08a4e31f835a" kind="function"><name>saveContact</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller" kind="class"><name>App::Http::Controllers::ContactController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller_1aa1084dca2023d0205f4d383a4fa3276d" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller_1a23553bead337c1b4087ffda30d2bdb9d" kind="function"><name>deleteContact</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_contact_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_controller" kind="class"><name>App::Http::Controllers::Controller</name>
+  </compound>
+  <compound refid="class_app_1_1_console_1_1_commands_1_1create_test_data" kind="class"><name>App::Console::Commands::createTestData</name>
+    <member refid="class_app_1_1_console_1_1_commands_1_1create_test_data_1a8f34ca1e46a621ab10a3a40addb794f5" kind="variable"><name>$signature</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1create_test_data_1a87b032cba06009e3467abf1c8018d960" kind="variable"><name>$description</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1create_test_data_1a66eb7514ea7f7f8a5738a180b14e9b48" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_console_1_1_commands_1_1create_test_suppliers" kind="class"><name>App::Console::Commands::createTestSuppliers</name>
+    <member refid="class_app_1_1_console_1_1_commands_1_1create_test_suppliers_1a8f34ca1e46a621ab10a3a40addb794f5" kind="variable"><name>$signature</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1create_test_suppliers_1a87b032cba06009e3467abf1c8018d960" kind="variable"><name>$description</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1create_test_suppliers_1a66eb7514ea7f7f8a5738a180b14e9b48" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_dashboard_controller" kind="class"><name>App::Http::Controllers::DashboardController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_dashboard_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+  </compound>
+  <compound refid="class_app_1_1_mail_1_1_data_ingested" kind="class"><name>App::Mail::DataIngested</name>
+    <member refid="class_app_1_1_mail_1_1_data_ingested_1a106125d1afad6a5b42f30186d755e738" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_mail_1_1_data_ingested_1a49b8f0147d9fe88e109116a8f0dca59a" kind="function"><name>envelope</name></member>
+    <member refid="class_app_1_1_mail_1_1_data_ingested_1a9b80bb36f89498eac4f43bf08461240d" kind="function"><name>content</name></member>
+    <member refid="class_app_1_1_mail_1_1_data_ingested_1a5fc550edbf0cd33362468cbc036349e9" kind="function"><name>attachments</name></member>
+  </compound>
+  <compound refid="class_app_1_1_console_1_1_commands_1_1_delete_data" kind="class"><name>App::Console::Commands::DeleteData</name>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_delete_data_1a8f34ca1e46a621ab10a3a40addb794f5" kind="variable"><name>$signature</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_delete_data_1a87b032cba06009e3467abf1c8018d960" kind="variable"><name>$description</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_delete_data_1a66eb7514ea7f7f8a5738a180b14e9b48" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_delta" kind="class"><name>App::Models::Delta</name>
+    <member refid="class_app_1_1_models_1_1_delta_1a6cb1356a89cb3f786207beee8a409e3e" kind="function"><name>calculateChange</name></member>
+    <member refid="class_app_1_1_models_1_1_delta_1a9a06513952d13033e30428f4acad3389" kind="function"><name>doesDeltaExist</name></member>
+    <member refid="class_app_1_1_models_1_1_delta_1a8cbe7c8971cab8e31cd71fed50eef3e4" kind="function"><name>recordChange</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_email" kind="class"><name>App::Models::Email</name>
+    <member refid="class_app_1_1_models_1_1_email_1a67f5d2276334fcb963af21bdcd426f14" kind="function"><name>getDateForWeeklyUpdate</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_email_controller" kind="class"><name>App::Http::Controllers::EmailController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a2dabe886d3a9f359c029e9ec5b386d9d" kind="function"><name>dataIngested</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a4e57c0858913bf10c5815340300e1e91" kind="function"><name>weeklyupdate</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a8e96a4a8d1fb017fc4194da2b20bfba2" kind="function"><name>supplierRequest</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1aa1084dca2023d0205f4d383a4fa3276d" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_email_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_email_verification_notification_controller" kind="class"><name>App::Http::Controllers::Auth::EmailVerificationNotificationController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_email_verification_notification_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_email_verification_prompt_controller" kind="class"><name>App::Http::Controllers::Auth::EmailVerificationPromptController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_email_verification_prompt_controller_1ad8eeb53462bd9a4d921cb68a1f35c467" kind="function"><name>__invoke</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_middleware_1_1_encrypt_cookies" kind="class"><name>App::Http::Middleware::EncryptCookies</name>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_encrypt_cookies_1a20aee92e768748d175898c2dba356c51" kind="variable"><name>$except</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_escalation" kind="class"><name>App::Models::Escalation</name>
+    <member refid="class_app_1_1_models_1_1_escalation_1a9e3d1baac1306bdfadb04fea884e273f" kind="function"><name>supplier</name></member>
+    <member refid="class_app_1_1_models_1_1_escalation_1a9d78843b03ba825b0d353173b1078543" kind="function"><name>EscalateSupplier</name></member>
+    <member refid="class_app_1_1_models_1_1_escalation_1aa4d06d5e5d8f91a4ad8213f9e81f3a85" kind="function"><name>EscalateSuppliers</name></member>
+    <member refid="class_app_1_1_models_1_1_escalation_1ad64da6efa237cda352755d4725e6d416" kind="function"><name>generateAIPrompt</name></member>
+    <member refid="class_app_1_1_models_1_1_escalation_1a2ea375b1eaa6393f04419b29cd680cbb" kind="function"><name>generateExecutiveSummary</name></member>
+    <member refid="class_app_1_1_models_1_1_escalation_1a5bab1d6f7c60bbcbbeece42ffae34853" kind="function"><name>getEscalations</name></member>
+    <member refid="class_app_1_1_models_1_1_escalation_1a69bfb50648a561acabf184d08063d00e" kind="function"><name>getStats</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller" kind="class"><name>App::Http::Controllers::EscalationController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a20b1427c9e106e89aeef38924a3acc46" kind="function"><name>addTaskComment</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a2787ad086707bf16c7f8488117e2cc2c" kind="function"><name>getTaskComments</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1aa1084dca2023d0205f4d383a4fa3276d" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a243ee210e8c08b60ceb06f1d91078954" kind="function"><name>showLine</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a0c0ad28ec2bc13111bc8784ea626d477" kind="function"><name>updateTaskStatus</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_escalation_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_providers_1_1_event_service_provider" kind="class"><name>App::Providers::EventServiceProvider</name>
+    <member refid="class_app_1_1_providers_1_1_event_service_provider_1abdfd4689e0597f0b6c63b970c101e810" kind="variable"><name>$listen</name></member>
+    <member refid="class_app_1_1_providers_1_1_event_service_provider_1a8814ea4b5beba763c570b4818980814e" kind="function"><name>boot</name></member>
+    <member refid="class_app_1_1_providers_1_1_event_service_provider_1a364bb57fa3279a24dbf7090e064a5ade" kind="function"><name>shouldDiscoverEvents</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_finished_part" kind="class"><name>App::Models::FinishedPart</name>
+    <member refid="class_app_1_1_models_1_1_finished_part_1a3e7fe2bdb873fdb126de3f37c1fb1f01" kind="function"><name>parts</name></member>
+    <member refid="class_app_1_1_models_1_1_finished_part_1a0a4ec8218e59771ae86d8737ac252ede" kind="function"><name>sku</name></member>
+    <member refid="class_app_1_1_models_1_1_finished_part_1a4a4e4db681483fb8a0f07d71cac88be6" kind="function"><name>buildSupplyChain</name></member>
+    <member refid="class_app_1_1_models_1_1_finished_part_1a1546574284d4a046b0c8522e6a302eed" kind="function"><name>getCommitsForCalendar</name></member>
+    <member refid="class_app_1_1_models_1_1_finished_part_1abdc98ae57f9ed6a52f658985b62e444f" kind="function"><name>writePartDescription</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller" kind="class"><name>App::Http::Controllers::FinishedPartsController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller_1aa1084dca2023d0205f4d383a4fa3276d" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_finished_parts_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_imports_1_1_first_sheet_import" kind="class"><name>App::Imports::FirstSheetImport</name>
+    <member refid="class_app_1_1_imports_1_1_first_sheet_import_1a935540baa141dcd4a829c2f07bf94cef" kind="function"><name>collection</name></member>
+    <member refid="class_app_1_1_imports_1_1_first_sheet_import_1afe6a84453942a529cb5b358513773821" kind="function"><name>chunkSize</name></member>
+  </compound>
+  <compound refid="class_app_1_1_imports_1_1_first_sheet_import_batch" kind="class"><name>App::Imports::FirstSheetImportBatch</name>
+    <member refid="class_app_1_1_imports_1_1_first_sheet_import_batch_1ab9b55813efe64b7901eb87e8f2724dac" kind="function"><name>model</name></member>
+    <member refid="class_app_1_1_imports_1_1_first_sheet_import_batch_1a48262ad055e1de04cea1c66db1ab0988" kind="function"><name>batchSize</name></member>
+  </compound>
+  <compound refid="class_app_1_1_imports_1_1_first_sheet_import_supplier" kind="class"><name>App::Imports::FirstSheetImportSupplier</name>
+    <member refid="class_app_1_1_imports_1_1_first_sheet_import_supplier_1a935540baa141dcd4a829c2f07bf94cef" kind="function"><name>collection</name></member>
+    <member refid="class_app_1_1_imports_1_1_first_sheet_import_supplier_1afe6a84453942a529cb5b358513773821" kind="function"><name>chunkSize</name></member>
+  </compound>
+  <compound refid="class_app_1_1_imports_1_1_first_sheet_import_supplier_column_map_needed" kind="class"><name>App::Imports::FirstSheetImportSupplierColumnMapNeeded</name>
+    <member refid="class_app_1_1_imports_1_1_first_sheet_import_supplier_column_map_needed_1a935540baa141dcd4a829c2f07bf94cef" kind="function"><name>collection</name></member>
+    <member refid="class_app_1_1_imports_1_1_first_sheet_import_supplier_column_map_needed_1afe6a84453942a529cb5b358513773821" kind="function"><name>chunkSize</name></member>
+  </compound>
+  <compound refid="class_app_1_1_console_1_1_commands_1_1_give_suppliers100" kind="class"><name>App::Console::Commands::GiveSuppliers100</name>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_give_suppliers100_1a8f34ca1e46a621ab10a3a40addb794f5" kind="variable"><name>$signature</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_give_suppliers100_1a87b032cba06009e3467abf1c8018d960" kind="variable"><name>$description</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_give_suppliers100_1a66eb7514ea7f7f8a5738a180b14e9b48" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests" kind="class"><name>App::Http::Middleware::HandleInertiaRequests</name>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests_1abe9871e07ec20588b497453ce980bad3" kind="variable"><name>$rootView</name></member>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests_1ada914a5261ec0cf0d0f9445008e10ae5" kind="function"><name>version</name></member>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_handle_inertia_requests_1aa7bf504d74d6ce0e824dfae62f195fd6" kind="function"><name>share</name></member>
+  </compound>
+  <compound refid="class_app_1_1_exceptions_1_1_handler" kind="class"><name>App::Exceptions::Handler</name>
+    <member refid="class_app_1_1_exceptions_1_1_handler_1a9298df83d140b018c3b1c0b635205492" kind="variable"><name>$dontFlash</name></member>
+    <member refid="class_app_1_1_exceptions_1_1_handler_1acc294a6cc8e69743746820e3d15e3f78" kind="function"><name>register</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_home_controller" kind="class"><name>App::Http::Controllers::HomeController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_home_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_import_controller" kind="class"><name>App::Http::Controllers::ImportController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_import_controller_1a68c90f35f93ac78f57095f22d99fb8fa" kind="function"><name>import</name></member>
+  </compound>
+  <compound refid="class_app_1_1_console_1_1_commands_1_1_import_o_o_r" kind="class"><name>App::Console::Commands::ImportOOR</name>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_import_o_o_r_1a8f34ca1e46a621ab10a3a40addb794f5" kind="variable"><name>$signature</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_import_o_o_r_1a87b032cba06009e3467abf1c8018d960" kind="variable"><name>$description</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_import_o_o_r_1a66eb7514ea7f7f8a5738a180b14e9b48" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_ingestion" kind="class"><name>App::Models::Ingestion</name>
+    <member refid="class_app_1_1_models_1_1_ingestion_1a65055164939f434481e5ee710bb44a45" kind="function"><name>lines</name></member>
+    <member refid="class_app_1_1_models_1_1_ingestion_1ac9935d1f96048ef021407f5cb6d50884" kind="function"><name>add</name></member>
+    <member refid="class_app_1_1_models_1_1_ingestion_1a5299da2bcd69ab08a4d72da1da090f38" kind="function"><name>getColumnNames</name></member>
+    <member refid="class_app_1_1_models_1_1_ingestion_1ad1489054b4b8710ecfd363be2f9f3251" kind="function"><name>getIngestions</name></member>
+    <member refid="class_app_1_1_models_1_1_ingestion_1a5aec7c1eb27b8ce1ebbcb0a54a11c84b" kind="function"><name>getLastTwoIngestions</name></member>
+    <member refid="class_app_1_1_models_1_1_ingestion_1a4c9904d28da70d0641fbf932ab02bce5" kind="function"><name>updateSupplierScores</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller" kind="class"><name>App::Http::Controllers::IngestionController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller_1aa1084dca2023d0205f4d383a4fa3276d" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller_1a01a607d804072fb75fc1260c41a9ec6b" kind="function"><name>generateOOR</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_ingestion_controller_1a7fc36b5641dd799ad16d225788fdb10f" kind="function"><name>updateSupplierScores</name></member>
+  </compound>
+  <compound refid="class_app_1_1_console_1_1_kernel" kind="class"><name>App::Console::Kernel</name>
+    <member refid="class_app_1_1_console_1_1_kernel_1ac8f0af578c80277b7a25381c6a9e268c" kind="function"><name>schedule</name></member>
+    <member refid="class_app_1_1_console_1_1_kernel_1af0afefa0d79d09344a638cf6c532aa39" kind="function"><name>commands</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_kernel" kind="class"><name>App::Http::Kernel</name>
+    <member refid="class_app_1_1_http_1_1_kernel_1a36a993ea76b635c84749f6e5e6562344" kind="variable"><name>$middleware</name></member>
+    <member refid="class_app_1_1_http_1_1_kernel_1a000642ef1cfc62ea5e829d8a3b17431a" kind="variable"><name>$middlewareGroups</name></member>
+    <member refid="class_app_1_1_http_1_1_kernel_1a79ebbaaefcbb1096a9c4c6c67ff9ca38" kind="variable"><name>$middlewareAliases</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_lead_time_changed" kind="class"><name>App::Events::LeadTimeChanged</name>
+    <member refid="class_app_1_1_events_1_1_lead_time_changed_1a594752ee3a63172e5741277611d3310a" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_lead_time_changed_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_lead_time_changed_listener" kind="class"><name>App::Listeners::LeadTimeChangedListener</name>
+    <member refid="class_app_1_1_listeners_1_1_lead_time_changed_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_lead_time_changed_listener_1aeac6ca62e0228e4362e248dcf4bb1f5e" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_line" kind="class"><name>App::Models::Line</name>
+    <member refid="class_app_1_1_models_1_1_line_1a6a90e74ccdf5efd70d51d10c906f8e32" kind="variable"><name>$fillable</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1af338145541356008fbbc6f97de6885e6" kind="function"><name>order</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a0a4ec8218e59771ae86d8737ac252ede" kind="function"><name>sku</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a9e3d1baac1306bdfadb04fea884e273f" kind="function"><name>supplier</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a7cea0cdc4efda379cabc5dece1b03cff" kind="function"><name>activity</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a1f5b39d8a925adbd66e01c8fcbc821fe" kind="function"><name>lineactivity</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a690b75c70bf6a5772431b68d2d9e4863" kind="function"><name>shipments</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1aa099c5dd91f58cffd9c42cd91af9b915" kind="function"><name>addComment</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a978ff24d4a60fab877616ecdd82ca391" kind="function"><name>awardPointsClosedLine</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1ab1649632647c85ad49e80f4e8012ab96" kind="function"><name>awardPointsClosedLines</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1ad832a4804ceb4eb7daaecffc7527704e" kind="function"><name>deactivateAllLines</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a6e53181deac78717782d502babd590f1" kind="function"><name>exists</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a919b5e505b4e7c88cfe491ddc1fa6f6e" kind="function"><name>formatExcelDate</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1ae7269df8aef7c27f3b3d2e49d0ecaab3" kind="function"><name>fromIngestion</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a9237633f943587567edbe00e7b69a724" kind="function"><name>getLinesByOrders</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1add56e9bbdddc692de4508950f54fcfc5" kind="function"><name>getLine</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a64a8343eb9c1cff49fe82b3400d4184e" kind="function"><name>getCommitsNeededFromSupplier</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a93bddc3f3e9e837aa307c9b3702830f4" kind="function"><name>getLinesDueThisWeek</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a101825a8a84843d1daa2fd4d59cb0b69" kind="function"><name>getLineChangeStats</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1aa034656f74ea999f4ba5bd6222e403e9" kind="function"><name>getLinesByIdentifier</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a3c91e733a121aa3a924e8ec50e81237e" kind="function"><name>getLinesCommitsForDashbord</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1ab50e6a7d6f019018372424e2085e03e6" kind="function"><name>getOpenLines</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1ada1bbdbad6397a5ce4385050c1aff732" kind="function"><name>getGoogleChartData_PercentPastDueSuppliers</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a5307c6bb5341adcf5371e59ed04392eb" kind="function"><name>getEmailData_PercentCommitSuppliers</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a9c4d2ca7ff25bc289c6ddd9ffb16dbef" kind="function"><name>getEmailData_PercentPastDueSuppliers</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a5cd653eb6675511e0631a5c11725cfef" kind="function"><name>getSankey</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1ae4843fc5abd23fe2caf9a394b6ad6481" kind="function"><name>getStats</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a6c24d2c322f0fc62139fa384c3a67d07" kind="function"><name>makeIdentifier</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a9f341dfeb8dee0b65430a1fd178a9716" kind="function"><name>import</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1ab46badd58e1d5a258070bfb15e1fc279" kind="function"><name>saveLineActivity</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a34814e7d7c5e55e1e0183c00eae2f75a" kind="function"><name>setCommitForLine</name></member>
+    <member refid="class_app_1_1_models_1_1_line_1a7fa784dcb6a60d4dc479feb69946ea42" kind="function"><name>updateLine</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_line_activity" kind="class"><name>App::Models::LineActivity</name>
+    <member refid="class_app_1_1_models_1_1_line_activity_1a7b0226d7ca0a9552a30b08181bebcb19" kind="function"><name>touchpoint</name></member>
+    <member refid="class_app_1_1_models_1_1_line_activity_1a7bee968bbaeed4f119c55911770ed081" kind="function"><name>touchpointmodel</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_line_controller" kind="class"><name>App::Http::Controllers::LineController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1aa376a790ced18bc38bed3f86f5ccb6e3" kind="function"><name>addComment</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a3484188e8fa00909007de2524834f6a8" kind="function"><name>saveCommit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a47ddc4a715e4fbc28e48448bc9df69dd" kind="function"><name>saveLineActivity</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a453591303f2d90f5f54acf11e1d17a69" kind="function"><name>saveLineDelayedReason</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a5d162ae79790434c72ca62ea3385eeee" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a24cb3564ce354cb280ed10adcfd737bb" kind="function"><name>showIdentifier</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1abc332ce722c8ad0e5e856fb246d68495" kind="function"><name>upload</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1aaf644bb6161da5a834e395aadcce5465" kind="function"><name>uploadSupplierOOR</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a06412eb3b5af8cd7d978ac6eab667fbf" kind="function"><name>export</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_line_controller_1a3419663de7a76ab887bc672119ad3b1c" kind="function"><name>getTracking</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_line_delivered" kind="class"><name>App::Events::LineDelivered</name>
+    <member refid="class_app_1_1_events_1_1_line_delivered_1a03a6b28464242c672f08ddd24a5a195b" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_line_delivered_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_line_delivered_listener" kind="class"><name>App::Listeners::LineDeliveredListener</name>
+    <member refid="class_app_1_1_listeners_1_1_line_delivered_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_line_delivered_listener_1ab4c24b63f4372327b1bd9c5fb2f2253c" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_line_delivery_date_changed" kind="class"><name>App::Events::LineDeliveryDateChanged</name>
+    <member refid="class_app_1_1_events_1_1_line_delivery_date_changed_1a62fe46a0e6bb87b3d5210b6f28039e04" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_line_delivery_date_changed_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_line_delivery_date_changed_listener" kind="class"><name>App::Listeners::LineDeliveryDateChangedListener</name>
+    <member refid="class_app_1_1_listeners_1_1_line_delivery_date_changed_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_line_delivery_date_changed_listener_1a7e64793ddeeed0a4caa369a543e02576" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_line_late" kind="class"><name>App::Events::LineLate</name>
+    <member refid="class_app_1_1_events_1_1_line_late_1accfc76c924c696fc494c93a22a0cd426" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_line_late_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_line_late_listener" kind="class"><name>App::Listeners::LineLateListener</name>
+    <member refid="class_app_1_1_listeners_1_1_line_late_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_line_late_listener_1a5e7707908631d9e9a81f4d6ade3bb92e" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_line_net_price_changed" kind="class"><name>App::Events::LineNetPriceChanged</name>
+    <member refid="class_app_1_1_events_1_1_line_net_price_changed_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_line_net_price_changed_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_line_net_price_changed_listener" kind="class"><name>App::Listeners::LineNetPriceChangedListener</name>
+    <member refid="class_app_1_1_listeners_1_1_line_net_price_changed_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_line_net_price_changed_listener_1a65d2b812c57d7025d25504c76d6d8a08" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_line_quantity_changed" kind="class"><name>App::Events::LineQuantityChanged</name>
+    <member refid="class_app_1_1_events_1_1_line_quantity_changed_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_line_quantity_changed_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_line_quantity_changed_listener" kind="class"><name>App::Listeners::LineQuantityChangedListener</name>
+    <member refid="class_app_1_1_listeners_1_1_line_quantity_changed_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_line_quantity_changed_listener_1a6464434309cf1c16d717b7b4c1774417" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request" kind="class"><name>App::Http::Requests::Auth::LoginRequest</name>
+    <member refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a49fd51a5864a57e7549db5c97c1fb610" kind="function"><name>authorize</name></member>
+    <member refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a17dba92d96b9dd48c62f3ede3eef94d4" kind="function"><name>rules</name></member>
+    <member refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a750c93a7dfab5314f2bf662a407bc5a6" kind="function"><name>authenticate</name></member>
+    <member refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1ac41aec88950bcb59df0d1d71d6ecc070" kind="function"><name>ensureIsNotRateLimited</name></member>
+    <member refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request_1a024c3da726834e18b1b9fc7841a9f5d2" kind="function"><name>throttleKey</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_meeting" kind="class"><name>App::Models::Meeting</name>
+    <member refid="class_app_1_1_models_1_1_meeting_1a29eceff194444a8200e9ab44704c727d" kind="function"><name>agendaitems</name></member>
+    <member refid="class_app_1_1_models_1_1_meeting_1ae8a275690ff1b618e1947378b0ed73ae" kind="function"><name>user</name></member>
+    <member refid="class_app_1_1_models_1_1_meeting_1a9e3d1baac1306bdfadb04fea884e273f" kind="function"><name>supplier</name></member>
+    <member refid="class_app_1_1_models_1_1_meeting_1afc3250fe41c8410e752e6e4cb7e8a00a" kind="function"><name>createMeeting</name></member>
+    <member refid="class_app_1_1_models_1_1_meeting_1a1cfceb68819ba919d7887d348311af48" kind="function"><name>generateAttendees</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller" kind="class"><name>App::Http::Controllers::MeetingController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller_1aeb434f7739607a207ed7cae48007f266" kind="function"><name>addInput</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller_1a070331de0b1255b13ba72a854f714f4a" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_meeting_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_meeting_item" kind="class"><name>App::Models::MeetingItem</name>
+    <member refid="class_app_1_1_models_1_1_meeting_item_1ae8a275690ff1b618e1947378b0ed73ae" kind="function"><name>user</name></member>
+    <member refid="class_app_1_1_models_1_1_meeting_item_1a1aeea623ee13716d7f0e6c49eb9330ca" kind="function"><name>meetingitemtype</name></member>
+    <member refid="class_app_1_1_models_1_1_meeting_item_1a31bf7fdce8ee734fb211c8e3de24a583" kind="function"><name>addMeetingItem</name></member>
+    <member refid="class_app_1_1_models_1_1_meeting_item_1a8f3563e5d4ceeac830263d095eb7cb99" kind="function"><name>getItemsByMeetingId</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_meeting_item_type" kind="class"><name>App::Models::MeetingItemType</name>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_new_password_controller" kind="class"><name>App::Http::Controllers::Auth::NewPasswordController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_new_password_controller_1a14e082d8e6a6a1e8dea28f9d0267fdf0" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_new_password_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+  </compound>
+  <compound refid="class_app_1_1_exports_1_1_oor_export" kind="class"><name>App::Exports::OorExport</name>
+    <member refid="class_app_1_1_exports_1_1_oor_export_1ae97941710d863131c700f069b109991e" kind="variable"><name>$id</name></member>
+    <member refid="class_app_1_1_exports_1_1_oor_export_1a1340871f436b81e1f225567b6cce4e79" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_exports_1_1_oor_export_1a33a6fe9ba5c60d6abbf88d65d55895a9" kind="function"><name>view</name></member>
+  </compound>
+  <compound refid="class_app_1_1_imports_1_1_o_o_r_import" kind="class"><name>App::Imports::OORImport</name>
+    <member refid="class_app_1_1_imports_1_1_o_o_r_import_1a51b5458810b9eb367acbe8f039c21d54" kind="function"><name>sheets</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_o_o_r_uploaded" kind="class"><name>App::Events::OORUploaded</name>
+    <member refid="class_app_1_1_events_1_1_o_o_r_uploaded_1adcb0201173fc59334d35f9713b149a9a" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_o_o_r_uploaded_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_o_o_r_uploaded_listener" kind="class"><name>App::Listeners::OORUploadedListener</name>
+    <member refid="class_app_1_1_listeners_1_1_o_o_r_uploaded_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_o_o_r_uploaded_listener_1a1fd793e6ed619d25417f3e64884ccf0f" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_order" kind="class"><name>App::Models::Order</name>
+    <member refid="class_app_1_1_models_1_1_order_1a6a90e74ccdf5efd70d51d10c906f8e32" kind="variable"><name>$fillable</name></member>
+    <member refid="class_app_1_1_models_1_1_order_1a65055164939f434481e5ee710bb44a45" kind="function"><name>lines</name></member>
+    <member refid="class_app_1_1_models_1_1_order_1a52b8dffb39035d24d4ed1c7866e651ab" kind="function"><name>plant</name></member>
+    <member refid="class_app_1_1_models_1_1_order_1a9e3d1baac1306bdfadb04fea884e273f" kind="function"><name>supplier</name></member>
+    <member refid="class_app_1_1_models_1_1_order_1a76602be152af4bf8eedc5257678c71b7" kind="function"><name>exists</name></member>
+    <member refid="class_app_1_1_models_1_1_order_1a66df5cb83dace1022259ad14373cb8d9" kind="function"><name>getOrder</name></member>
+    <member refid="class_app_1_1_models_1_1_order_1a6200f790af551e175ff181bb04290314" kind="function"><name>getOpenOrders</name></member>
+    <member refid="class_app_1_1_models_1_1_order_1ad42b2aff34a1f08c7eca421112457f72" kind="function"><name>import</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_order_controller" kind="class"><name>App::Http::Controllers::OrderController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_order_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_order_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_order_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_order_controller_1aa1084dca2023d0205f4d383a4fa3276d" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_order_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_order_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_order_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_part_image_uploaded" kind="class"><name>App::Events::PartImageUploaded</name>
+    <member refid="class_app_1_1_events_1_1_part_image_uploaded_1a2cbd0a6d6f2e89fb9e48c307820c1c3b" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_part_image_uploaded_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener" kind="class"><name>App::Listeners::PartImageUploadedListener</name>
+    <member refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_part_image_uploaded_listener_1adc5e6956c0d87455416aec13918fd28f" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_password_controller" kind="class"><name>App::Http::Controllers::Auth::PasswordController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_password_controller_1afdc1029c759eec7e6241e0265b43551a" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_password_reset_link_controller" kind="class"><name>App::Http::Controllers::Auth::PasswordResetLinkController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_password_reset_link_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_password_reset_link_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_plant" kind="class"><name>App::Models::Plant</name>
+    <member refid="class_app_1_1_models_1_1_plant_1ade7a3d08c497abd198448fec996c7bc9" kind="function"><name>orders</name></member>
+    <member refid="class_app_1_1_models_1_1_plant_1aa22eab96e67cee274c1924899388a3dc" kind="function"><name>getMapMarkers</name></member>
+    <member refid="class_app_1_1_models_1_1_plant_1a264d614a6db766056f158ee238630836" kind="function"><name>getPlants</name></member>
+    <member refid="class_app_1_1_models_1_1_plant_1a3e7d02163468eda4885be5ddeb0cebdb" kind="function"><name>savePlant</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller" kind="class"><name>App::Http::Controllers::PlantController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller_1aa1084dca2023d0205f4d383a4fa3276d" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_plant_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_middleware_1_1_prevent_requests_during_maintenance" kind="class"><name>App::Http::Middleware::PreventRequestsDuringMaintenance</name>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_prevent_requests_during_maintenance_1a20aee92e768748d175898c2dba356c51" kind="variable"><name>$except</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_profile_controller" kind="class"><name>App::Http::Controllers::ProfileController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_profile_controller_1a51cdc624a76cd9d446b40084397ae2e8" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_profile_controller_1acefbab471b52b50fac2cb57f71cdfb74" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_profile_controller_1acf421ebc9a80cdacabf896fc936a8c25" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_requests_1_1_profile_update_request" kind="class"><name>App::Http::Requests::ProfileUpdateRequest</name>
+    <member refid="class_app_1_1_http_1_1_requests_1_1_profile_update_request_1a17dba92d96b9dd48c62f3ede3eef94d4" kind="function"><name>rules</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_qualification___user" kind="class"><name>App::Models::Qualification_User</name>
+  </compound>
+  <compound refid="class_app_1_1_exports_1_1_random_o_o_r_export" kind="class"><name>App::Exports::RandomOORExport</name>
+    <member refid="class_app_1_1_exports_1_1_random_o_o_r_export_1a3d46f2f84b0bf0de1921a0cb899bedff" kind="function"><name>generator</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_middleware_1_1_redirect_if_authenticated" kind="class"><name>App::Http::Middleware::RedirectIfAuthenticated</name>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_redirect_if_authenticated_1adf796ec0946ecdedc3e4e750cd4657c8" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_registered_user_controller" kind="class"><name>App::Http::Controllers::Auth::RegisteredUserController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_registered_user_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_registered_user_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+  </compound>
+  <compound refid="class_app_1_1_console_1_1_commands_1_1_reset_database" kind="class"><name>App::Console::Commands::ResetDatabase</name>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_reset_database_1a8f34ca1e46a621ab10a3a40addb794f5" kind="variable"><name>$signature</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_reset_database_1a87b032cba06009e3467abf1c8018d960" kind="variable"><name>$description</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_reset_database_1a66eb7514ea7f7f8a5738a180b14e9b48" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_role" kind="class"><name>App::Models::Role</name>
+  </compound>
+  <compound refid="class_app_1_1_providers_1_1_route_service_provider" kind="class"><name>App::Providers::RouteServiceProvider</name>
+    <member refid="class_app_1_1_providers_1_1_route_service_provider_1ad5937d1b8a0dcaa1c2ffdca45ec67bf2" kind="variable"><name>HOME</name></member>
+    <member refid="class_app_1_1_providers_1_1_route_service_provider_1a8814ea4b5beba763c570b4818980814e" kind="function"><name>boot</name></member>
+    <member refid="class_app_1_1_providers_1_1_route_service_provider_1ac887962db9a9a8f344572bd205a02165" kind="function"><name>mapWebRoutes</name></member>
+    <member refid="class_app_1_1_providers_1_1_route_service_provider_1ad400e7ca0cea76b9680eeb68b55ea0e0" kind="function"><name>mapApiRoutes</name></member>
+    <member refid="class_app_1_1_providers_1_1_route_service_provider_1a01e8f6bce886a115c6e95b6582fe18e5" kind="function"><name>centralDomains</name></member>
+  </compound>
+  <compound refid="class_app_1_1_console_1_1_commands_1_1_seed_database" kind="class"><name>App::Console::Commands::SeedDatabase</name>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_seed_database_1a8f34ca1e46a621ab10a3a40addb794f5" kind="variable"><name>$signature</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_seed_database_1a87b032cba06009e3467abf1c8018d960" kind="variable"><name>$description</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_seed_database_1a66eb7514ea7f7f8a5738a180b14e9b48" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_shipment" kind="class"><name>App::Models::Shipment</name>
+    <member refid="class_app_1_1_models_1_1_shipment_1ababdb36b32e892d4d427f84c2a68a410" kind="function"><name>recordShipment</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_shippinglocation" kind="class"><name>App::Models::Shippinglocation</name>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_shippinglocationcontact" kind="class"><name>App::Models::Shippinglocationcontact</name>
+  </compound>
+  <compound refid="class_app_1_1_console_1_1_commands_1_1_simulate_activity_dates" kind="class"><name>App::Console::Commands::SimulateActivityDates</name>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_simulate_activity_dates_1a8f34ca1e46a621ab10a3a40addb794f5" kind="variable"><name>$signature</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_simulate_activity_dates_1a87b032cba06009e3467abf1c8018d960" kind="variable"><name>$description</name></member>
+    <member refid="class_app_1_1_console_1_1_commands_1_1_simulate_activity_dates_1a66eb7514ea7f7f8a5738a180b14e9b48" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_sku" kind="class"><name>App::Models::Sku</name>
+    <member refid="class_app_1_1_models_1_1_sku_1a6a90e74ccdf5efd70d51d10c906f8e32" kind="variable"><name>$fillable</name></member>
+    <member refid="class_app_1_1_models_1_1_sku_1a066515a441d69b6da3f9f0f25d6ca896" kind="function"><name>detail</name></member>
+    <member refid="class_app_1_1_models_1_1_sku_1a65055164939f434481e5ee710bb44a45" kind="function"><name>lines</name></member>
+    <member refid="class_app_1_1_models_1_1_sku_1a8abb1610f2b926a3ca8e50cd493377f0" kind="function"><name>exists</name></member>
+    <member refid="class_app_1_1_models_1_1_sku_1aa16be7d4683709633ca291a03ced4c68" kind="function"><name>getLeadTimeBySkuID</name></member>
+    <member refid="class_app_1_1_models_1_1_sku_1a513ea668efeb243695b89ae0c2832402" kind="function"><name>getParts</name></member>
+    <member refid="class_app_1_1_models_1_1_sku_1a97ee0ab71b506af1d7b451ae6db47ffc" kind="function"><name>getSku</name></member>
+    <member refid="class_app_1_1_models_1_1_sku_1a5bf4b268d1318305d710151da1c8db87" kind="function"><name>import</name></member>
+    <member refid="class_app_1_1_models_1_1_sku_1ae1ee388f5bd1556255e3d4bcd6846ac7" kind="function"><name>updateLeadTime</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller" kind="class"><name>App::Http::Controllers::SKUController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1aa1084dca2023d0205f4d383a4fa3276d" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1aae153c291c3b6bf5c07f51634f481cca" kind="function"><name>uploadPartImage</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_skudetail" kind="class"><name>App::Models::Skudetail</name>
+    <member refid="class_app_1_1_models_1_1_skudetail_1af9ac28c2816c0763dd4a92306d0fc931" kind="function"><name>addImage</name></member>
+    <member refid="class_app_1_1_models_1_1_skudetail_1a0c4389638cf79d1ffec1ef7e607fba7a" kind="function"><name>getOrCreate</name></member>
+    <member refid="class_app_1_1_models_1_1_skudetail_1a2ec519a0796f8201df3e85d12bdf8f94" kind="function"><name>saveImage</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_supplier" kind="class"><name>App::Models::Supplier</name>
+    <member refid="class_app_1_1_models_1_1_supplier_1a6a90e74ccdf5efd70d51d10c906f8e32" kind="variable"><name>$fillable</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1ade7a3d08c497abd198448fec996c7bc9" kind="function"><name>orders</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1ac1a4d2f6c3d33d277a8b4db470f95bc8" kind="function"><name>lines_</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a7bd9758dcac671e8df54d93e5c21e69a" kind="function"><name>network</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a3249177749c4f2274ed77044179f7f6b" kind="function"><name>parent</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a8f0a82d1f20291f573fa6385c24bf7dc" kind="function"><name>scores</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a7cea0cdc4efda379cabc5dece1b03cff" kind="function"><name>activity</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a8fd1d3746c237308ff22624dfd1b759f" kind="function"><name>escalation</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1ae8a275690ff1b618e1947378b0ed73ae" kind="function"><name>user</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1ae97d8e719525c3493e02d63c6373a11b" kind="function"><name>users</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1ac0757e6d6fabc17e0312713835602130" kind="function"><name>shippinglocation</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1adf7e5165c026279812fb997df6fd1d09" kind="function"><name>contacts</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a65055164939f434481e5ee710bb44a45" kind="function"><name>lines</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a260aa2671b2fc14c3516175e6ba003b4" kind="function"><name>exists</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a5fdb7909720d80b07e83923d4e185c7d" kind="function"><name>getAverageDaysPastDue</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1ae38ac9d272256a03db53148a5c3f7bdb" kind="function"><name>getSankeySupplyChain</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1aade05f66de9a66827a8889b37931ad0a" kind="function"><name>getSankeyLineStats</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a3592402f8541e013d6b581a9b6948d0f" kind="function"><name>getStats</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a7e1136d54892472ef775a028cd627923" kind="function"><name>getSupplyChainTree</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a9d7454d93b2749bef289b600297eaaa9" kind="function"><name>getUsersSuppliers</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1aef45f69c0df7510f79d654cfb275b467" kind="function"><name>makeNode</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a8fc4ceabab98b5b08ac7c1760366f588" kind="function"><name>formatNetwork</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a54d14c8be271bcdc336af6c209f3635d" kind="function"><name>calculateSupplierScore</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a1f701e4bf6576d98761f5f0d102eab68" kind="function"><name>getCommitsForCalendar</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1aea8d60e275a666253b2f4142dc032688" kind="function"><name>getSupplier</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a87c43686ede2a43f0f891a14349e858f" kind="function"><name>getSupplierBySlug</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a1b44acc446ec29888565719cb51f8286" kind="function"><name>getSuppliers</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a096909bb96d3b4b01abac9a11d9c5a75" kind="function"><name>getSuppliersBelowScore</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a05a65ce7610a9280ffc72a96d4771288" kind="function"><name>findOrGetSupplier</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1acdcb31a766c0811c8f1c8bd599d00424" kind="function"><name>import</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a3e7d02163468eda4885be5ddeb0cebdb" kind="function"><name>savePlant</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a9449914295f3d7f74858c4826dba83fd" kind="function"><name>saveSupplier</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_1a4101590cd10eaf65e5a0bd9674c3590d" kind="function"><name>updateInfo</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_supplier_added" kind="class"><name>App::Events::SupplierAdded</name>
+    <member refid="class_app_1_1_events_1_1_supplier_added_1a75e88eba696f84dc8055aecb6a99c8b5" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_supplier_added_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_supplier_added_listener" kind="class"><name>App::Listeners::SupplierAddedListener</name>
+    <member refid="class_app_1_1_listeners_1_1_supplier_added_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_supplier_added_listener_1a1c56b6010efd07e5e43fa04c155894b4" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_supplier_column_map" kind="class"><name>App::Models::SupplierColumnMap</name>
+    <member refid="class_app_1_1_models_1_1_supplier_column_map_1aad676d74bf9ed6e6953eb33975b3acaa" kind="function"><name>addSupplierColumnMap</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_column_map_1a11a2bcb8692b4fad4f17b6ca4c48e7a4" kind="function"><name>doesSupplierMapExist</name></member>
+    <member refid="class_app_1_1_models_1_1_supplier_column_map_1a13109c3f3482b7dfd7c98932425bad22" kind="function"><name>createMap</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_supplier_column_map_needed" kind="class"><name>App::Events::SupplierColumnMapNeeded</name>
+    <member refid="class_app_1_1_events_1_1_supplier_column_map_needed_1aebd5328e7b7c3409ecf76418af5763cc" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_supplier_column_map_needed_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_imports_1_1_supplier_column_map_needed_import" kind="class"><name>App::Imports::SupplierColumnMapNeededImport</name>
+    <member refid="class_app_1_1_imports_1_1_supplier_column_map_needed_import_1a51b5458810b9eb367acbe8f039c21d54" kind="function"><name>sheets</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_supplier_column_map_needed_listener" kind="class"><name>App::Listeners::SupplierColumnMapNeededListener</name>
+    <member refid="class_app_1_1_listeners_1_1_supplier_column_map_needed_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_supplier_column_map_needed_listener_1a19a59d4764f9c934bd275edee012580d" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller" kind="class"><name>App::Http::Controllers::SupplierController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a4554f03adc5d72e4871a5937a88d5396" kind="function"><name>activity</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a4cfe09340cfea9af1ac8e25c52295639" kind="function"><name>company</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1aa84bf8b91b149b0052e70a326e045d36" kind="function"><name>mapcolumns</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a922f2975aa57cb2686a72f31a43484d1" kind="function"><name>network</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1ae94ef66b81c5675c0033f5ecdd8629f9" kind="function"><name>saveContact</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a4fd27320f53ca3f8dc03bc380c835ab0" kind="function"><name>saveInfo</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a7f3b05c4d6dd21ab64dc03794e407503" kind="function"><name>savePlant</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1adcc93b411c7952e3e367319405322914" kind="function"><name>saveSupplier</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a03fa8f478fa78da1c52807b433ce22cc" kind="function"><name>score</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a458f1a08dfe6f2d89997bc9583cc009c" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a759af1e9afae0cb9c2196decb7090ac7" kind="function"><name>lines</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_supplier_controller_1a9dd7b1f10adde0dfe1fb4a47a3cb61b4" kind="function"><name>exportlines</name></member>
+  </compound>
+  <compound refid="class_app_1_1_imports_1_1_supplier_o_o_r_import" kind="class"><name>App::Imports::SupplierOORImport</name>
+    <member refid="class_app_1_1_imports_1_1_supplier_o_o_r_import_1a51b5458810b9eb367acbe8f039c21d54" kind="function"><name>sheets</name></member>
+  </compound>
+  <compound refid="class_app_1_1_events_1_1_supplier_o_o_r_uploaded" kind="class"><name>App::Events::SupplierOORUploaded</name>
+    <member refid="class_app_1_1_events_1_1_supplier_o_o_r_uploaded_1aebd5328e7b7c3409ecf76418af5763cc" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_events_1_1_supplier_o_o_r_uploaded_1afdd67b80d67f15ce0ab9a0c254dad3bc" kind="function"><name>broadcastOn</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_supplier_o_o_r_uploaded_listener" kind="class"><name>App::Listeners::SupplierOORUploadedListener</name>
+    <member refid="class_app_1_1_listeners_1_1_supplier_o_o_r_uploaded_listener_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_supplier_o_o_r_uploaded_listener_1a4ccc302690b09240f77aa3ac2cd719b9" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_policies_1_1_supplier_policy" kind="class"><name>App::Policies::SupplierPolicy</name>
+    <member refid="class_app_1_1_policies_1_1_supplier_policy_1ab91821546d40b791783ecdfab9622e7d" kind="function"><name>viewAny</name></member>
+    <member refid="class_app_1_1_policies_1_1_supplier_policy_1a473b0c02c88a0fa078c4cf3e84875457" kind="function"><name>view</name></member>
+    <member refid="class_app_1_1_policies_1_1_supplier_policy_1a7626db07d2ee9a50d2839c019dbf037d" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_policies_1_1_supplier_policy_1a358a423d9f8cd9199b8744b6f90626fd" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_policies_1_1_supplier_policy_1accf6af06442da3f3cef703eb84c38a5b" kind="function"><name>delete</name></member>
+    <member refid="class_app_1_1_policies_1_1_supplier_policy_1a1a4a4c2f601bb661f5c314dddf7717db" kind="function"><name>restore</name></member>
+    <member refid="class_app_1_1_policies_1_1_supplier_policy_1a134d9545dacc345d74e53276e0f3ddbf" kind="function"><name>forceDelete</name></member>
+  </compound>
+  <compound refid="class_app_1_1_mail_1_1_supplier_request" kind="class"><name>App::Mail::SupplierRequest</name>
+    <member refid="class_app_1_1_mail_1_1_supplier_request_1aa382fcd48f8cd3e1ee9f9c8e2a00add0" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_mail_1_1_supplier_request_1a49b8f0147d9fe88e109116a8f0dca59a" kind="function"><name>envelope</name></member>
+    <member refid="class_app_1_1_mail_1_1_supplier_request_1a9b80bb36f89498eac4f43bf08461240d" kind="function"><name>content</name></member>
+    <member refid="class_app_1_1_mail_1_1_supplier_request_1a5fc550edbf0cd33362468cbc036349e9" kind="function"><name>attachments</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_supplierscore" kind="class"><name>App::Models::Supplierscore</name>
+    <member refid="class_app_1_1_models_1_1_supplierscore_1a7b0226d7ca0a9552a30b08181bebcb19" kind="function"><name>touchpoint</name></member>
+    <member refid="class_app_1_1_models_1_1_supplierscore_1a27190b80a5a3af7f60c165c7dd79e8ba" kind="function"><name>addScore</name></member>
+    <member refid="class_app_1_1_models_1_1_supplierscore_1aaa3cb723a56894411f5dd57a924db2a3" kind="function"><name>getScoreData</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_task" kind="class"><name>App::Models::Task</name>
+    <member refid="class_app_1_1_models_1_1_task_1ae315bf3635155a9b75688da52f37e711" kind="function"><name>getTasksByIdentifier</name></member>
+    <member refid="class_app_1_1_models_1_1_task_1adcec981d21c31d85b9461d82c6e82920" kind="function"><name>updateTaskStatus</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_taskcolumn" kind="class"><name>App::Models::Taskcolumn</name>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_taskcomment" kind="class"><name>App::Models::Taskcomment</name>
+    <member refid="class_app_1_1_models_1_1_taskcomment_1ae8a275690ff1b618e1947378b0ed73ae" kind="function"><name>user</name></member>
+    <member refid="class_app_1_1_models_1_1_taskcomment_1aa89f99dee64b065845e3454379806711" kind="function"><name>task</name></member>
+    <member refid="class_app_1_1_models_1_1_taskcomment_1a228fc85d9a08c7e909a0ecf14eead8e9" kind="function"><name>addComment</name></member>
+    <member refid="class_app_1_1_models_1_1_taskcomment_1a84c44cc27b7b620f56db447818fd510c" kind="function"><name>getTaskComments</name></member>
+  </compound>
+  <compound refid="class_app_1_1_providers_1_1_tenancy_service_provider" kind="class"><name>App::Providers::TenancyServiceProvider</name>
+    <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1ae582bada8cc78bbad086dee95f56b26f" kind="variable"><name>$controllerNamespace</name></member>
+    <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1ade509b07f1df45730d31589b81a26efb" kind="function"><name>events</name></member>
+    <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1acc294a6cc8e69743746820e3d15e3f78" kind="function"><name>register</name></member>
+    <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1a8814ea4b5beba763c570b4818980814e" kind="function"><name>boot</name></member>
+    <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1ae5f4bf9f75ede45cadfb8b72782a6a45" kind="function"><name>bootEvents</name></member>
+    <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1ae1cd840516ad0a60f43b133e86182cb2" kind="function"><name>mapRoutes</name></member>
+    <member refid="class_app_1_1_providers_1_1_tenancy_service_provider_1a3fbef4ab608bc4cdfa13d8f93d75a221" kind="function"><name>makeTenancyMiddlewareHighestPriority</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_tenant" kind="class"><name>App::Models::Tenant</name>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_touchpoint" kind="class"><name>App::Models::Touchpoint</name>
+    <member refid="class_app_1_1_models_1_1_touchpoint_1a1f5b39d8a925adbd66e01c8fcbc821fe" kind="function"><name>lineactivity</name></member>
+    <member refid="class_app_1_1_models_1_1_touchpoint_1ae2095edae4e260d028c208cead4e5c9a" kind="function"><name>comment</name></member>
+    <member refid="class_app_1_1_models_1_1_touchpoint_1a6206684f573939931a30c88eb53eb54d" kind="function"><name>getTouchpoints</name></member>
+    <member refid="class_app_1_1_models_1_1_touchpoint_1aa0a38255ba81e71a06a02e7d51ae6d30" kind="function"><name>getTouchpointsNegativelyAffectingScore</name></member>
+    <member refid="class_app_1_1_models_1_1_touchpoint_1a20ecc85de7fd5b1ef537e4e5dd127c84" kind="function"><name>createTouchpoint</name></member>
+    <member refid="class_app_1_1_models_1_1_touchpoint_1ad5e9641ac094c3a0d547bc4df512f090" kind="function"><name>getByCode</name></member>
+    <member refid="class_app_1_1_models_1_1_touchpoint_1aabb75c2f24ee1c3c24ebc2279ee38cc2" kind="function"><name>getTouchpoint</name></member>
+    <member refid="class_app_1_1_models_1_1_touchpoint_1a77517a9a4e8307beccbbadaad1347c98" kind="function"><name>updateTouchpoint</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller" kind="class"><name>App::Http::Controllers::TouchpointController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller_1aa1084dca2023d0205f4d383a4fa3276d" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller_1af528c99cc6b6d8f4bb8c2876533b4abc" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_touchpoint_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_policies_1_1_touchpoint_policy" kind="class"><name>App::Policies::TouchpointPolicy</name>
+    <member refid="class_app_1_1_policies_1_1_touchpoint_policy_1ab91821546d40b791783ecdfab9622e7d" kind="function"><name>viewAny</name></member>
+    <member refid="class_app_1_1_policies_1_1_touchpoint_policy_1aef48a7f83d54fe20839a5b46eac86497" kind="function"><name>view</name></member>
+    <member refid="class_app_1_1_policies_1_1_touchpoint_policy_1a7626db07d2ee9a50d2839c019dbf037d" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_policies_1_1_touchpoint_policy_1a7a77ea2879d7b40806f2361b842750a6" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_policies_1_1_touchpoint_policy_1a54aca1b56dac624135fa62a338997209" kind="function"><name>delete</name></member>
+    <member refid="class_app_1_1_policies_1_1_touchpoint_policy_1a483f9ffb80d0b6eeea999ef44e4c2a90" kind="function"><name>restore</name></member>
+    <member refid="class_app_1_1_policies_1_1_touchpoint_policy_1aa2f183dd08b42f3addcc4843336b6384" kind="function"><name>forceDelete</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_middleware_1_1_trim_strings" kind="class"><name>App::Http::Middleware::TrimStrings</name>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_trim_strings_1a20aee92e768748d175898c2dba356c51" kind="variable"><name>$except</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_middleware_1_1_trust_hosts" kind="class"><name>App::Http::Middleware::TrustHosts</name>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_trust_hosts_1af5de9ee37ade338fbd85cf8ab9969651" kind="function"><name>hosts</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_middleware_1_1_trust_proxies" kind="class"><name>App::Http::Middleware::TrustProxies</name>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_trust_proxies_1a9fed7e7c82160e6b32d7ed4c8193c195" kind="variable"><name>$proxies</name></member>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_trust_proxies_1a52500036ee807241b8b4b7e2367c49ef" kind="variable"><name>$headers</name></member>
+  </compound>
+  <compound refid="class_app_1_1_listeners_1_1_update_supplier_score" kind="class"><name>App::Listeners::UpdateSupplierScore</name>
+    <member refid="class_app_1_1_listeners_1_1_update_supplier_score_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_listeners_1_1_update_supplier_score_1a9d2bfd78306fbc676c8bce2885ff8984" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_ups" kind="class"><name>App::Models::Ups</name>
+    <member refid="class_app_1_1_models_1_1_ups_1a6908104a359cb2e6403501ded90d9246" kind="function"><name>authorizeClient</name></member>
+    <member refid="class_app_1_1_models_1_1_ups_1a6f60050addad0dfcc72a86c2508d48aa" kind="function"><name>getToken</name></member>
+    <member refid="class_app_1_1_models_1_1_ups_1a4f0fb7af325216fedab694068d9eb8c7" kind="function"><name>getTracking</name></member>
+    <member refid="class_app_1_1_models_1_1_ups_1a07d27dabfad2a9cf68a6eacb9d2c712d" kind="function"><name>generateAccessToken</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_user" kind="class"><name>App::Models::User</name>
+    <member refid="class_app_1_1_models_1_1_user_1a6a90e74ccdf5efd70d51d10c906f8e32" kind="variable"><name>$fillable</name></member>
+    <member refid="class_app_1_1_models_1_1_user_1a4a374564d2858d8ae869a8fb890aad56" kind="variable"><name>$hidden</name></member>
+    <member refid="class_app_1_1_models_1_1_user_1a1649e00448c72a723c2c79fe5f915b97" kind="variable"><name>$casts</name></member>
+    <member refid="class_app_1_1_models_1_1_user_1a562a77dbdcab3dd4b357c811886f1917" kind="function"><name>team</name></member>
+    <member refid="class_app_1_1_models_1_1_user_1ad27682f1652d35b5e4fd90e70d6e35ef" kind="function"><name>suppliers</name></member>
+    <member refid="class_app_1_1_models_1_1_user_1aa8183e03ae0ad9bc777f3a2127a1853e" kind="function"><name>assignUsersToManager</name></member>
+    <member refid="class_app_1_1_models_1_1_user_1a20e870bbf16ce47565d52f2bcaa69e24" kind="function"><name>createUser</name></member>
+    <member refid="class_app_1_1_models_1_1_user_1a9cf25633c312d7cf22455bd87dd9f04e" kind="function"><name>getUsersForTeam</name></member>
+    <member refid="class_app_1_1_models_1_1_user_1a4be57d44ddce3540272468b0e5509ad6" kind="function"><name>updateUser</name></member>
+  </compound>
+  <compound refid="class_app_1_1_models_1_1_user___supplier" kind="class"><name>App::Models::User_Supplier</name>
+    <member refid="class_app_1_1_models_1_1_user___supplier_1ae8876a14058f368335baccf35af4a22b" kind="variable"><name>$table</name></member>
+    <member refid="class_app_1_1_models_1_1_user___supplier_1a9e3d1baac1306bdfadb04fea884e273f" kind="function"><name>supplier</name></member>
+    <member refid="class_app_1_1_models_1_1_user___supplier_1a0e76d0edb1e731bd122aac2e7bd1933f" kind="function"><name>addSuppliersToUser</name></member>
+    <member refid="class_app_1_1_models_1_1_user___supplier_1ad9d0ceff54b32902073bfb7795e5c00c" kind="function"><name>getAssignedSuppliers</name></member>
+    <member refid="class_app_1_1_models_1_1_user___supplier_1a5cee8998ac0d0470b3feaf84267bb529" kind="function"><name>getAssignedUsers</name></member>
+    <member refid="class_app_1_1_models_1_1_user___supplier_1a1b44acc446ec29888565719cb51f8286" kind="function"><name>getSuppliers</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_user_controller" kind="class"><name>App::Http::Controllers::UserController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a149eb92716c1084a935e04a8d95f7347" kind="function"><name>index</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a9ef485163104597c12185b53cdacf638" kind="function"><name>store</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1aa1084dca2023d0205f4d383a4fa3276d" kind="function"><name>show</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a770dc774eb0c503adc8523130d7872a9" kind="function"><name>edit</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1afdc1029c759eec7e6241e0265b43551a" kind="function"><name>update</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a61e09ca3efe7b1e8cc36c6942ee96791" kind="function"><name>updaterole</name></member>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_user_controller_1a0fdd66e92be5c0f832383e1d2162563f" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_middleware_1_1_validate_signature" kind="class"><name>App::Http::Middleware::ValidateSignature</name>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_validate_signature_1a20aee92e768748d175898c2dba356c51" kind="variable"><name>$except</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_middleware_1_1_verify_csrf_token" kind="class"><name>App::Http::Middleware::VerifyCsrfToken</name>
+    <member refid="class_app_1_1_http_1_1_middleware_1_1_verify_csrf_token_1a20aee92e768748d175898c2dba356c51" kind="variable"><name>$except</name></member>
+  </compound>
+  <compound refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_verify_email_controller" kind="class"><name>App::Http::Controllers::Auth::VerifyEmailController</name>
+    <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_verify_email_controller_1a715a0d6a608b9c94a6500255f1dcd74f" kind="function"><name>__invoke</name></member>
+  </compound>
+  <compound refid="class_app_1_1_mail_1_1_weekly_update" kind="class"><name>App::Mail::WeeklyUpdate</name>
+    <member refid="class_app_1_1_mail_1_1_weekly_update_1a7708cf26f9df2c7194c4a81a08980b13" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_mail_1_1_weekly_update_1a49b8f0147d9fe88e109116a8f0dca59a" kind="function"><name>envelope</name></member>
+    <member refid="class_app_1_1_mail_1_1_weekly_update_1a9b80bb36f89498eac4f43bf08461240d" kind="function"><name>content</name></member>
+    <member refid="class_app_1_1_mail_1_1_weekly_update_1a5fc550edbf0cd33362468cbc036349e9" kind="function"><name>attachments</name></member>
+  </compound>
+  <compound refid="namespace_app" kind="namespace"><name>App</name>
+  </compound>
+  <compound refid="namespace_app_1_1_console" kind="namespace"><name>App::Console</name>
+  </compound>
+  <compound refid="namespace_app_1_1_console_1_1_commands" kind="namespace"><name>App::Console::Commands</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events" kind="namespace"><name>App::Events</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_comment_changed" kind="namespace"><name>App::Events::CommentChanged</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_commit_received" kind="namespace"><name>App::Events::CommitReceived</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_lead_time_changed" kind="namespace"><name>App::Events::LeadTimeChanged</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_line_delivered" kind="namespace"><name>App::Events::LineDelivered</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_line_delivery_date_changed" kind="namespace"><name>App::Events::LineDeliveryDateChanged</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_line_late" kind="namespace"><name>App::Events::LineLate</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_line_net_price_changed" kind="namespace"><name>App::Events::LineNetPriceChanged</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_line_quantity_changed" kind="namespace"><name>App::Events::LineQuantityChanged</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_o_o_r_uploaded" kind="namespace"><name>App::Events::OORUploaded</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_part_image_uploaded" kind="namespace"><name>App::Events::PartImageUploaded</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_supplier_added" kind="namespace"><name>App::Events::SupplierAdded</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_supplier_column_map_needed" kind="namespace"><name>App::Events::SupplierColumnMapNeeded</name>
+  </compound>
+  <compound refid="namespace_app_1_1_events_1_1_supplier_o_o_r_uploaded" kind="namespace"><name>App::Events::SupplierOORUploaded</name>
+  </compound>
+  <compound refid="namespace_app_1_1_exceptions" kind="namespace"><name>App::Exceptions</name>
+  </compound>
+  <compound refid="namespace_app_1_1_exports" kind="namespace"><name>App::Exports</name>
+  </compound>
+  <compound refid="namespace_app_1_1_exports_1_1_oor_export" kind="namespace"><name>App::Exports::OorExport</name>
+  </compound>
+  <compound refid="namespace_app_1_1_exports_1_1_random_o_o_r_export" kind="namespace"><name>App::Exports::RandomOORExport</name>
+  </compound>
+  <compound refid="namespace_app_1_1_http" kind="namespace"><name>App::Http</name>
+  </compound>
+  <compound refid="namespace_app_1_1_http_1_1_controllers" kind="namespace"><name>App::Http::Controllers</name>
+  </compound>
+  <compound refid="namespace_app_1_1_http_1_1_controllers_1_1_auth" kind="namespace"><name>App::Http::Controllers::Auth</name>
+  </compound>
+  <compound refid="namespace_app_1_1_http_1_1_controllers_1_1_controller" kind="namespace"><name>App::Http::Controllers::Controller</name>
+  </compound>
+  <compound refid="namespace_app_1_1_http_1_1_middleware" kind="namespace"><name>App::Http::Middleware</name>
+  </compound>
+  <compound refid="namespace_app_1_1_http_1_1_requests" kind="namespace"><name>App::Http::Requests</name>
+  </compound>
+  <compound refid="namespace_app_1_1_http_1_1_requests_1_1_auth" kind="namespace"><name>App::Http::Requests::Auth</name>
+  </compound>
+  <compound refid="namespace_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request" kind="namespace"><name>App::Http::Requests::Auth::LoginRequest</name>
+  </compound>
+  <compound refid="namespace_app_1_1_http_1_1_requests_1_1_profile_update_request" kind="namespace"><name>App::Http::Requests::ProfileUpdateRequest</name>
+  </compound>
+  <compound refid="namespace_app_1_1_imports" kind="namespace"><name>App::Imports</name>
+  </compound>
+  <compound refid="namespace_app_1_1_imports_1_1_o_o_r_import" kind="namespace"><name>App::Imports::OORImport</name>
+  </compound>
+  <compound refid="namespace_app_1_1_imports_1_1_supplier_column_map_needed_import" kind="namespace"><name>App::Imports::SupplierColumnMapNeededImport</name>
+  </compound>
+  <compound refid="namespace_app_1_1_imports_1_1_supplier_o_o_r_import" kind="namespace"><name>App::Imports::SupplierOORImport</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners" kind="namespace"><name>App::Listeners</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_comment_changed_listener" kind="namespace"><name>App::Listeners::CommentChangedListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_lead_time_changed_listener" kind="namespace"><name>App::Listeners::LeadTimeChangedListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_line_delivered_listener" kind="namespace"><name>App::Listeners::LineDeliveredListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_line_delivery_date_changed_listener" kind="namespace"><name>App::Listeners::LineDeliveryDateChangedListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_line_late_listener" kind="namespace"><name>App::Listeners::LineLateListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_line_net_price_changed_listener" kind="namespace"><name>App::Listeners::LineNetPriceChangedListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_line_quantity_changed_listener" kind="namespace"><name>App::Listeners::LineQuantityChangedListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_o_o_r_uploaded_listener" kind="namespace"><name>App::Listeners::OORUploadedListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_part_image_uploaded_listener" kind="namespace"><name>App::Listeners::PartImageUploadedListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_supplier_added_listener" kind="namespace"><name>App::Listeners::SupplierAddedListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_supplier_column_map_needed_listener" kind="namespace"><name>App::Listeners::SupplierColumnMapNeededListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_supplier_o_o_r_uploaded_listener" kind="namespace"><name>App::Listeners::SupplierOORUploadedListener</name>
+  </compound>
+  <compound refid="namespace_app_1_1_listeners_1_1_update_supplier_score" kind="namespace"><name>App::Listeners::UpdateSupplierScore</name>
+  </compound>
+  <compound refid="namespace_app_1_1_mail" kind="namespace"><name>App::Mail</name>
+  </compound>
+  <compound refid="namespace_app_1_1_mail_1_1_data_ingested" kind="namespace"><name>App::Mail::DataIngested</name>
+  </compound>
+  <compound refid="namespace_app_1_1_mail_1_1_supplier_request" kind="namespace"><name>App::Mail::SupplierRequest</name>
+  </compound>
+  <compound refid="namespace_app_1_1_mail_1_1_weekly_update" kind="namespace"><name>App::Mail::WeeklyUpdate</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models" kind="namespace"><name>App::Models</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_activity" kind="namespace"><name>App::Models::Activity</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_agendaitem" kind="namespace"><name>App::Models::Agendaitem</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_chart" kind="namespace"><name>App::Models::Chart</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_column" kind="namespace"><name>App::Models::Column</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_column___map" kind="namespace"><name>App::Models::Column_Map</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_comment" kind="namespace"><name>App::Models::Comment</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_contact" kind="namespace"><name>App::Models::Contact</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_email" kind="namespace"><name>App::Models::Email</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_escalation" kind="namespace"><name>App::Models::Escalation</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_finished_part" kind="namespace"><name>App::Models::FinishedPart</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_ingestion" kind="namespace"><name>App::Models::Ingestion</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_line" kind="namespace"><name>App::Models::Line</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_line_activity" kind="namespace"><name>App::Models::LineActivity</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_meeting" kind="namespace"><name>App::Models::Meeting</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_meeting_item" kind="namespace"><name>App::Models::MeetingItem</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_meeting_item_type" kind="namespace"><name>App::Models::MeetingItemType</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_order" kind="namespace"><name>App::Models::Order</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_plant" kind="namespace"><name>App::Models::Plant</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_role" kind="namespace"><name>App::Models::Role</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_shipment" kind="namespace"><name>App::Models::Shipment</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_sku" kind="namespace"><name>App::Models::Sku</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_skudetail" kind="namespace"><name>App::Models::Skudetail</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_supplier" kind="namespace"><name>App::Models::Supplier</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_supplier_column_map" kind="namespace"><name>App::Models::SupplierColumnMap</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_supplierscore" kind="namespace"><name>App::Models::Supplierscore</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_task" kind="namespace"><name>App::Models::Task</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_taskcolumn" kind="namespace"><name>App::Models::Taskcolumn</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_taskcomment" kind="namespace"><name>App::Models::Taskcomment</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_touchpoint" kind="namespace"><name>App::Models::Touchpoint</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_ups" kind="namespace"><name>App::Models::Ups</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_user" kind="namespace"><name>App::Models::User</name>
+  </compound>
+  <compound refid="namespace_app_1_1_models_1_1_user___supplier" kind="namespace"><name>App::Models::User_Supplier</name>
+  </compound>
+  <compound refid="namespace_app_1_1_policies" kind="namespace"><name>App::Policies</name>
+  </compound>
+  <compound refid="namespace_app_1_1_policies_1_1_supplier_policy" kind="namespace"><name>App::Policies::SupplierPolicy</name>
+  </compound>
+  <compound refid="namespace_app_1_1_providers" kind="namespace"><name>App::Providers</name>
+  </compound>
+  <compound refid="namespace_app_1_1_providers_1_1_route_service_provider" kind="namespace"><name>App::Providers::RouteServiceProvider</name>
+  </compound>
+  <compound refid="namespace_auth" kind="namespace"><name>Auth</name>
+  </compound>
+  <compound refid="namespace_authorizes_requests" kind="namespace"><name>AuthorizesRequests</name>
+  </compound>
+  <compound refid="namespace_closure" kind="namespace"><name>Closure</name>
+  </compound>
+  <compound refid="namespace_date_time" kind="namespace"><name>DateTime</name>
+  </compound>
+  <compound refid="namespace_dispatchable" kind="namespace"><name>Dispatchable</name>
+  </compound>
+  <compound refid="namespace_exportable" kind="namespace"><name>Exportable</name>
+  </compound>
+  <compound refid="namespace_faker_1_1_factory" kind="namespace"><name>Faker::Factory</name>
+  </compound>
+  <compound refid="namespace_generator" kind="namespace"><name>Generator</name>
+  </compound>
+  <compound refid="namespace_has_api_tokens" kind="namespace"><name>HasApiTokens</name>
+  </compound>
+  <compound refid="namespace_has_database" kind="namespace"><name>HasDatabase</name>
+  </compound>
+  <compound refid="namespace_has_domains" kind="namespace"><name>HasDomains</name>
+  </compound>
+  <compound refid="namespace_has_factory" kind="namespace"><name>HasFactory</name>
+  </compound>
+  <compound refid="namespace_has_roles" kind="namespace"><name>HasRoles</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_auth_1_1_access_1_1_response" kind="namespace"><name>Illuminate::Auth::Access::Response</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_auth_1_1_events_1_1_lockout" kind="namespace"><name>Illuminate::Auth::Events::Lockout</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_auth_1_1_events_1_1_password_reset" kind="namespace"><name>Illuminate::Auth::Events::PasswordReset</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_auth_1_1_events_1_1_registered" kind="namespace"><name>Illuminate::Auth::Events::Registered</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_auth_1_1_events_1_1_verified" kind="namespace"><name>Illuminate::Auth::Events::Verified</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_auth_1_1_listeners_1_1_send_email_verification_notification" kind="namespace"><name>Illuminate::Auth::Listeners::SendEmailVerificationNotification</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_broadcasting_1_1_interacts_with_sockets" kind="namespace"><name>Illuminate::Broadcasting::InteractsWithSockets</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_broadcasting_1_1_private_channel" kind="namespace"><name>Illuminate::Broadcasting::PrivateChannel</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_bus_1_1_queueable" kind="namespace"><name>Illuminate::Bus::Queueable</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_cache_1_1_rate_limiting_1_1_limit" kind="namespace"><name>Illuminate::Cache::RateLimiting::Limit</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_console_1_1_command" kind="namespace"><name>Illuminate::Console::Command</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_console_1_1_scheduling_1_1_schedule" kind="namespace"><name>Illuminate::Console::Scheduling::Schedule</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_contracts_1_1_auth_1_1_must_verify_email" kind="namespace"><name>Illuminate::Contracts::Auth::MustVerifyEmail</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_contracts_1_1_queue_1_1_should_queue" kind="namespace"><name>Illuminate::Contracts::Queue::ShouldQueue</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_contracts_1_1_view_1_1_view" kind="namespace"><name>Illuminate::Contracts::View::View</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_database_1_1_eloquent_1_1_factories_1_1_has_factory" kind="namespace"><name>Illuminate::Database::Eloquent::Factories::HasFactory</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_database_1_1_eloquent_1_1_model" kind="namespace"><name>Illuminate::Database::Eloquent::Model</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_foundation_1_1_auth_1_1_access_1_1_authorizes_requests" kind="namespace"><name>Illuminate::Foundation::Auth::Access::AuthorizesRequests</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_foundation_1_1_auth_1_1_email_verification_request" kind="namespace"><name>Illuminate::Foundation::Auth::EmailVerificationRequest</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_foundation_1_1_events_1_1_dispatchable" kind="namespace"><name>Illuminate::Foundation::Events::Dispatchable</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_foundation_1_1_http_1_1_form_request" kind="namespace"><name>Illuminate::Foundation::Http::FormRequest</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_foundation_1_1_validation_1_1_validates_requests" kind="namespace"><name>Illuminate::Foundation::Validation::ValidatesRequests</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_http_1_1_redirect_response" kind="namespace"><name>Illuminate::Http::RedirectResponse</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_http_1_1_request" kind="namespace"><name>Illuminate::Http::Request</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_http_1_1_uploaded_file" kind="namespace"><name>Illuminate::Http::UploadedFile</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_mail_1_1_mailable" kind="namespace"><name>Illuminate::Mail::Mailable</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_mail_1_1_mailables_1_1_content" kind="namespace"><name>Illuminate::Mail::Mailables::Content</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_mail_1_1_mailables_1_1_envelope" kind="namespace"><name>Illuminate::Mail::Mailables::Envelope</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_notifications_1_1_notifiable" kind="namespace"><name>Illuminate::Notifications::Notifiable</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_queue_1_1_serializes_models" kind="namespace"><name>Illuminate::Queue::SerializesModels</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_collection" kind="namespace"><name>Illuminate::Support::Collection</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_auth" kind="namespace"><name>Illuminate::Support::Facades::Auth</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_broadcast" kind="namespace"><name>Illuminate::Support::Facades::Broadcast</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_event" kind="namespace"><name>Illuminate::Support::Facades::Event</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_hash" kind="namespace"><name>Illuminate::Support::Facades::Hash</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_http" kind="namespace"><name>Illuminate::Support::Facades::Http</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_log" kind="namespace"><name>Illuminate::Support::Facades::Log</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_mail" kind="namespace"><name>Illuminate::Support::Facades::Mail</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_password" kind="namespace"><name>Illuminate::Support::Facades::Password</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_rate_limiter" kind="namespace"><name>Illuminate::Support::Facades::RateLimiter</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_redirect" kind="namespace"><name>Illuminate::Support::Facades::Redirect</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_route" kind="namespace"><name>Illuminate::Support::Facades::Route</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_storage" kind="namespace"><name>Illuminate::Support::Facades::Storage</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_view" kind="namespace"><name>Illuminate::Support::Facades::View</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_service_provider" kind="namespace"><name>Illuminate::Support::ServiceProvider</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_str" kind="namespace"><name>Illuminate::Support::Str</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_validation_1_1_rule" kind="namespace"><name>Illuminate::Validation::Rule</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_validation_1_1_rules" kind="namespace"><name>Illuminate::Validation::Rules</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_validation_1_1_rules_1_1_password" kind="namespace"><name>Illuminate::Validation::Rules::Password</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_validation_1_1_validation_exception" kind="namespace"><name>Illuminate::Validation::ValidationException</name>
+  </compound>
+  <compound refid="namespace_importable" kind="namespace"><name>Importable</name>
+  </compound>
+  <compound refid="namespace_inertia_1_1_inertia" kind="namespace"><name>Inertia::Inertia</name>
+  </compound>
+  <compound refid="namespace_inertia_1_1_middleware" kind="namespace"><name>Inertia::Middleware</name>
+  </compound>
+  <compound refid="namespace_inertia_1_1_response" kind="namespace"><name>Inertia::Response</name>
+  </compound>
+  <compound refid="namespace_interacts_with_sockets" kind="namespace"><name>InteractsWithSockets</name>
+  </compound>
+  <compound refid="namespace_intervention_1_1_image_1_1_drivers_1_1_imagick_1_1_driver" kind="namespace"><name>Intervention::Image::Drivers::Imagick::Driver</name>
+  </compound>
+  <compound refid="namespace_intervention_1_1_image_1_1_image_manager" kind="namespace"><name>Intervention::Image::ImageManager</name>
+  </compound>
+  <compound refid="namespace_laravel_1_1_sanctum_1_1_has_api_tokens" kind="namespace"><name>Laravel::Sanctum::HasApiTokens</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_exportable" kind="namespace"><name>Maatwebsite::Excel::Concerns::Exportable</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_from_generator" kind="namespace"><name>Maatwebsite::Excel::Concerns::FromGenerator</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_from_view" kind="namespace"><name>Maatwebsite::Excel::Concerns::FromView</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_importable" kind="namespace"><name>Maatwebsite::Excel::Concerns::Importable</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_to_collection" kind="namespace"><name>Maatwebsite::Excel::Concerns::ToCollection</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_to_model" kind="namespace"><name>Maatwebsite::Excel::Concerns::ToModel</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_with_batch_inserts" kind="namespace"><name>Maatwebsite::Excel::Concerns::WithBatchInserts</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_with_chunk_reading" kind="namespace"><name>Maatwebsite::Excel::Concerns::WithChunkReading</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_with_column_formatting" kind="namespace"><name>Maatwebsite::Excel::Concerns::WithColumnFormatting</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_with_events" kind="namespace"><name>Maatwebsite::Excel::Concerns::WithEvents</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_with_heading_row" kind="namespace"><name>Maatwebsite::Excel::Concerns::WithHeadingRow</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_concerns_1_1_with_multiple_sheets" kind="namespace"><name>Maatwebsite::Excel::Concerns::WithMultipleSheets</name>
+  </compound>
+  <compound refid="namespace_maatwebsite_1_1_excel_1_1_facades_1_1_excel" kind="namespace"><name>Maatwebsite::Excel::Facades::Excel</name>
+  </compound>
+  <compound refid="namespace_notifiable" kind="namespace"><name>Notifiable</name>
+  </compound>
+  <compound refid="namespace_php_office_1_1_php_spreadsheet_1_1_shared_1_1_date" kind="namespace"><name>PhpOffice::PhpSpreadsheet::Shared::Date</name>
+  </compound>
+  <compound refid="namespace_queueable" kind="namespace"><name>Queueable</name>
+  </compound>
+  <compound refid="namespace_serializes_models" kind="namespace"><name>SerializesModels</name>
+  </compound>
+  <compound refid="namespace_spatie_1_1_permission_1_1_traits_1_1_has_roles" kind="namespace"><name>Spatie::Permission::Traits::HasRoles</name>
+  </compound>
+  <compound refid="namespace_stancl_1_1_job_pipeline_1_1_job_pipeline" kind="namespace"><name>Stancl::JobPipeline::JobPipeline</name>
+  </compound>
+  <compound refid="namespace_stancl_1_1_tenancy_1_1_contracts_1_1_tenant_with_database" kind="namespace"><name>Stancl::Tenancy::Contracts::TenantWithDatabase</name>
+  </compound>
+  <compound refid="namespace_stancl_1_1_tenancy_1_1_database_1_1_concerns_1_1_has_database" kind="namespace"><name>Stancl::Tenancy::Database::Concerns::HasDatabase</name>
+  </compound>
+  <compound refid="namespace_stancl_1_1_tenancy_1_1_database_1_1_concerns_1_1_has_domains" kind="namespace"><name>Stancl::Tenancy::Database::Concerns::HasDomains</name>
+  </compound>
+  <compound refid="namespace_stancl_1_1_tenancy_1_1_events" kind="namespace"><name>Stancl::Tenancy::Events</name>
+  </compound>
+  <compound refid="namespace_stancl_1_1_tenancy_1_1_jobs" kind="namespace"><name>Stancl::Tenancy::Jobs</name>
+  </compound>
+  <compound refid="namespace_stancl_1_1_tenancy_1_1_listeners" kind="namespace"><name>Stancl::Tenancy::Listeners</name>
+  </compound>
+  <compound refid="namespace_stancl_1_1_tenancy_1_1_middleware" kind="namespace"><name>Stancl::Tenancy::Middleware</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_http_foundation_1_1_response" kind="namespace"><name>Symfony::Component::HttpFoundation::Response</name>
+  </compound>
+  <compound refid="namespace_throwable" kind="namespace"><name>Throwable</name>
+  </compound>
+  <compound refid="namespace_tightenco_1_1_ziggy_1_1_ziggy" kind="namespace"><name>Tightenco::Ziggy::Ziggy</name>
+  </compound>
+  <compound refid="namespace_validates_requests" kind="namespace"><name>ValidatesRequests</name>
+  </compound>
+  <compound refid="add_subtier_suppliers_8php" kind="file"><name>addSubtierSuppliers.php</name>
+  </compound>
+  <compound refid="create_test_data_8php" kind="file"><name>createTestData.php</name>
+  </compound>
+  <compound refid="create_test_suppliers_8php" kind="file"><name>createTestSuppliers.php</name>
+  </compound>
+  <compound refid="_delete_data_8php" kind="file"><name>DeleteData.php</name>
+  </compound>
+  <compound refid="_give_suppliers100_8php" kind="file"><name>GiveSuppliers100.php</name>
+  </compound>
+  <compound refid="_import_o_o_r_8php" kind="file"><name>ImportOOR.php</name>
+  </compound>
+  <compound refid="_reset_database_8php" kind="file"><name>ResetDatabase.php</name>
+  </compound>
+  <compound refid="_seed_database_8php" kind="file"><name>SeedDatabase.php</name>
+  </compound>
+  <compound refid="_simulate_activity_dates_8php" kind="file"><name>SimulateActivityDates.php</name>
+  </compound>
+  <compound refid="_comment_changed_8php" kind="file"><name>CommentChanged.php</name>
+  </compound>
+  <compound refid="_commit_received_8php" kind="file"><name>CommitReceived.php</name>
+  </compound>
+  <compound refid="_lead_time_changed_8php" kind="file"><name>LeadTimeChanged.php</name>
+  </compound>
+  <compound refid="_line_delivered_8php" kind="file"><name>LineDelivered.php</name>
+  </compound>
+  <compound refid="_line_delivery_date_changed_8php" kind="file"><name>LineDeliveryDateChanged.php</name>
+  </compound>
+  <compound refid="_line_late_8php" kind="file"><name>LineLate.php</name>
+  </compound>
+  <compound refid="_line_net_price_changed_8php" kind="file"><name>LineNetPriceChanged.php</name>
+  </compound>
+  <compound refid="_line_quantity_changed_8php" kind="file"><name>LineQuantityChanged.php</name>
+  </compound>
+  <compound refid="_o_o_r_uploaded_8php" kind="file"><name>OORUploaded.php</name>
+  </compound>
+  <compound refid="_part_image_uploaded_8php" kind="file"><name>PartImageUploaded.php</name>
+  </compound>
+  <compound refid="_supplier_added_8php" kind="file"><name>SupplierAdded.php</name>
+  </compound>
+  <compound refid="_supplier_column_map_needed_8php" kind="file"><name>SupplierColumnMapNeeded.php</name>
+  </compound>
+  <compound refid="_supplier_o_o_r_uploaded_8php" kind="file"><name>SupplierOORUploaded.php</name>
+  </compound>
+  <compound refid="_handler_8php" kind="file"><name>Handler.php</name>
+  </compound>
+  <compound refid="_oor_export_8php" kind="file"><name>OorExport.php</name>
+  </compound>
+  <compound refid="_random_o_o_r_export_8php" kind="file"><name>RandomOORExport.php</name>
+  </compound>
+  <compound refid="_authenticated_session_controller_8php" kind="file"><name>AuthenticatedSessionController.php</name>
+  </compound>
+  <compound refid="_confirmable_password_controller_8php" kind="file"><name>ConfirmablePasswordController.php</name>
+  </compound>
+  <compound refid="_email_verification_notification_controller_8php" kind="file"><name>EmailVerificationNotificationController.php</name>
+  </compound>
+  <compound refid="_email_verification_prompt_controller_8php" kind="file"><name>EmailVerificationPromptController.php</name>
+  </compound>
+  <compound refid="_new_password_controller_8php" kind="file"><name>NewPasswordController.php</name>
+  </compound>
+  <compound refid="_password_controller_8php" kind="file"><name>PasswordController.php</name>
+  </compound>
+  <compound refid="_password_reset_link_controller_8php" kind="file"><name>PasswordResetLinkController.php</name>
+  </compound>
+  <compound refid="_registered_user_controller_8php" kind="file"><name>RegisteredUserController.php</name>
+  </compound>
+  <compound refid="_verify_email_controller_8php" kind="file"><name>VerifyEmailController.php</name>
+  </compound>
+  <compound refid="_column_controller_8php" kind="file"><name>ColumnController.php</name>
+  </compound>
+  <compound refid="_contact_controller_8php" kind="file"><name>ContactController.php</name>
+  </compound>
+  <compound refid="_controller_8php" kind="file"><name>Controller.php</name>
+  </compound>
+  <compound refid="_dashboard_controller_8php" kind="file"><name>DashboardController.php</name>
+  </compound>
+  <compound refid="_email_controller_8php" kind="file"><name>EmailController.php</name>
+  </compound>
+  <compound refid="_escalation_controller_8php" kind="file"><name>EscalationController.php</name>
+  </compound>
+  <compound refid="_finished_parts_controller_8php" kind="file"><name>FinishedPartsController.php</name>
+  </compound>
+  <compound refid="_home_controller_8php" kind="file"><name>HomeController.php</name>
+  </compound>
+  <compound refid="_import_controller_8php" kind="file"><name>ImportController.php</name>
+  </compound>
+  <compound refid="_ingestion_controller_8php" kind="file"><name>IngestionController.php</name>
+  </compound>
+  <compound refid="_line_controller_8php" kind="file"><name>LineController.php</name>
+  </compound>
+  <compound refid="_meeting_controller_8php" kind="file"><name>MeetingController.php</name>
+  </compound>
+  <compound refid="_order_controller_8php" kind="file"><name>OrderController.php</name>
+  </compound>
+  <compound refid="_plant_controller_8php" kind="file"><name>PlantController.php</name>
+  </compound>
+  <compound refid="_profile_controller_8php" kind="file"><name>ProfileController.php</name>
+  </compound>
+  <compound refid="_s_k_u_controller_8php" kind="file"><name>SKUController.php</name>
+  </compound>
+  <compound refid="_supplier_controller_8php" kind="file"><name>SupplierController.php</name>
+  </compound>
+  <compound refid="_touchpoint_controller_8php" kind="file"><name>TouchpointController.php</name>
+  </compound>
+  <compound refid="_user_controller_8php" kind="file"><name>UserController.php</name>
+  </compound>
+  <compound refid="_console_2_kernel_8php" kind="file"><name>Kernel.php</name>
+  </compound>
+  <compound refid="_http_2_kernel_8php" kind="file"><name>Kernel.php</name>
+  </compound>
+  <compound refid="_authenticate_8php" kind="file"><name>Authenticate.php</name>
+  </compound>
+  <compound refid="_encrypt_cookies_8php" kind="file"><name>EncryptCookies.php</name>
+  </compound>
+  <compound refid="_handle_inertia_requests_8php" kind="file"><name>HandleInertiaRequests.php</name>
+  </compound>
+  <compound refid="_prevent_requests_during_maintenance_8php" kind="file"><name>PreventRequestsDuringMaintenance.php</name>
+  </compound>
+  <compound refid="_redirect_if_authenticated_8php" kind="file"><name>RedirectIfAuthenticated.php</name>
+  </compound>
+  <compound refid="_trim_strings_8php" kind="file"><name>TrimStrings.php</name>
+  </compound>
+  <compound refid="_trust_hosts_8php" kind="file"><name>TrustHosts.php</name>
+  </compound>
+  <compound refid="_trust_proxies_8php" kind="file"><name>TrustProxies.php</name>
+  </compound>
+  <compound refid="_validate_signature_8php" kind="file"><name>ValidateSignature.php</name>
+  </compound>
+  <compound refid="_verify_csrf_token_8php" kind="file"><name>VerifyCsrfToken.php</name>
+  </compound>
+  <compound refid="_login_request_8php" kind="file"><name>LoginRequest.php</name>
+  </compound>
+  <compound refid="_profile_update_request_8php" kind="file"><name>ProfileUpdateRequest.php</name>
+  </compound>
+  <compound refid="_first_sheet_import_8php" kind="file"><name>FirstSheetImport.php</name>
+  </compound>
+  <compound refid="_first_sheet_import_batch_8php" kind="file"><name>FirstSheetImportBatch.php</name>
+  </compound>
+  <compound refid="_first_sheet_import_supplier_8php" kind="file"><name>FirstSheetImportSupplier.php</name>
+  </compound>
+  <compound refid="_first_sheet_import_supplier_column_map_needed_8php" kind="file"><name>FirstSheetImportSupplierColumnMapNeeded.php</name>
+  </compound>
+  <compound refid="_o_o_r_import_8php" kind="file"><name>OORImport.php</name>
+  </compound>
+  <compound refid="_supplier_column_map_needed_import_8php" kind="file"><name>SupplierColumnMapNeededImport.php</name>
+  </compound>
+  <compound refid="_supplier_o_o_r_import_8php" kind="file"><name>SupplierOORImport.php</name>
+  </compound>
+  <compound refid="_comment_changed_listener_8php" kind="file"><name>CommentChangedListener.php</name>
+  </compound>
+  <compound refid="_lead_time_changed_listener_8php" kind="file"><name>LeadTimeChangedListener.php</name>
+  </compound>
+  <compound refid="_line_delivered_listener_8php" kind="file"><name>LineDeliveredListener.php</name>
+  </compound>
+  <compound refid="_line_delivery_date_changed_listener_8php" kind="file"><name>LineDeliveryDateChangedListener.php</name>
+  </compound>
+  <compound refid="_line_late_listener_8php" kind="file"><name>LineLateListener.php</name>
+  </compound>
+  <compound refid="_line_net_price_changed_listener_8php" kind="file"><name>LineNetPriceChangedListener.php</name>
+  </compound>
+  <compound refid="_line_quantity_changed_listener_8php" kind="file"><name>LineQuantityChangedListener.php</name>
+  </compound>
+  <compound refid="_o_o_r_uploaded_listener_8php" kind="file"><name>OORUploadedListener.php</name>
+  </compound>
+  <compound refid="_part_image_uploaded_listener_8php" kind="file"><name>PartImageUploadedListener.php</name>
+  </compound>
+  <compound refid="_supplier_added_listener_8php" kind="file"><name>SupplierAddedListener.php</name>
+  </compound>
+  <compound refid="_supplier_column_map_needed_listener_8php" kind="file"><name>SupplierColumnMapNeededListener.php</name>
+  </compound>
+  <compound refid="_supplier_o_o_r_uploaded_listener_8php" kind="file"><name>SupplierOORUploadedListener.php</name>
+  </compound>
+  <compound refid="_update_supplier_score_8php" kind="file"><name>UpdateSupplierScore.php</name>
+  </compound>
+  <compound refid="_data_ingested_8php" kind="file"><name>DataIngested.php</name>
+  </compound>
+  <compound refid="_supplier_request_8php" kind="file"><name>SupplierRequest.php</name>
+  </compound>
+  <compound refid="_weekly_update_8php" kind="file"><name>WeeklyUpdate.php</name>
+  </compound>
+  <compound refid="_activity_8php" kind="file"><name>Activity.php</name>
+  </compound>
+  <compound refid="_agendaitem_8php" kind="file"><name>Agendaitem.php</name>
+  </compound>
+  <compound refid="_chart_8php" kind="file"><name>Chart.php</name>
+  </compound>
+  <compound refid="_column_8php" kind="file"><name>Column.php</name>
+  </compound>
+  <compound refid="_column___map_8php" kind="file"><name>Column_Map.php</name>
+  </compound>
+  <compound refid="_comment_8php" kind="file"><name>Comment.php</name>
+  </compound>
+  <compound refid="_contact_8php" kind="file"><name>Contact.php</name>
+  </compound>
+  <compound refid="_delta_8php" kind="file"><name>Delta.php</name>
+  </compound>
+  <compound refid="_email_8php" kind="file"><name>Email.php</name>
+  </compound>
+  <compound refid="_escalation_8php" kind="file"><name>Escalation.php</name>
+  </compound>
+  <compound refid="_finished_part_8php" kind="file"><name>FinishedPart.php</name>
+  </compound>
+  <compound refid="_ingestion_8php" kind="file"><name>Ingestion.php</name>
+  </compound>
+  <compound refid="_line_8php" kind="file"><name>Line.php</name>
+  </compound>
+  <compound refid="_line_activity_8php" kind="file"><name>LineActivity.php</name>
+  </compound>
+  <compound refid="_meeting_8php" kind="file"><name>Meeting.php</name>
+  </compound>
+  <compound refid="_meeting_item_8php" kind="file"><name>MeetingItem.php</name>
+  </compound>
+  <compound refid="_meeting_item_type_8php" kind="file"><name>MeetingItemType.php</name>
+  </compound>
+  <compound refid="_order_8php" kind="file"><name>Order.php</name>
+  </compound>
+  <compound refid="_plant_8php" kind="file"><name>Plant.php</name>
+  </compound>
+  <compound refid="_qualification___user_8php" kind="file"><name>Qualification_User.php</name>
+  </compound>
+  <compound refid="_role_8php" kind="file"><name>Role.php</name>
+  </compound>
+  <compound refid="_shipment_8php" kind="file"><name>Shipment.php</name>
+  </compound>
+  <compound refid="_shippinglocation_8php" kind="file"><name>Shippinglocation.php</name>
+  </compound>
+  <compound refid="_shippinglocationcontact_8php" kind="file"><name>Shippinglocationcontact.php</name>
+  </compound>
+  <compound refid="_sku_8php" kind="file"><name>Sku.php</name>
+  </compound>
+  <compound refid="_skudetail_8php" kind="file"><name>Skudetail.php</name>
+  </compound>
+  <compound refid="_supplier_8php" kind="file"><name>Supplier.php</name>
+  </compound>
+  <compound refid="_supplier_column_map_8php" kind="file"><name>SupplierColumnMap.php</name>
+  </compound>
+  <compound refid="_supplierscore_8php" kind="file"><name>Supplierscore.php</name>
+  </compound>
+  <compound refid="_task_8php" kind="file"><name>Task.php</name>
+  </compound>
+  <compound refid="_taskcolumn_8php" kind="file"><name>Taskcolumn.php</name>
+  </compound>
+  <compound refid="_taskcomment_8php" kind="file"><name>Taskcomment.php</name>
+  </compound>
+  <compound refid="_tenant_8php" kind="file"><name>Tenant.php</name>
+  </compound>
+  <compound refid="_touchpoint_8php" kind="file"><name>Touchpoint.php</name>
+  </compound>
+  <compound refid="_ups_8php" kind="file"><name>Ups.php</name>
+  </compound>
+  <compound refid="_user_8php" kind="file"><name>User.php</name>
+  </compound>
+  <compound refid="_user___supplier_8php" kind="file"><name>User_Supplier.php</name>
+  </compound>
+  <compound refid="_supplier_policy_8php" kind="file"><name>SupplierPolicy.php</name>
+  </compound>
+  <compound refid="_touchpoint_policy_8php" kind="file"><name>TouchpointPolicy.php</name>
+  </compound>
+  <compound refid="_app_service_provider_8php" kind="file"><name>AppServiceProvider.php</name>
+  </compound>
+  <compound refid="_auth_service_provider_8php" kind="file"><name>AuthServiceProvider.php</name>
+  </compound>
+  <compound refid="_broadcast_service_provider_8php" kind="file"><name>BroadcastServiceProvider.php</name>
+  </compound>
+  <compound refid="_event_service_provider_8php" kind="file"><name>EventServiceProvider.php</name>
+  </compound>
+  <compound refid="_route_service_provider_8php" kind="file"><name>RouteServiceProvider.php</name>
+  </compound>
+  <compound refid="_tenancy_service_provider_8php" kind="file"><name>TenancyServiceProvider.php</name>
+  </compound>
+  <compound refid="dir_d422163b96683743ed3963d4aac17747" kind="dir"><name>app</name>
+  </compound>
+  <compound refid="dir_88a4777cc813fc77c471bd7c38dc0c56" kind="dir"><name>app/Http/Controllers/Auth</name>
+  </compound>
+  <compound refid="dir_dbad779e015b75af16ff90024f3784d6" kind="dir"><name>app/Http/Requests/Auth</name>
+  </compound>
+  <compound refid="dir_2aabf48db7e26e6e05c13fa13c60612c" kind="dir"><name>app/Console/Commands</name>
+  </compound>
+  <compound refid="dir_b67ad1f52c1717b3844b7e84564e94bb" kind="dir"><name>app/Console</name>
+  </compound>
+  <compound refid="dir_27ba1f74dc73f44d4e9ca42f2dd266ec" kind="dir"><name>app/Http/Controllers</name>
+  </compound>
+  <compound refid="dir_879306aeba298f63b63e29fb4db47081" kind="dir"><name>app/Events</name>
+  </compound>
+  <compound refid="dir_17ad28703916f734b4c8becb6f0b42a0" kind="dir"><name>app/Exceptions</name>
+  </compound>
+  <compound refid="dir_cda34c69f3f9e18121923ccbd5bc1dc8" kind="dir"><name>app/Exports</name>
+  </compound>
+  <compound refid="dir_0c4ee04d587063ecca91a7f35642b9f3" kind="dir"><name>app/Http</name>
+  </compound>
+  <compound refid="dir_790e23397f956bfa67ee001e5c03c384" kind="dir"><name>app/Imports</name>
+  </compound>
+  <compound refid="dir_30f46ecefe395d79eedca8ea68668001" kind="dir"><name>app/Listeners</name>
+  </compound>
+  <compound refid="dir_68e1400a89a188619b19ea711ceeab7d" kind="dir"><name>app/Mail</name>
+  </compound>
+  <compound refid="dir_ef2b2488ec94a4625ca5ab9839baa414" kind="dir"><name>app/Http/Middleware</name>
+  </compound>
+  <compound refid="dir_fc6199fba97859a095e1d9a5aa5fae23" kind="dir"><name>app/Models</name>
+  </compound>
+  <compound refid="dir_40a1d9eb7a98c3857c61418cc8990e05" kind="dir"><name>app/Policies</name>
+  </compound>
+  <compound refid="dir_07d79607a5b3b5e8afcff74e4c422a5d" kind="dir"><name>app/Providers</name>
+  </compound>
+  <compound refid="dir_18c131bda29cca4f3467a28f24d84656" kind="dir"><name>app/Http/Requests</name>
+  </compound>
+</doxygenindex>

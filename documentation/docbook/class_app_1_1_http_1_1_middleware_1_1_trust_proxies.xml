@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_middleware_1_1_trust_proxies" xml:lang="en-US">
+<title>TrustProxies Class Reference</title>
+<indexterm><primary>TrustProxies</primary></indexterm>
+<para>Inheritance diagram for TrustProxies:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_middleware_1_1_trust_proxies.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_middleware_1_1_trust_proxies_1a9fed7e7c82160e6b32d7ed4c8193c195"/><emphasis role="strong">$proxies</emphasis></para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_middleware_1_1_trust_proxies_1a52500036ee807241b8b4b7e2367c49ef">$headers</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Field Documentation</title>
+<anchor xml:id="_class_app_1_1_http_1_1_middleware_1_1_trust_proxies_1a52500036ee807241b8b4b7e2367c49ef"/><section>
+    <title>$headers</title>
+<indexterm><primary>$headers</primary><secondary>TrustProxies</secondary></indexterm>
+<indexterm><primary>TrustProxies</primary><secondary>$headers</secondary></indexterm>
+<para><computeroutput>$headers<computeroutput>[protected]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Request::HEADER_X_FORWARDED_FOR&#32;|
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Request::HEADER_X_FORWARDED_HOST&#32;|
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Request::HEADER_X_FORWARDED_PORT&#32;|
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Request::HEADER_X_FORWARDED_PROTO&#32;|
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Request::HEADER_X_FORWARDED_AWS_ELB
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Middleware/TrustProxies.php</section>
+</section>

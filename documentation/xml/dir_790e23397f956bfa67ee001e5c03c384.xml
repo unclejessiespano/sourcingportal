@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_790e23397f956bfa67ee001e5c03c384" kind="dir">
+    <compoundname>app/Imports</compoundname>
+    <innerfile refid="_first_sheet_import_8php">FirstSheetImport.php</innerfile>
+    <innerfile refid="_first_sheet_import_batch_8php">FirstSheetImportBatch.php</innerfile>
+    <innerfile refid="_first_sheet_import_supplier_8php">FirstSheetImportSupplier.php</innerfile>
+    <innerfile refid="_first_sheet_import_supplier_column_map_needed_8php">FirstSheetImportSupplierColumnMapNeeded.php</innerfile>
+    <innerfile refid="_o_o_r_import_8php">OORImport.php</innerfile>
+    <innerfile refid="_supplier_column_map_needed_import_8php">SupplierColumnMapNeededImport.php</innerfile>
+    <innerfile refid="_supplier_o_o_r_import_8php">SupplierOORImport.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Imports/"/>
+  </compounddef>
+</doxygen>

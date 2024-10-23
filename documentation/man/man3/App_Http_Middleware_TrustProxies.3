@@ -1,0 +1,38 @@
+.TH "TrustProxies" 3 "Mouker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TrustProxies
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Middleware\&.
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$proxies\fP"
+.br
+.ti -1c
+.RI "\fB$headers\fP"
+.br
+.in -1c
+.SH "Field Documentation"
+.PP 
+.SS "$headers\fR [protected]\fP"
+\fBInitial value:\fP
+.nf
+=
+        Request::HEADER_X_FORWARDED_FOR |
+        Request::HEADER_X_FORWARDED_HOST |
+        Request::HEADER_X_FORWARDED_PORT |
+        Request::HEADER_X_FORWARDED_PROTO |
+        Request::HEADER_X_FORWARDED_AWS_ELB
+.PP
+.fi
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mouker from the source code\&.

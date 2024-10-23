@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_fc6199fba97859a095e1d9a5aa5fae23" kind="dir">
+    <compoundname>app/Models</compoundname>
+    <innerfile refid="_activity_8php">Activity.php</innerfile>
+    <innerfile refid="_agendaitem_8php">Agendaitem.php</innerfile>
+    <innerfile refid="_chart_8php">Chart.php</innerfile>
+    <innerfile refid="_column_8php">Column.php</innerfile>
+    <innerfile refid="_column___map_8php">Column_Map.php</innerfile>
+    <innerfile refid="_comment_8php">Comment.php</innerfile>
+    <innerfile refid="_contact_8php">Contact.php</innerfile>
+    <innerfile refid="_delta_8php">Delta.php</innerfile>
+    <innerfile refid="_email_8php">Email.php</innerfile>
+    <innerfile refid="_escalation_8php">Escalation.php</innerfile>
+    <innerfile refid="_finished_part_8php">FinishedPart.php</innerfile>
+    <innerfile refid="_ingestion_8php">Ingestion.php</innerfile>
+    <innerfile refid="_line_8php">Line.php</innerfile>
+    <innerfile refid="_line_activity_8php">LineActivity.php</innerfile>
+    <innerfile refid="_meeting_8php">Meeting.php</innerfile>
+    <innerfile refid="_meeting_item_8php">MeetingItem.php</innerfile>
+    <innerfile refid="_meeting_item_type_8php">MeetingItemType.php</innerfile>
+    <innerfile refid="_order_8php">Order.php</innerfile>
+    <innerfile refid="_plant_8php">Plant.php</innerfile>
+    <innerfile refid="_qualification___user_8php">Qualification_User.php</innerfile>
+    <innerfile refid="_role_8php">Role.php</innerfile>
+    <innerfile refid="_shipment_8php">Shipment.php</innerfile>
+    <innerfile refid="_shippinglocation_8php">Shippinglocation.php</innerfile>
+    <innerfile refid="_shippinglocationcontact_8php">Shippinglocationcontact.php</innerfile>
+    <innerfile refid="_sku_8php">Sku.php</innerfile>
+    <innerfile refid="_skudetail_8php">Skudetail.php</innerfile>
+    <innerfile refid="_supplier_8php">Supplier.php</innerfile>
+    <innerfile refid="_supplier_column_map_8php">SupplierColumnMap.php</innerfile>
+    <innerfile refid="_supplierscore_8php">Supplierscore.php</innerfile>
+    <innerfile refid="_task_8php">Task.php</innerfile>
+    <innerfile refid="_taskcolumn_8php">Taskcolumn.php</innerfile>
+    <innerfile refid="_taskcomment_8php">Taskcomment.php</innerfile>
+    <innerfile refid="_tenant_8php">Tenant.php</innerfile>
+    <innerfile refid="_touchpoint_8php">Touchpoint.php</innerfile>
+    <innerfile refid="_ups_8php">Ups.php</innerfile>
+    <innerfile refid="_user_8php">User.php</innerfile>
+    <innerfile refid="_user___supplier_8php">User_Supplier.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Models/"/>
+  </compounddef>
+</doxygen>

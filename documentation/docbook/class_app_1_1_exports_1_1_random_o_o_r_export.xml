@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_exports_1_1_random_o_o_r_export" xml:lang="en-US">
+<title>RandomOORExport Class Reference</title>
+<indexterm><primary>RandomOORExport</primary></indexterm>
+<para>Inheritance diagram for RandomOORExport:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_exports_1_1_random_o_o_r_export.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_exports_1_1_random_o_o_r_export_1a3d46f2f84b0bf0de1921a0cb899bedff">generator</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_exports_1_1_random_o_o_r_export_1a3d46f2f84b0bf0de1921a0cb899bedff"/><section>
+    <title>generator()</title>
+<indexterm><primary>generator</primary><secondary>RandomOORExport</secondary></indexterm>
+<indexterm><primary>RandomOORExport</primary><secondary>generator</secondary></indexterm>
+<para><computeroutput>generator ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>\Illuminate\Support\Collection </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Exports/RandomOORExport.php</section>
+</section>

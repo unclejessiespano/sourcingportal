@@ -1,0 +1,92 @@
+\doxysection{User Class Reference}
+\hypertarget{class_app_1_1_models_1_1_user}{}\label{class_app_1_1_models_1_1_user}\index{User@{User}}
+Inheritance diagram for User\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_app_1_1_models_1_1_user}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_app_1_1_models_1_1_user_a562a77dbdcab3dd4b357c811886f1917}\label{class_app_1_1_models_1_1_user_a562a77dbdcab3dd4b357c811886f1917} 
+{\bfseries team} ()
+\item 
+\Hypertarget{class_app_1_1_models_1_1_user_ad27682f1652d35b5e4fd90e70d6e35ef}\label{class_app_1_1_models_1_1_user_ad27682f1652d35b5e4fd90e70d6e35ef} 
+{\bfseries suppliers} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_app_1_1_models_1_1_user_aa8183e03ae0ad9bc777f3a2127a1853e}\label{class_app_1_1_models_1_1_user_aa8183e03ae0ad9bc777f3a2127a1853e} 
+static {\bfseries assign\+Users\+To\+Manager} (\$users, \$manager\+\_\+id)
+\item 
+\Hypertarget{class_app_1_1_models_1_1_user_a20e870bbf16ce47565d52f2bcaa69e24}\label{class_app_1_1_models_1_1_user_a20e870bbf16ce47565d52f2bcaa69e24} 
+static {\bfseries create\+User} (Request \$request)
+\item 
+\Hypertarget{class_app_1_1_models_1_1_user_a9cf25633c312d7cf22455bd87dd9f04e}\label{class_app_1_1_models_1_1_user_a9cf25633c312d7cf22455bd87dd9f04e} 
+static {\bfseries get\+Users\+For\+Team} (\$id)
+\item 
+\Hypertarget{class_app_1_1_models_1_1_user_a4be57d44ddce3540272468b0e5509ad6}\label{class_app_1_1_models_1_1_user_a4be57d44ddce3540272468b0e5509ad6} 
+static {\bfseries update\+User} (Request \$request)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_models_1_1_user_a6a90e74ccdf5efd70d51d10c906f8e32}{\$fillable}}
+\item 
+\mbox{\hyperlink{class_app_1_1_models_1_1_user_a4a374564d2858d8ae869a8fb890aad56}{\$hidden}}
+\item 
+\mbox{\hyperlink{class_app_1_1_models_1_1_user_a1649e00448c72a723c2c79fe5f915b97}{\$casts}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{class_app_1_1_models_1_1_user_a1649e00448c72a723c2c79fe5f915b97}\index{User@{User}!\$casts@{\$casts}}
+\index{\$casts@{\$casts}!User@{User}}
+\doxysubsubsection{\texorpdfstring{\$casts}{\$casts}}
+{\footnotesize\ttfamily \label{class_app_1_1_models_1_1_user_a1649e00448c72a723c2c79fe5f915b97} 
+\$casts\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'email\_verified\_at'}\ =>\ \textcolor{stringliteral}{'datetime'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'password'}\ =>\ \textcolor{stringliteral}{'hashed'},}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{class_app_1_1_models_1_1_user_a6a90e74ccdf5efd70d51d10c906f8e32}\index{User@{User}!\$fillable@{\$fillable}}
+\index{\$fillable@{\$fillable}!User@{User}}
+\doxysubsubsection{\texorpdfstring{\$fillable}{\$fillable}}
+{\footnotesize\ttfamily \label{class_app_1_1_models_1_1_user_a6a90e74ccdf5efd70d51d10c906f8e32} 
+\$fillable\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'name'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'email'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'password'},}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{class_app_1_1_models_1_1_user_a4a374564d2858d8ae869a8fb890aad56}\index{User@{User}!\$hidden@{\$hidden}}
+\index{\$hidden@{\$hidden}!User@{User}}
+\doxysubsubsection{\texorpdfstring{\$hidden}{\$hidden}}
+{\footnotesize\ttfamily \label{class_app_1_1_models_1_1_user_a4a374564d2858d8ae869a8fb890aad56} 
+\$hidden\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'password'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{stringliteral}{'remember\_token'},}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Models/User.\+php\end{DoxyCompactItemize}

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_policies_1_1_supplier_policy" kind="class" language="PHP" prot="public">
+    <compoundname>App::Policies::SupplierPolicy</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_policies_1_1_supplier_policy_1ab91821546d40b791783ecdfab9622e7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>viewAny</definition>
+        <argsstring>(User $user)</argsstring>
+        <name>viewAny</name>
+        <qualifiedname>App\Policies\SupplierPolicy\viewAny</qualifiedname>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>$user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine whether the user can view any models. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Policies/SupplierPolicy.php" line="14" column="21" bodyfile="app/Policies/SupplierPolicy.php" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_policies_1_1_supplier_policy_1a473b0c02c88a0fa078c4cf3e84875457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>view</definition>
+        <argsstring>(User $user, Supplier $supplier)</argsstring>
+        <name>view</name>
+        <qualifiedname>App\Policies\SupplierPolicy\view</qualifiedname>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>$user</declname>
+        </param>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_supplier" kindref="compound">Supplier</ref></type>
+          <declname>$supplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine whether the user can view the model. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Policies/SupplierPolicy.php" line="22" column="21" bodyfile="app/Policies/SupplierPolicy.php" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_policies_1_1_supplier_policy_1a7626db07d2ee9a50d2839c019dbf037d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create</definition>
+        <argsstring>(User $user)</argsstring>
+        <name>create</name>
+        <qualifiedname>App\Policies\SupplierPolicy\create</qualifiedname>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>$user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine whether the user can create models. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Policies/SupplierPolicy.php" line="30" column="21" bodyfile="app/Policies/SupplierPolicy.php" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_policies_1_1_supplier_policy_1a358a423d9f8cd9199b8744b6f90626fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>update</definition>
+        <argsstring>(User $user, Supplier $supplier)</argsstring>
+        <name>update</name>
+        <qualifiedname>App\Policies\SupplierPolicy\update</qualifiedname>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>$user</declname>
+        </param>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_supplier" kindref="compound">Supplier</ref></type>
+          <declname>$supplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine whether the user can update the model. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Policies/SupplierPolicy.php" line="38" column="21" bodyfile="app/Policies/SupplierPolicy.php" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_policies_1_1_supplier_policy_1accf6af06442da3f3cef703eb84c38a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete</definition>
+        <argsstring>(User $user, User_Supplier $userSupplier)</argsstring>
+        <name>delete</name>
+        <qualifiedname>App\Policies\SupplierPolicy\delete</qualifiedname>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>$user</declname>
+        </param>
+        <param>
+          <type>User_Supplier</type>
+          <declname>$userSupplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine whether the user can delete the model. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Policies/SupplierPolicy.php" line="46" column="21" bodyfile="app/Policies/SupplierPolicy.php" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_policies_1_1_supplier_policy_1a1a4a4c2f601bb661f5c314dddf7717db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>restore</definition>
+        <argsstring>(User $user, Supplier $supplier)</argsstring>
+        <name>restore</name>
+        <qualifiedname>App\Policies\SupplierPolicy\restore</qualifiedname>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>$user</declname>
+        </param>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_supplier" kindref="compound">Supplier</ref></type>
+          <declname>$supplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine whether the user can restore the model. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Policies/SupplierPolicy.php" line="54" column="21" bodyfile="app/Policies/SupplierPolicy.php" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_policies_1_1_supplier_policy_1a134d9545dacc345d74e53276e0f3ddbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>forceDelete</definition>
+        <argsstring>(User $user, Supplier $supplier)</argsstring>
+        <name>forceDelete</name>
+        <qualifiedname>App\Policies\SupplierPolicy\forceDelete</qualifiedname>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>$user</declname>
+        </param>
+        <param>
+          <type><ref refid="class_app_1_1_models_1_1_supplier" kindref="compound">Supplier</ref></type>
+          <declname>$supplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine whether the user can permanently delete the model. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Policies/SupplierPolicy.php" line="62" column="21" bodyfile="app/Policies/SupplierPolicy.php" bodystart="62" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Policies/SupplierPolicy.php" line="9" column="1" bodyfile="app/Policies/SupplierPolicy.php" bodystart="10" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_policies_1_1_supplier_policy_1a7626db07d2ee9a50d2839c019dbf037d" prot="public" virt="non-virtual"><scope>App::Policies::SupplierPolicy</scope><name>create</name></member>
+      <member refid="class_app_1_1_policies_1_1_supplier_policy_1accf6af06442da3f3cef703eb84c38a5b" prot="public" virt="non-virtual"><scope>App::Policies::SupplierPolicy</scope><name>delete</name></member>
+      <member refid="class_app_1_1_policies_1_1_supplier_policy_1a134d9545dacc345d74e53276e0f3ddbf" prot="public" virt="non-virtual"><scope>App::Policies::SupplierPolicy</scope><name>forceDelete</name></member>
+      <member refid="class_app_1_1_policies_1_1_supplier_policy_1a1a4a4c2f601bb661f5c314dddf7717db" prot="public" virt="non-virtual"><scope>App::Policies::SupplierPolicy</scope><name>restore</name></member>
+      <member refid="class_app_1_1_policies_1_1_supplier_policy_1a358a423d9f8cd9199b8744b6f90626fd" prot="public" virt="non-virtual"><scope>App::Policies::SupplierPolicy</scope><name>update</name></member>
+      <member refid="class_app_1_1_policies_1_1_supplier_policy_1a473b0c02c88a0fa078c4cf3e84875457" prot="public" virt="non-virtual"><scope>App::Policies::SupplierPolicy</scope><name>view</name></member>
+      <member refid="class_app_1_1_policies_1_1_supplier_policy_1ab91821546d40b791783ecdfab9622e7d" prot="public" virt="non-virtual"><scope>App::Policies::SupplierPolicy</scope><name>viewAny</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

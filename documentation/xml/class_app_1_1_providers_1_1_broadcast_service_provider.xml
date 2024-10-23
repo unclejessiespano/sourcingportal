@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_providers_1_1_broadcast_service_provider" kind="class" language="PHP" prot="public">
+    <compoundname>App::Providers::BroadcastServiceProvider</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ServiceProvider</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_providers_1_1_broadcast_service_provider_1a8814ea4b5beba763c570b4818980814e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>boot</definition>
+        <argsstring>()</argsstring>
+        <name>boot</name>
+        <qualifiedname>App\Providers\BroadcastServiceProvider\boot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bootstrap any application services. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/BroadcastServiceProvider.php" line="13" column="21" bodyfile="app/Providers/BroadcastServiceProvider.php" bodystart="13" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BroadcastServiceProvider</label>
+        <link refid="class_app_1_1_providers_1_1_broadcast_service_provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ServiceProvider</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BroadcastServiceProvider</label>
+        <link refid="class_app_1_1_providers_1_1_broadcast_service_provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ServiceProvider</label>
+      </node>
+    </collaborationgraph>
+    <location file="app/Providers/BroadcastServiceProvider.php" line="8" column="1" bodyfile="app/Providers/BroadcastServiceProvider.php" bodystart="9" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_providers_1_1_broadcast_service_provider_1a8814ea4b5beba763c570b4818980814e" prot="public" virt="non-virtual"><scope>App::Providers::BroadcastServiceProvider</scope><name>boot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_imports_1_1_first_sheet_import" xml:lang="en-US">
+<title>FirstSheetImport Class Reference</title>
+<indexterm><primary>FirstSheetImport</primary></indexterm>
+<para>Inheritance diagram for FirstSheetImport:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_imports_1_1_first_sheet_import.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_imports_1_1_first_sheet_import_1a935540baa141dcd4a829c2f07bf94cef"/><emphasis role="strong">collection</emphasis> (Collection $rows)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_imports_1_1_first_sheet_import_1afe6a84453942a529cb5b358513773821"/><emphasis role="strong">chunkSize</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Imports/FirstSheetImport.php</section>

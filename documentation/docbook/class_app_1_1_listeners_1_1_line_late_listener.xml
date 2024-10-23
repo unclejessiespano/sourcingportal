@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_listeners_1_1_line_late_listener" xml:lang="en-US">
+<title>LineLateListener Class Reference</title>
+<indexterm><primary>LineLateListener</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_listeners_1_1_line_late_listener_1a095c5d389db211932136b53f25f39685">__construct</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_listeners_1_1_line_late_listener_1a5e7707908631d9e9a81f4d6ade3bb92e">handle</link> (<link linkend="_class_app_1_1_events_1_1_line_late">LineLate</link> $event)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_app_1_1_listeners_1_1_line_late_listener_1a095c5d389db211932136b53f25f39685"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>LineLateListener</secondary></indexterm>
+<indexterm><primary>LineLateListener</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct ( )</computeroutput></para>
+<para>Create the event listener. </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_listeners_1_1_line_late_listener_1a5e7707908631d9e9a81f4d6ade3bb92e"/><section>
+    <title>handle()</title>
+<indexterm><primary>handle</primary><secondary>LineLateListener</secondary></indexterm>
+<indexterm><primary>LineLateListener</primary><secondary>handle</secondary></indexterm>
+<para><computeroutput>handle (<link linkend="_class_app_1_1_events_1_1_line_late">LineLate</link> $event)</computeroutput></para>
+<para>Handle the event. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Listeners/LineLateListener.php</section>
+</section>

@@ -1,0 +1,50 @@
+.TH "WeeklyUpdate" 3 "Mouker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WeeklyUpdate
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Mailable\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (protected $date, protected $markdown_table_percentPastDueSuppliers, protected $lineChanges)"
+.br
+.ti -1c
+.RI "\fBenvelope\fP ()"
+.br
+.ti -1c
+.RI "\fBcontent\fP ()"
+.br
+.ti -1c
+.RI "\fBattachments\fP ()"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (protected $date, protected $markdown_table_percentPastDueSuppliers, protected $lineChanges)"
+Create a new message instance\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "attachments ()"
+Get the attachments for the message\&.
+
+.PP
+\fBReturns\fP
+.RS 4
+array<int, \\Illuminate\\Mail\\Mailables\\Attachment> 
+.RE
+.PP
+
+.SS "content ()"
+Get the message content definition\&. 
+.SS "envelope ()"
+Get the message envelope\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mouker from the source code\&.

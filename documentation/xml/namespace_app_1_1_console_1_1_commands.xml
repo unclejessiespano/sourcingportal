@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_console_1_1_commands" kind="namespace" language="PHP">
+    <compoundname>App::Console::Commands</compoundname>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1add_subtier_suppliers" prot="public">App::Console::Commands::addSubtierSuppliers</innerclass>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1create_test_data" prot="public">App::Console::Commands::createTestData</innerclass>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1create_test_suppliers" prot="public">App::Console::Commands::createTestSuppliers</innerclass>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1_delete_data" prot="public">App::Console::Commands::DeleteData</innerclass>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1_give_suppliers100" prot="public">App::Console::Commands::GiveSuppliers100</innerclass>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1_import_o_o_r" prot="public">App::Console::Commands::ImportOOR</innerclass>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1_reset_database" prot="public">App::Console::Commands::ResetDatabase</innerclass>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1_seed_database" prot="public">App::Console::Commands::SeedDatabase</innerclass>
+    <innerclass refid="class_app_1_1_console_1_1_commands_1_1_simulate_activity_dates" prot="public">App::Console::Commands::SimulateActivityDates</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Console/Commands/addSubtierSuppliers.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

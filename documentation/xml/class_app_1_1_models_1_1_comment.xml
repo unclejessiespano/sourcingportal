@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_comment" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Comment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_comment_1ae8a275690ff1b618e1947378b0ed73ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user</definition>
+        <argsstring>()</argsstring>
+        <name>user</name>
+        <qualifiedname>App\Models\Comment\user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Comment.php" line="13" column="21" bodyfile="app/Models/Comment.php" bodystart="13" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_comment_1a47a5904f0cf1e429ae46d6113786e2b0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static addComment</definition>
+        <argsstring>($activity_id, $line_id, $po_id, $sku_id, $line, $identifier, $comment)</argsstring>
+        <name>addComment</name>
+        <qualifiedname>App\Models\Comment\addComment</qualifiedname>
+        <param>
+          <declname>$activity_id</declname>
+        </param>
+        <param>
+          <declname>$line_id</declname>
+        </param>
+        <param>
+          <declname>$po_id</declname>
+        </param>
+        <param>
+          <declname>$sku_id</declname>
+        </param>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <param>
+          <declname>$identifier</declname>
+        </param>
+        <param>
+          <declname>$comment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Comment.php" line="17" column="28" bodyfile="app/Models/Comment.php" bodystart="17" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Comment</label>
+        <link refid="class_app_1_1_models_1_1_comment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Comment</label>
+        <link refid="class_app_1_1_models_1_1_comment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Comment.php" line="9" column="1" bodyfile="app/Models/Comment.php" bodystart="10" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_comment_1a47a5904f0cf1e429ae46d6113786e2b0" prot="public" virt="non-virtual"><scope>App::Models::Comment</scope><name>addComment</name></member>
+      <member refid="class_app_1_1_models_1_1_comment_1ae8a275690ff1b618e1947378b0ed73ae" prot="public" virt="non-virtual"><scope>App::Models::Comment</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

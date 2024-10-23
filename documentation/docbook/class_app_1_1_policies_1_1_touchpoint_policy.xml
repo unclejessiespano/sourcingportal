@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_policies_1_1_touchpoint_policy" xml:lang="en-US">
+<title>TouchpointPolicy Class Reference</title>
+<indexterm><primary>TouchpointPolicy</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_touchpoint_policy_1ab91821546d40b791783ecdfab9622e7d">viewAny</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_touchpoint_policy_1aef48a7f83d54fe20839a5b46eac86497">view</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_touchpoint">Touchpoint</link> $touchpoint)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_touchpoint_policy_1a7626db07d2ee9a50d2839c019dbf037d">create</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_touchpoint_policy_1a7a77ea2879d7b40806f2361b842750a6">update</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_touchpoint">Touchpoint</link> $touchpoint)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_touchpoint_policy_1a54aca1b56dac624135fa62a338997209">delete</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_touchpoint">Touchpoint</link> $touchpoint)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_touchpoint_policy_1a483f9ffb80d0b6eeea999ef44e4c2a90">restore</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_touchpoint">Touchpoint</link> $touchpoint)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_policies_1_1_touchpoint_policy_1aa2f183dd08b42f3addcc4843336b6384">forceDelete</link> (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_touchpoint">Touchpoint</link> $touchpoint)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_policies_1_1_touchpoint_policy_1a7626db07d2ee9a50d2839c019dbf037d"/><section>
+    <title>create()</title>
+<indexterm><primary>create</primary><secondary>TouchpointPolicy</secondary></indexterm>
+<indexterm><primary>TouchpointPolicy</primary><secondary>create</secondary></indexterm>
+<para><computeroutput>create (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user)</computeroutput></para>
+<para>Determine whether the user can create models. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_touchpoint_policy_1a54aca1b56dac624135fa62a338997209"/><section>
+    <title>delete()</title>
+<indexterm><primary>delete</primary><secondary>TouchpointPolicy</secondary></indexterm>
+<indexterm><primary>TouchpointPolicy</primary><secondary>delete</secondary></indexterm>
+<para><computeroutput>delete (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_touchpoint">Touchpoint</link> $touchpoint)</computeroutput></para>
+<para>Determine whether the user can delete the model. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_touchpoint_policy_1aa2f183dd08b42f3addcc4843336b6384"/><section>
+    <title>forceDelete()</title>
+<indexterm><primary>forceDelete</primary><secondary>TouchpointPolicy</secondary></indexterm>
+<indexterm><primary>TouchpointPolicy</primary><secondary>forceDelete</secondary></indexterm>
+<para><computeroutput>forceDelete (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_touchpoint">Touchpoint</link> $touchpoint)</computeroutput></para>
+<para>Determine whether the user can permanently delete the model. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_touchpoint_policy_1a483f9ffb80d0b6eeea999ef44e4c2a90"/><section>
+    <title>restore()</title>
+<indexterm><primary>restore</primary><secondary>TouchpointPolicy</secondary></indexterm>
+<indexterm><primary>TouchpointPolicy</primary><secondary>restore</secondary></indexterm>
+<para><computeroutput>restore (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_touchpoint">Touchpoint</link> $touchpoint)</computeroutput></para>
+<para>Determine whether the user can restore the model. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_touchpoint_policy_1a7a77ea2879d7b40806f2361b842750a6"/><section>
+    <title>update()</title>
+<indexterm><primary>update</primary><secondary>TouchpointPolicy</secondary></indexterm>
+<indexterm><primary>TouchpointPolicy</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>update (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_touchpoint">Touchpoint</link> $touchpoint)</computeroutput></para>
+<para>Determine whether the user can update the model. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_touchpoint_policy_1aef48a7f83d54fe20839a5b46eac86497"/><section>
+    <title>view()</title>
+<indexterm><primary>view</primary><secondary>TouchpointPolicy</secondary></indexterm>
+<indexterm><primary>TouchpointPolicy</primary><secondary>view</secondary></indexterm>
+<para><computeroutput>view (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user, <link linkend="_class_app_1_1_models_1_1_touchpoint">Touchpoint</link> $touchpoint)</computeroutput></para>
+<para>Determine whether the user can view the model. </para>
+</section>
+<anchor xml:id="_class_app_1_1_policies_1_1_touchpoint_policy_1ab91821546d40b791783ecdfab9622e7d"/><section>
+    <title>viewAny()</title>
+<indexterm><primary>viewAny</primary><secondary>TouchpointPolicy</secondary></indexterm>
+<indexterm><primary>TouchpointPolicy</primary><secondary>viewAny</secondary></indexterm>
+<para><computeroutput>viewAny (<link linkend="_class_app_1_1_models_1_1_user">User</link> $user)</computeroutput></para>
+<para>Determine whether the user can view any models. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Policies/TouchpointPolicy.php</section>
+</section>

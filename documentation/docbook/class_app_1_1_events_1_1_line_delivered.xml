@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_events_1_1_line_delivered" xml:lang="en-US">
+<title>LineDelivered Class Reference</title>
+<indexterm><primary>LineDelivered</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_events_1_1_line_delivered_1a03a6b28464242c672f08ddd24a5a195b">__construct</link> (public <link linkend="_class_app_1_1_models_1_1_line">Line</link> $line)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_events_1_1_line_delivered_1afdd67b80d67f15ce0ab9a0c254dad3bc">broadcastOn</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_app_1_1_events_1_1_line_delivered_1a03a6b28464242c672f08ddd24a5a195b"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>LineDelivered</secondary></indexterm>
+<indexterm><primary>LineDelivered</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct (public <link linkend="_class_app_1_1_models_1_1_line">Line</link> $line)</computeroutput></para>
+<para>Create a new event instance. </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_events_1_1_line_delivered_1afdd67b80d67f15ce0ab9a0c254dad3bc"/><section>
+    <title>broadcastOn()</title>
+<indexterm><primary>broadcastOn</primary><secondary>LineDelivered</secondary></indexterm>
+<indexterm><primary>LineDelivered</primary><secondary>broadcastOn</secondary></indexterm>
+<para><computeroutput>broadcastOn ( )</computeroutput></para>
+<para>Get the channels the event should broadcast on.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>array&lt;int, \Illuminate\Broadcasting\Channel&gt; </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Events/LineDelivered.php</section>
+</section>

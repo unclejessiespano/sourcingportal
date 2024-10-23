@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_18c131bda29cca4f3467a28f24d84656" kind="dir">
+    <compoundname>app/Http/Requests</compoundname>
+    <innerdir refid="dir_dbad779e015b75af16ff90024f3784d6">app/Http/Requests/Auth</innerdir>
+    <innerfile refid="_profile_update_request_8php">ProfileUpdateRequest.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Http/Requests/"/>
+  </compounddef>
+</doxygen>

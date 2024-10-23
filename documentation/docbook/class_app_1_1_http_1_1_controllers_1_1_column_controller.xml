@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_controllers_1_1_column_controller" xml:lang="en-US">
+<title>ColumnController Class Reference</title>
+<indexterm><primary>ColumnController</primary></indexterm>
+<para>Inheritance diagram for ColumnController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_controllers_1_1_column_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_column_controller_1a72c2be6fc60c42d0bb21d444ec81e80b"/><emphasis role="strong">mapcolumn</emphasis> (Request $request)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_column_controller_1a0a81ff2820010ff89e08481e381c223b"/><emphasis role="strong">mapcolumns</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_column_controller_1afe92f4525cd4b87443786d345b1ef34b"/><emphasis role="strong">mapcolumnssupplier</emphasis> (Request $request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Controllers/ColumnController.php</section>

@@ -1,0 +1,86 @@
+.TH "User" 3 "Mouker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+User
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Authenticatable\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBteam\fP ()"
+.br
+.ti -1c
+.RI "\fBsuppliers\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBassignUsersToManager\fP ($users, $manager_id)"
+.br
+.ti -1c
+.RI "static \fBcreateUser\fP (Request $request)"
+.br
+.ti -1c
+.RI "static \fBgetUsersForTeam\fP ($id)"
+.br
+.ti -1c
+.RI "static \fBupdateUser\fP (Request $request)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$fillable\fP"
+.br
+.ti -1c
+.RI "\fB$hidden\fP"
+.br
+.ti -1c
+.RI "\fB$casts\fP"
+.br
+.in -1c
+.SH "Field Documentation"
+.PP 
+.SS "$casts\fR [protected]\fP"
+\fBInitial value:\fP
+.nf
+= [
+        'email_verified_at' => 'datetime',
+        'password' => 'hashed',
+    ]
+.PP
+.fi
+
+.SS "$fillable\fR [protected]\fP"
+\fBInitial value:\fP
+.nf
+= [
+        'name',
+        'email',
+        'password',
+    ]
+.PP
+.fi
+
+.SS "$hidden\fR [protected]\fP"
+\fBInitial value:\fP
+.nf
+= [
+        'password',
+        'remember_token',
+    ]
+.PP
+.fi
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mouker from the source code\&.

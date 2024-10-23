@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_plant_8php" kind="file" language="PHP">
+    <compoundname>Plant.php</compoundname>
+    <innerclass refid="class_app_1_1_models_1_1_plant" prot="public">App::Models::Plant</innerclass>
+    <innernamespace refid="namespace_app_1_1_models">App::Models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Models;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Illuminate\Database\Eloquent\Factories\HasFactory;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>Illuminate\Database\Eloquent\Model;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>Illuminate\Support\Facades\Log;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_app_1_1_models_1_1_plant" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_models_1_1_plant" kindref="compound">Plant</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Model</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>HasFactory;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>orders(){</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;hasMany(</highlight><highlight class="stringliteral">&apos;App\Models\Order&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;plant_id&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>getMapMarkers($plants){</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markers<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($plants<sp/>as<sp/>$plant){</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$markers[]<sp/>=<sp/>[</highlight><highlight class="stringliteral">&quot;position&quot;</highlight><highlight class="normal">=&gt;[</highlight><highlight class="stringliteral">&quot;lat&quot;</highlight><highlight class="normal">=&gt;floatval($plant-&gt;lat),<sp/></highlight><highlight class="stringliteral">&quot;lng&quot;</highlight><highlight class="normal">=&gt;floatval($plant-&gt;lng)],<sp/></highlight><highlight class="stringliteral">&quot;title&quot;</highlight><highlight class="normal">=&gt;$plant-&gt;plant,<sp/></highlight><highlight class="stringliteral">&quot;label&quot;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&quot;A&quot;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$markers;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>getPlants(){</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$suppliers<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$plants<sp/>=<sp/>Plant::with(</highlight><highlight class="stringliteral">&apos;orders.lines&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;orders.supplier&apos;</highlight><highlight class="normal">)-&gt;get();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($plants<sp/>as<sp/>$key=&gt;$plant){</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($plant-&gt;orders<sp/>as<sp/>$order){</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$suppliers[]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">=&gt;$order-&gt;supplier-&gt;id,<sp/></highlight><highlight class="stringliteral">&apos;supplier_id&apos;</highlight><highlight class="normal">=&gt;$order-&gt;supplier-&gt;supplier_id,<sp/></highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">=&gt;$order-&gt;supplier-&gt;name);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$plant-&gt;suppliers<sp/>=<sp/>$suppliers;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$plant-&gt;marker<sp/>=<sp/>[</highlight><highlight class="stringliteral">&quot;position&quot;</highlight><highlight class="normal">=&gt;[</highlight><highlight class="stringliteral">&quot;lat&quot;</highlight><highlight class="normal">=&gt;floatval($plant-&gt;lat),<sp/></highlight><highlight class="stringliteral">&quot;lng&quot;</highlight><highlight class="normal">=&gt;floatval($plant-&gt;lng)],<sp/></highlight><highlight class="stringliteral">&quot;title&quot;</highlight><highlight class="normal">=&gt;$plant-&gt;plant,<sp/></highlight><highlight class="stringliteral">&quot;label&quot;</highlight><highlight class="normal">=&gt;(string)<sp/>$key];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$plants;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>savePlant($request){</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$model<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_models_1_1_plant" kindref="compound">Plant</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$model-&gt;plant<sp/>=<sp/>$request-&gt;plant_name;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$model-&gt;address<sp/>=<sp/>$request-&gt;address;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$model-&gt;city<sp/>=<sp/>$request-&gt;city;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$model-&gt;state<sp/>=<sp/>$request-&gt;state;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$model-&gt;zip<sp/>=<sp/>$request-&gt;zip;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$model-&gt;country<sp/>=<sp/>$request-&gt;country;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$model-&gt;lat<sp/>=<sp/>$request-&gt;lat;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$model-&gt;lng<sp/>=<sp/>$request-&gt;lng;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$model-&gt;coordinates<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&apos;(&quot;</highlight><highlight class="normal">.$request-&gt;lat.</highlight><highlight class="stringliteral">&quot;,<sp/>&quot;</highlight><highlight class="normal">.$request-&gt;lng.</highlight><highlight class="stringliteral">&quot;)&apos;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!$model-&gt;save()){</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Log::error(</highlight><highlight class="stringliteral">&quot;Couldn&apos;t<sp/>save<sp/>plant<sp/>&quot;</highlight><highlight class="normal">.$request-&gt;plant_name);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$model;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Models/Plant.php"/>
+  </compounddef>
+</doxygen>

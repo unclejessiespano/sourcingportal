@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_d422163b96683743ed3963d4aac17747" kind="dir">
+    <compoundname>app</compoundname>
+    <innerdir refid="dir_b67ad1f52c1717b3844b7e84564e94bb">app/Console</innerdir>
+    <innerdir refid="dir_879306aeba298f63b63e29fb4db47081">app/Events</innerdir>
+    <innerdir refid="dir_17ad28703916f734b4c8becb6f0b42a0">app/Exceptions</innerdir>
+    <innerdir refid="dir_cda34c69f3f9e18121923ccbd5bc1dc8">app/Exports</innerdir>
+    <innerdir refid="dir_0c4ee04d587063ecca91a7f35642b9f3">app/Http</innerdir>
+    <innerdir refid="dir_790e23397f956bfa67ee001e5c03c384">app/Imports</innerdir>
+    <innerdir refid="dir_30f46ecefe395d79eedca8ea68668001">app/Listeners</innerdir>
+    <innerdir refid="dir_68e1400a89a188619b19ea711ceeab7d">app/Mail</innerdir>
+    <innerdir refid="dir_fc6199fba97859a095e1d9a5aa5fae23">app/Models</innerdir>
+    <innerdir refid="dir_40a1d9eb7a98c3857c61418cc8990e05">app/Policies</innerdir>
+    <innerdir refid="dir_07d79607a5b3b5e8afcff74e4c422a5d">app/Providers</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/"/>
+  </compounddef>
+</doxygen>

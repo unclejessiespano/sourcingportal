@@ -1,0 +1,53 @@
+.TH "SupplierPolicy" 3 "Mouker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SupplierPolicy
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBviewAny\fP (\fBUser\fP $user)"
+.br
+.ti -1c
+.RI "\fBview\fP (\fBUser\fP $user, \fBSupplier\fP $supplier)"
+.br
+.ti -1c
+.RI "\fBcreate\fP (\fBUser\fP $user)"
+.br
+.ti -1c
+.RI "\fBupdate\fP (\fBUser\fP $user, \fBSupplier\fP $supplier)"
+.br
+.ti -1c
+.RI "\fBdelete\fP (\fBUser\fP $user, User_Supplier $userSupplier)"
+.br
+.ti -1c
+.RI "\fBrestore\fP (\fBUser\fP $user, \fBSupplier\fP $supplier)"
+.br
+.ti -1c
+.RI "\fBforceDelete\fP (\fBUser\fP $user, \fBSupplier\fP $supplier)"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "create (\fBUser\fP $user)"
+Determine whether the user can create models\&. 
+.SS "delete (\fBUser\fP $user, User_Supplier $userSupplier)"
+Determine whether the user can delete the model\&. 
+.SS "forceDelete (\fBUser\fP $user, \fBSupplier\fP $supplier)"
+Determine whether the user can permanently delete the model\&. 
+.SS "restore (\fBUser\fP $user, \fBSupplier\fP $supplier)"
+Determine whether the user can restore the model\&. 
+.SS "update (\fBUser\fP $user, \fBSupplier\fP $supplier)"
+Determine whether the user can update the model\&. 
+.SS "view (\fBUser\fP $user, \fBSupplier\fP $supplier)"
+Determine whether the user can view the model\&. 
+.SS "viewAny (\fBUser\fP $user)"
+Determine whether the user can view any models\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mouker from the source code\&.

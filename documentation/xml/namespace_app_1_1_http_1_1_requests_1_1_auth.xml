@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_http_1_1_requests_1_1_auth" kind="namespace" language="PHP">
+    <compoundname>App::Http::Requests::Auth</compoundname>
+    <innerclass refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request" prot="public">App::Http::Requests::Auth::LoginRequest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Http/Requests/Auth/LoginRequest.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

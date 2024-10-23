@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_controllers_1_1_profile_controller" xml:lang="en-US">
+<title>ProfileController Class Reference</title>
+<indexterm><primary>ProfileController</primary></indexterm>
+<para>Inheritance diagram for ProfileController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_controllers_1_1_profile_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_profile_controller_1a51cdc624a76cd9d446b40084397ae2e8">edit</link> (Request $request)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_profile_controller_1acefbab471b52b50fac2cb57f71cdfb74">update</link> (<link linkend="_class_app_1_1_http_1_1_requests_1_1_profile_update_request">ProfileUpdateRequest</link> $request)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_profile_controller_1acf421ebc9a80cdacabf896fc936a8c25">destroy</link> (Request $request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_profile_controller_1acf421ebc9a80cdacabf896fc936a8c25"/><section>
+    <title>destroy()</title>
+<indexterm><primary>destroy</primary><secondary>ProfileController</secondary></indexterm>
+<indexterm><primary>ProfileController</primary><secondary>destroy</secondary></indexterm>
+<para><computeroutput>destroy (Request $request)</computeroutput></para>
+<para>Delete the user&apos;s account. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_profile_controller_1a51cdc624a76cd9d446b40084397ae2e8"/><section>
+    <title>edit()</title>
+<indexterm><primary>edit</primary><secondary>ProfileController</secondary></indexterm>
+<indexterm><primary>ProfileController</primary><secondary>edit</secondary></indexterm>
+<para><computeroutput>edit (Request $request)</computeroutput></para>
+<para>Display the user&apos;s profile form. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_profile_controller_1acefbab471b52b50fac2cb57f71cdfb74"/><section>
+    <title>update()</title>
+<indexterm><primary>update</primary><secondary>ProfileController</secondary></indexterm>
+<indexterm><primary>ProfileController</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>update (<link linkend="_class_app_1_1_http_1_1_requests_1_1_profile_update_request">ProfileUpdateRequest</link> $request)</computeroutput></para>
+<para>Update the user&apos;s profile information. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Controllers/ProfileController.php</section>
+</section>

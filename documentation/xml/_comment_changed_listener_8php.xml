@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_comment_changed_listener_8php" kind="file" language="PHP">
+    <compoundname>CommentChangedListener.php</compoundname>
+    <innerclass refid="class_app_1_1_listeners_1_1_comment_changed_listener" prot="public">App::Listeners::CommentChangedListener</innerclass>
+    <innernamespace refid="namespace_app_1_1_listeners">App::Listeners</innernamespace>
+    <innernamespace refid="namespace_app_1_1_events_1_1_comment_changed">App::Events::CommentChanged</innernamespace>
+    <innernamespace refid="namespace_auth">Auth</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">App\Listeners;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_app_1_1_events_1_1_comment_changed" kindref="compound">App\Events\CommentChanged</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_column___map" kindref="compound">App\Models\Column_Map</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_line" kindref="compound">App\Models\Line</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_supplierscore" kindref="compound">App\Models\Supplierscore</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/>DateTime;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_touchpoint" kindref="compound">App\Models\Touchpoint</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/><ref refid="class_app_1_1_models_1_1_activity" kindref="compound">App\Models\Activity</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">use<sp/>Auth;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_app_1_1_listeners_1_1_comment_changed_listener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_listeners_1_1_comment_changed_listener" kindref="compound">CommentChangedListener</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_listeners_1_1_comment_changed_listener_1a095c5d389db211932136b53f25f39685" kindref="member">__construct</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_listeners_1_1_comment_changed_listener_1afbf357c9f8f9720a648fffb5ad02620a" kindref="member">handle</ref>(<ref refid="class_app_1_1_events_1_1_comment_changed" kindref="compound">CommentChanged</ref><sp/>$event):<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//get<sp/>the<sp/>mapped<sp/>column</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$column_map<sp/>=<sp/>Column_Map::getColumnByColumnID(</highlight><highlight class="stringliteral">&apos;comment&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//add<sp/>the<sp/>comment</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$comment<sp/>=<sp/>Line::addComment($event-&gt;supplier_id,<sp/>$event-&gt;line-&gt;identifier,<sp/>$event-&gt;line-&gt;po_id,<sp/>$event-&gt;line-&gt;sku_id,<sp/>$event-&gt;line-&gt;id,<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>$event-&gt;row[$column_map]);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$a=1;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Listeners/CommentChangedListener.php"/>
+  </compounddef>
+</doxygen>

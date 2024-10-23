@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_order" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Order</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_models_1_1_order_1a6a90e74ccdf5efd70d51d10c906f8e32" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$fillable</definition>
+        <argsstring></argsstring>
+        <name>$fillable</name>
+        <qualifiedname>App\Models\Order\$fillable</qualifiedname>
+        <initializer>= [&apos;PO&apos;, &apos;plant_id&apos;, &apos;supplier_id&apos;, &apos;document_date&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Order.php" line="12" column="15" bodyfile="app/Models/Order.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_order_1a65055164939f434481e5ee710bb44a45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lines</definition>
+        <argsstring>()</argsstring>
+        <name>lines</name>
+        <qualifiedname>App\Models\Order\lines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Order.php" line="13" column="21" bodyfile="app/Models/Order.php" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_order_1a52b8dffb39035d24d4ed1c7866e651ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>plant</definition>
+        <argsstring>()</argsstring>
+        <name>plant</name>
+        <qualifiedname>App\Models\Order\plant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Order.php" line="16" column="21" bodyfile="app/Models/Order.php" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_order_1a9e3d1baac1306bdfadb04fea884e273f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>supplier</definition>
+        <argsstring>()</argsstring>
+        <name>supplier</name>
+        <qualifiedname>App\Models\Order\supplier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Order.php" line="19" column="21" bodyfile="app/Models/Order.php" bodystart="19" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_order_1a76602be152af4bf8eedc5257678c71b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static exists</definition>
+        <argsstring>($po)</argsstring>
+        <name>exists</name>
+        <qualifiedname>App\Models\Order\exists</qualifiedname>
+        <param>
+          <declname>$po</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Order.php" line="22" column="28" bodyfile="app/Models/Order.php" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_order_1a66df5cb83dace1022259ad14373cb8d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getOrder</definition>
+        <argsstring>($id)</argsstring>
+        <name>getOrder</name>
+        <qualifiedname>App\Models\Order\getOrder</qualifiedname>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Order.php" line="26" column="28" bodyfile="app/Models/Order.php" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_order_1a6200f790af551e175ff181bb04290314" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getOpenOrders</definition>
+        <argsstring>()</argsstring>
+        <name>getOpenOrders</name>
+        <qualifiedname>App\Models\Order\getOpenOrders</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Order.php" line="30" column="28" bodyfile="app/Models/Order.php" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_order_1ad42b2aff34a1f08c7eca421112457f72" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static import</definition>
+        <argsstring>($supplier_id, $row)</argsstring>
+        <name>import</name>
+        <qualifiedname>App\Models\Order\import</qualifiedname>
+        <param>
+          <declname>$supplier_id</declname>
+        </param>
+        <param>
+          <declname>$row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Order.php" line="34" column="28" bodyfile="app/Models/Order.php" bodystart="34" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Order</label>
+        <link refid="class_app_1_1_models_1_1_order"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Model</label>
+      </node>
+      <node id="1">
+        <label>Order</label>
+        <link refid="class_app_1_1_models_1_1_order"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Order.php" line="8" column="1" bodyfile="app/Models/Order.php" bodystart="9" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_order_1a6a90e74ccdf5efd70d51d10c906f8e32" prot="protected" virt="non-virtual"><scope>App::Models::Order</scope><name>$fillable</name></member>
+      <member refid="class_app_1_1_models_1_1_order_1a76602be152af4bf8eedc5257678c71b7" prot="public" virt="non-virtual"><scope>App::Models::Order</scope><name>exists</name></member>
+      <member refid="class_app_1_1_models_1_1_order_1a6200f790af551e175ff181bb04290314" prot="public" virt="non-virtual"><scope>App::Models::Order</scope><name>getOpenOrders</name></member>
+      <member refid="class_app_1_1_models_1_1_order_1a66df5cb83dace1022259ad14373cb8d9" prot="public" virt="non-virtual"><scope>App::Models::Order</scope><name>getOrder</name></member>
+      <member refid="class_app_1_1_models_1_1_order_1ad42b2aff34a1f08c7eca421112457f72" prot="public" virt="non-virtual"><scope>App::Models::Order</scope><name>import</name></member>
+      <member refid="class_app_1_1_models_1_1_order_1a65055164939f434481e5ee710bb44a45" prot="public" virt="non-virtual"><scope>App::Models::Order</scope><name>lines</name></member>
+      <member refid="class_app_1_1_models_1_1_order_1a52b8dffb39035d24d4ed1c7866e651ab" prot="public" virt="non-virtual"><scope>App::Models::Order</scope><name>plant</name></member>
+      <member refid="class_app_1_1_models_1_1_order_1a9e3d1baac1306bdfadb04fea884e273f" prot="public" virt="non-virtual"><scope>App::Models::Order</scope><name>supplier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

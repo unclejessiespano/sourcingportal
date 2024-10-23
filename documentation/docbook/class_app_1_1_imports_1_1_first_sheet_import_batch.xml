@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_imports_1_1_first_sheet_import_batch" xml:lang="en-US">
+<title>FirstSheetImportBatch Class Reference</title>
+<indexterm><primary>FirstSheetImportBatch</primary></indexterm>
+<para>Inheritance diagram for FirstSheetImportBatch:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_imports_1_1_first_sheet_import_batch.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_imports_1_1_first_sheet_import_batch_1ab9b55813efe64b7901eb87e8f2724dac"/><emphasis role="strong">model</emphasis> (array $row)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_imports_1_1_first_sheet_import_batch_1a48262ad055e1de04cea1c66db1ab0988"/><emphasis role="strong">batchSize</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Imports/FirstSheetImportBatch.php</section>

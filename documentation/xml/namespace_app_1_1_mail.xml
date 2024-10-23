@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_mail" kind="namespace" language="PHP">
+    <compoundname>App::Mail</compoundname>
+    <innerclass refid="class_app_1_1_mail_1_1_data_ingested" prot="public">App::Mail::DataIngested</innerclass>
+    <innerclass refid="class_app_1_1_mail_1_1_supplier_request" prot="public">App::Mail::SupplierRequest</innerclass>
+    <innerclass refid="class_app_1_1_mail_1_1_weekly_update" prot="public">App::Mail::WeeklyUpdate</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Mail/DataIngested.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

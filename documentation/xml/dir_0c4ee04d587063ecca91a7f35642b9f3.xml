@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_0c4ee04d587063ecca91a7f35642b9f3" kind="dir">
+    <compoundname>app/Http</compoundname>
+    <innerdir refid="dir_27ba1f74dc73f44d4e9ca42f2dd266ec">app/Http/Controllers</innerdir>
+    <innerdir refid="dir_ef2b2488ec94a4625ca5ab9839baa414">app/Http/Middleware</innerdir>
+    <innerdir refid="dir_18c131bda29cca4f3467a28f24d84656">app/Http/Requests</innerdir>
+    <innerfile refid="_http_2_kernel_8php">Kernel.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Http/"/>
+  </compounddef>
+</doxygen>

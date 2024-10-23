@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Controllers::Auth::AuthenticatedSessionController</compoundname>
+    <basecompoundref refid="class_app_1_1_http_1_1_controllers_1_1_controller" prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>App\Http\Controllers\Auth\AuthenticatedSessionController\create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display the login view. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/Auth/AuthenticatedSessionController.php" line="20" column="21" bodyfile="app/Http/Controllers/Auth/AuthenticatedSessionController.php" bodystart="20" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a31d19f914d8010e1147877288fa974b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>store</definition>
+        <argsstring>(LoginRequest $request)</argsstring>
+        <name>store</name>
+        <qualifiedname>App\Http\Controllers\Auth\AuthenticatedSessionController\store</qualifiedname>
+        <param>
+          <type><ref refid="class_app_1_1_http_1_1_requests_1_1_auth_1_1_login_request" kindref="compound">LoginRequest</ref></type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handle an incoming authentication request. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/Auth/AuthenticatedSessionController.php" line="31" column="21" bodyfile="app/Http/Controllers/Auth/AuthenticatedSessionController.php" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1acf421ebc9a80cdacabf896fc936a8c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>destroy</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>destroy</name>
+        <qualifiedname>App\Http\Controllers\Auth\AuthenticatedSessionController\destroy</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroy an authenticated session. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Controllers/Auth/AuthenticatedSessionController.php" line="43" column="21" bodyfile="app/Http/Controllers/Auth/AuthenticatedSessionController.php" bodystart="43" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>AuthenticatedSessionController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>AuthenticatedSessionController</label>
+        <link refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BaseController</label>
+      </node>
+    </collaborationgraph>
+    <location file="app/Http/Controllers/Auth/AuthenticatedSessionController.php" line="15" column="1" bodyfile="app/Http/Controllers/Auth/AuthenticatedSessionController.php" bodystart="16" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" virt="non-virtual"><scope>App::Http::Controllers::Auth::AuthenticatedSessionController</scope><name>create</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1acf421ebc9a80cdacabf896fc936a8c25" prot="public" virt="non-virtual"><scope>App::Http::Controllers::Auth::AuthenticatedSessionController</scope><name>destroy</name></member>
+      <member refid="class_app_1_1_http_1_1_controllers_1_1_auth_1_1_authenticated_session_controller_1a31d19f914d8010e1147877288fa974b5" prot="public" virt="non-virtual"><scope>App::Http::Controllers::Auth::AuthenticatedSessionController</scope><name>store</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

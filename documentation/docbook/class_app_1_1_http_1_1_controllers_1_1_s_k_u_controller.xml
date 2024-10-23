@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller" xml:lang="en-US">
+<title>SKUController Class Reference</title>
+<indexterm><primary>SKUController</primary></indexterm>
+<para>Inheritance diagram for SKUController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a149eb92716c1084a935e04a8d95f7347">index</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6">create</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a9ef485163104597c12185b53cdacf638">store</link> (Request $request)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1aa1084dca2023d0205f4d383a4fa3276d">show</link> (string $id)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a770dc774eb0c503adc8523130d7872a9">edit</link> (string $id)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1af528c99cc6b6d8f4bb8c2876533b4abc">update</link> (Request $request, string $id)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1aae153c291c3b6bf5c07f51634f481cca"/><emphasis role="strong">uploadPartImage</emphasis> (Request $request)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a0fdd66e92be5c0f832383e1d2162563f">destroy</link> (string $id)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6"/><section>
+    <title>create()</title>
+<indexterm><primary>create</primary><secondary>SKUController</secondary></indexterm>
+<indexterm><primary>SKUController</primary><secondary>create</secondary></indexterm>
+<para><computeroutput>create ( )</computeroutput></para>
+<para>Show the form for creating a new resource. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a0fdd66e92be5c0f832383e1d2162563f"/><section>
+    <title>destroy()</title>
+<indexterm><primary>destroy</primary><secondary>SKUController</secondary></indexterm>
+<indexterm><primary>SKUController</primary><secondary>destroy</secondary></indexterm>
+<para><computeroutput>destroy (string $id)</computeroutput></para>
+<para>Remove the specified resource from storage. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a770dc774eb0c503adc8523130d7872a9"/><section>
+    <title>edit()</title>
+<indexterm><primary>edit</primary><secondary>SKUController</secondary></indexterm>
+<indexterm><primary>SKUController</primary><secondary>edit</secondary></indexterm>
+<para><computeroutput>edit (string $id)</computeroutput></para>
+<para>Show the form for editing the specified resource. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a149eb92716c1084a935e04a8d95f7347"/><section>
+    <title>index()</title>
+<indexterm><primary>index</primary><secondary>SKUController</secondary></indexterm>
+<indexterm><primary>SKUController</primary><secondary>index</secondary></indexterm>
+<para><computeroutput>index ( )</computeroutput></para>
+<para>Display a listing of the resource. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1aa1084dca2023d0205f4d383a4fa3276d"/><section>
+    <title>show()</title>
+<indexterm><primary>show</primary><secondary>SKUController</secondary></indexterm>
+<indexterm><primary>SKUController</primary><secondary>show</secondary></indexterm>
+<para><computeroutput>show (string $id)</computeroutput></para>
+<para>Display the specified resource. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1a9ef485163104597c12185b53cdacf638"/><section>
+    <title>store()</title>
+<indexterm><primary>store</primary><secondary>SKUController</secondary></indexterm>
+<indexterm><primary>SKUController</primary><secondary>store</secondary></indexterm>
+<para><computeroutput>store (Request $request)</computeroutput></para>
+<para>Store a newly created resource in storage. </para>
+</section>
+<anchor xml:id="_class_app_1_1_http_1_1_controllers_1_1_s_k_u_controller_1af528c99cc6b6d8f4bb8c2876533b4abc"/><section>
+    <title>update()</title>
+<indexterm><primary>update</primary><secondary>SKUController</secondary></indexterm>
+<indexterm><primary>SKUController</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>update (Request $request, string $id)</computeroutput></para>
+<para>Update the specified resource in storage. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Http/Controllers/SKUController.php</section>
+</section>

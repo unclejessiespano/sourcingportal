@@ -1,0 +1,125 @@
+.TH "Supplier" 3 "Mouker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Supplier
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Model\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBorders\fP ()"
+.br
+.ti -1c
+.RI "\fBlines_\fP ()"
+.br
+.ti -1c
+.RI "\fBnetwork\fP ()"
+.br
+.ti -1c
+.RI "\fBparent\fP ()"
+.br
+.ti -1c
+.RI "\fBscores\fP ()"
+.br
+.ti -1c
+.RI "\fBactivity\fP ()"
+.br
+.ti -1c
+.RI "\fBescalation\fP ()"
+.br
+.ti -1c
+.RI "\fBuser\fP ()"
+.br
+.ti -1c
+.RI "\fBusers\fP ()"
+.br
+.ti -1c
+.RI "\fBshippinglocation\fP ()"
+.br
+.ti -1c
+.RI "\fBcontacts\fP ()"
+.br
+.ti -1c
+.RI "\fBlines\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBexists\fP ($supplier)"
+.br
+.ti -1c
+.RI "static \fBgetAverageDaysPastDue\fP ($supplier_id)"
+.br
+.ti -1c
+.RI "static \fBgetSankeySupplyChain\fP ()"
+.br
+.ti -1c
+.RI "static \fBgetSankeyLineStats\fP ($supplier_id='')"
+.br
+.ti -1c
+.RI "static \fBgetStats\fP ($supplier_id)"
+.br
+.ti -1c
+.RI "static \fBgetSupplyChainTree\fP ()"
+.br
+.ti -1c
+.RI "static \fBgetUsersSuppliers\fP ($user)"
+.br
+.ti -1c
+.RI "static \fBmakeNode\fP ($x, $children='')"
+.br
+.ti -1c
+.RI "static \fBformatNetwork\fP ($network)"
+.br
+.ti -1c
+.RI "static \fBcalculateSupplierScore\fP ($scores)"
+.br
+.ti -1c
+.RI "static \fBgetCommitsForCalendar\fP ($supplier_id)"
+.br
+.ti -1c
+.RI "static \fBgetSupplier\fP ($slug)"
+.br
+.ti -1c
+.RI "static \fBgetSupplierBySlug\fP ($slug)"
+.br
+.ti -1c
+.RI "static \fBgetSuppliers\fP ()"
+.br
+.ti -1c
+.RI "static \fBgetSuppliersBelowScore\fP ($target_score)"
+.br
+.ti -1c
+.RI "static \fBfindOrGetSupplier\fP ($row)"
+.br
+.ti -1c
+.RI "static \fBimport\fP ($row)"
+.br
+.ti -1c
+.RI "static \fBsavePlant\fP ($request)"
+.br
+.ti -1c
+.RI "static \fBsaveSupplier\fP ($request)"
+.br
+.ti -1c
+.RI "static \fBupdateInfo\fP ($request)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$fillable\fP = ['supplier_id', 'slug','parent_id', 'name']"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mouker from the source code\&.

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_mail_1_1_data_ingested" xml:lang="en-US">
+<title>DataIngested Class Reference</title>
+<indexterm><primary>DataIngested</primary></indexterm>
+<para>Inheritance diagram for DataIngested:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_mail_1_1_data_ingested.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_mail_1_1_data_ingested_1a106125d1afad6a5b42f30186d755e738">__construct</link> (protected $date, protected $markdown_table_percentPastDueSuppliers, protected $markdown_table_percentCommitsSuppliers, protected $lineChanges)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_mail_1_1_data_ingested_1a49b8f0147d9fe88e109116a8f0dca59a">envelope</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_mail_1_1_data_ingested_1a9b80bb36f89498eac4f43bf08461240d">content</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_mail_1_1_data_ingested_1a5fc550edbf0cd33362468cbc036349e9">attachments</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_app_1_1_mail_1_1_data_ingested_1a106125d1afad6a5b42f30186d755e738"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>DataIngested</secondary></indexterm>
+<indexterm><primary>DataIngested</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct (protected $date, protected $markdown_table_percentPastDueSuppliers, protected $markdown_table_percentCommitsSuppliers, protected $lineChanges)</computeroutput></para>
+<para>Create a new message instance. </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_mail_1_1_data_ingested_1a5fc550edbf0cd33362468cbc036349e9"/><section>
+    <title>attachments()</title>
+<indexterm><primary>attachments</primary><secondary>DataIngested</secondary></indexterm>
+<indexterm><primary>DataIngested</primary><secondary>attachments</secondary></indexterm>
+<para><computeroutput>attachments ( )</computeroutput></para>
+<para>Get the attachments for the message.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>array&lt;int, \Illuminate\Mail\Mailables\Attachment&gt; </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_app_1_1_mail_1_1_data_ingested_1a9b80bb36f89498eac4f43bf08461240d"/><section>
+    <title>content()</title>
+<indexterm><primary>content</primary><secondary>DataIngested</secondary></indexterm>
+<indexterm><primary>DataIngested</primary><secondary>content</secondary></indexterm>
+<para><computeroutput>content ( )</computeroutput></para>
+<para>Get the message content definition. </para>
+</section>
+<anchor xml:id="_class_app_1_1_mail_1_1_data_ingested_1a49b8f0147d9fe88e109116a8f0dca59a"/><section>
+    <title>envelope()</title>
+<indexterm><primary>envelope</primary><secondary>DataIngested</secondary></indexterm>
+<indexterm><primary>DataIngested</primary><secondary>envelope</secondary></indexterm>
+<para><computeroutput>envelope ( )</computeroutput></para>
+<para>Get the message envelope. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Mail/DataIngested.php</section>
+</section>

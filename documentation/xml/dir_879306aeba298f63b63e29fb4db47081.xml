@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_879306aeba298f63b63e29fb4db47081" kind="dir">
+    <compoundname>app/Events</compoundname>
+    <innerfile refid="_comment_changed_8php">CommentChanged.php</innerfile>
+    <innerfile refid="_commit_received_8php">CommitReceived.php</innerfile>
+    <innerfile refid="_lead_time_changed_8php">LeadTimeChanged.php</innerfile>
+    <innerfile refid="_line_delivered_8php">LineDelivered.php</innerfile>
+    <innerfile refid="_line_delivery_date_changed_8php">LineDeliveryDateChanged.php</innerfile>
+    <innerfile refid="_line_late_8php">LineLate.php</innerfile>
+    <innerfile refid="_line_net_price_changed_8php">LineNetPriceChanged.php</innerfile>
+    <innerfile refid="_line_quantity_changed_8php">LineQuantityChanged.php</innerfile>
+    <innerfile refid="_o_o_r_uploaded_8php">OORUploaded.php</innerfile>
+    <innerfile refid="_part_image_uploaded_8php">PartImageUploaded.php</innerfile>
+    <innerfile refid="_supplier_added_8php">SupplierAdded.php</innerfile>
+    <innerfile refid="_supplier_column_map_needed_8php">SupplierColumnMapNeeded.php</innerfile>
+    <innerfile refid="_supplier_o_o_r_uploaded_8php">SupplierOORUploaded.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Events/"/>
+  </compounddef>
+</doxygen>

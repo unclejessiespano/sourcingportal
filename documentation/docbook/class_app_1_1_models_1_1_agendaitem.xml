@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_agendaitem" xml:lang="en-US">
+<title>Agendaitem Class Reference</title>
+<indexterm><primary>Agendaitem</primary></indexterm>
+<para>Inheritance diagram for Agendaitem:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_agendaitem.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_agendaitem_1a8171967e96cb49169768dabaa8cb7000"/><emphasis role="strong">line</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_agendaitem_1a9a576618e6e7a26f3db976aa32137993"/>static <emphasis role="strong">formatAgendaItems</emphasis> ($items)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_agendaitem_1a780c8be10942beb2a3cc10cc0d47d29e"/>static <emphasis role="strong">create</emphasis> ($meeting_id, $identifier, $item)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Agendaitem.php</section>

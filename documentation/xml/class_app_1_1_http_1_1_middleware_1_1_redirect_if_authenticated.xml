@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_http_1_1_middleware_1_1_redirect_if_authenticated" kind="class" language="PHP" prot="public">
+    <compoundname>App::Http::Middleware::RedirectIfAuthenticated</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_http_1_1_middleware_1_1_redirect_if_authenticated_1adf796ec0946ecdedc3e4e750cd4657c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>handle</definition>
+        <argsstring>(Request $request, Closure $next, string ... $guards)</argsstring>
+        <name>handle</name>
+        <qualifiedname>App\Http\Middleware\RedirectIfAuthenticated\handle</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <param>
+          <type>Closure</type>
+          <declname>$next</declname>
+        </param>
+        <param>
+          <type>string ...</type>
+          <declname>$guards</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handle an incoming request.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response) $next </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Http/Middleware/RedirectIfAuthenticated.php" line="18" column="21" bodyfile="app/Http/Middleware/RedirectIfAuthenticated.php" bodystart="18" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Http/Middleware/RedirectIfAuthenticated.php" line="11" column="1" bodyfile="app/Http/Middleware/RedirectIfAuthenticated.php" bodystart="12" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_http_1_1_middleware_1_1_redirect_if_authenticated_1adf796ec0946ecdedc3e4e750cd4657c8" prot="public" virt="non-virtual"><scope>App::Http::Middleware::RedirectIfAuthenticated</scope><name>handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

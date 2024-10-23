@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_events_1_1_supplier_added" kind="class" language="PHP" prot="public">
+    <compoundname>App::Events::SupplierAdded</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_events_1_1_supplier_added_1a75e88eba696f84dc8055aecb6a99c8b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(public Supplier $supplier)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>App\Events\SupplierAdded\__construct</qualifiedname>
+        <param>
+          <type>public <ref refid="class_app_1_1_models_1_1_supplier" kindref="compound">Supplier</ref></type>
+          <declname>$supplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new event instance. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Events/SupplierAdded.php" line="17" column="21" bodyfile="app/Events/SupplierAdded.php" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_events_1_1_supplier_added_1afdd67b80d67f15ce0ab9a0c254dad3bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>broadcastOn</definition>
+        <argsstring>()</argsstring>
+        <name>broadcastOn</name>
+        <qualifiedname>App\Events\SupplierAdded\broadcastOn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the channels the event should broadcast on.</para>
+<para><simplesect kind="return"><para>array&lt;int, \Illuminate\Broadcasting\Channel&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Events/SupplierAdded.php" line="26" column="21" bodyfile="app/Events/SupplierAdded.php" bodystart="26" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Events/SupplierAdded.php" line="10" column="1" bodyfile="app/Events/SupplierAdded.php" bodystart="11" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_events_1_1_supplier_added_1a75e88eba696f84dc8055aecb6a99c8b5" prot="public" virt="non-virtual"><scope>App::Events::SupplierAdded</scope><name>__construct</name></member>
+      <member refid="class_app_1_1_events_1_1_supplier_added_1afdd67b80d67f15ce0ab9a0c254dad3bc" prot="public" virt="non-virtual"><scope>App::Events::SupplierAdded</scope><name>broadcastOn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

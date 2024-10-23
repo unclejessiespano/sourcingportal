@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_mail_1_1_supplier_request" xml:lang="en-US">
+<title>SupplierRequest Class Reference</title>
+<indexterm><primary>SupplierRequest</primary></indexterm>
+<para>Inheritance diagram for SupplierRequest:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_mail_1_1_supplier_request.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_app_1_1_mail_1_1_supplier_request_1aa382fcd48f8cd3e1ee9f9c8e2a00add0">__construct</link> (protected $supplier, protected $markdown_table_commitsNeeded, protected $markdown_table_dueThisWeek, protected $lineChanges, protected $commitsNeeded, protected $dueThisWeek)</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_mail_1_1_supplier_request_1a49b8f0147d9fe88e109116a8f0dca59a">envelope</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_mail_1_1_supplier_request_1a9b80bb36f89498eac4f43bf08461240d">content</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_app_1_1_mail_1_1_supplier_request_1a5fc550edbf0cd33362468cbc036349e9">attachments</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_app_1_1_mail_1_1_supplier_request_1aa382fcd48f8cd3e1ee9f9c8e2a00add0"/><section>
+    <title>__construct()</title>
+<indexterm><primary>__construct</primary><secondary>SupplierRequest</secondary></indexterm>
+<indexterm><primary>SupplierRequest</primary><secondary>__construct</secondary></indexterm>
+<para><computeroutput>__construct (protected $supplier, protected $markdown_table_commitsNeeded, protected $markdown_table_dueThisWeek, protected $lineChanges, protected $commitsNeeded, protected $dueThisWeek)</computeroutput></para>
+<para>Create a new message instance. </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_app_1_1_mail_1_1_supplier_request_1a5fc550edbf0cd33362468cbc036349e9"/><section>
+    <title>attachments()</title>
+<indexterm><primary>attachments</primary><secondary>SupplierRequest</secondary></indexterm>
+<indexterm><primary>SupplierRequest</primary><secondary>attachments</secondary></indexterm>
+<para><computeroutput>attachments ( )</computeroutput></para>
+<para>Get the attachments for the message.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>array&lt;int, \Illuminate\Mail\Mailables\Attachment&gt; </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_app_1_1_mail_1_1_supplier_request_1a9b80bb36f89498eac4f43bf08461240d"/><section>
+    <title>content()</title>
+<indexterm><primary>content</primary><secondary>SupplierRequest</secondary></indexterm>
+<indexterm><primary>SupplierRequest</primary><secondary>content</secondary></indexterm>
+<para><computeroutput>content ( )</computeroutput></para>
+<para>Get the message content definition. </para>
+</section>
+<anchor xml:id="_class_app_1_1_mail_1_1_supplier_request_1a49b8f0147d9fe88e109116a8f0dca59a"/><section>
+    <title>envelope()</title>
+<indexterm><primary>envelope</primary><secondary>SupplierRequest</secondary></indexterm>
+<indexterm><primary>SupplierRequest</primary><secondary>envelope</secondary></indexterm>
+<para><computeroutput>envelope ( )</computeroutput></para>
+<para>Get the message envelope. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Mail/SupplierRequest.php</section>
+</section>

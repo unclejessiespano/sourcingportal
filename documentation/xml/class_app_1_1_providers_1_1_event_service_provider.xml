@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_providers_1_1_event_service_provider" kind="class" language="PHP" prot="public">
+    <compoundname>App::Providers::EventServiceProvider</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ServiceProvider</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_app_1_1_providers_1_1_event_service_provider_1abdfd4689e0597f0b6c63b970c101e810" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$listen</definition>
+        <argsstring></argsstring>
+        <name>$listen</name>
+        <qualifiedname>App\Providers\EventServiceProvider\$listen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/EventServiceProvider.php" line="42" column="15" bodyfile="app/Providers/EventServiceProvider.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_providers_1_1_event_service_provider_1a8814ea4b5beba763c570b4818980814e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>boot</definition>
+        <argsstring>()</argsstring>
+        <name>boot</name>
+        <qualifiedname>App\Providers\EventServiceProvider\boot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Register any events for your application. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/EventServiceProvider.php" line="90" column="21" bodyfile="app/Providers/EventServiceProvider.php" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_providers_1_1_event_service_provider_1a364bb57fa3279a24dbf7090e064a5ade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>shouldDiscoverEvents</definition>
+        <argsstring>()</argsstring>
+        <name>shouldDiscoverEvents</name>
+        <qualifiedname>App\Providers\EventServiceProvider\shouldDiscoverEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine if events and listeners should be automatically discovered. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Providers/EventServiceProvider.php" line="98" column="21" bodyfile="app/Providers/EventServiceProvider.php" bodystart="98" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EventServiceProvider</label>
+        <link refid="class_app_1_1_providers_1_1_event_service_provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ServiceProvider</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EventServiceProvider</label>
+        <link refid="class_app_1_1_providers_1_1_event_service_provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ServiceProvider</label>
+      </node>
+    </collaborationgraph>
+    <location file="app/Providers/EventServiceProvider.php" line="35" column="1" bodyfile="app/Providers/EventServiceProvider.php" bodystart="36" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_providers_1_1_event_service_provider_1abdfd4689e0597f0b6c63b970c101e810" prot="protected" virt="non-virtual"><scope>App::Providers::EventServiceProvider</scope><name>$listen</name></member>
+      <member refid="class_app_1_1_providers_1_1_event_service_provider_1a8814ea4b5beba763c570b4818980814e" prot="public" virt="non-virtual"><scope>App::Providers::EventServiceProvider</scope><name>boot</name></member>
+      <member refid="class_app_1_1_providers_1_1_event_service_provider_1a364bb57fa3279a24dbf7090e064a5ade" prot="public" virt="non-virtual"><scope>App::Providers::EventServiceProvider</scope><name>shouldDiscoverEvents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_supplierscore" xml:lang="en-US">
+<title>Supplierscore Class Reference</title>
+<indexterm><primary>Supplierscore</primary></indexterm>
+<para>Inheritance diagram for Supplierscore:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_supplierscore.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_supplierscore_1a7b0226d7ca0a9552a30b08181bebcb19"/><emphasis role="strong">touchpoint</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_supplierscore_1a27190b80a5a3af7f60c165c7dd79e8ba"/>static <emphasis role="strong">addScore</emphasis> ($supplier_id, $touchpoint)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_supplierscore_1aaa3cb723a56894411f5dd57a924db2a3"/>static <emphasis role="strong">getScoreData</emphasis> ($supplier_id)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Supplierscore.php</section>

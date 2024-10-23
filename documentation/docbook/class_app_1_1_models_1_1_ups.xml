@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_app_1_1_models_1_1_ups" xml:lang="en-US">
+<title>Ups Class Reference</title>
+<indexterm><primary>Ups</primary></indexterm>
+<para>Inheritance diagram for Ups:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_app_1_1_models_1_1_ups.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_ups_1a6908104a359cb2e6403501ded90d9246"/>static <emphasis role="strong">authorizeClient</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_ups_1a6f60050addad0dfcc72a86c2508d48aa"/>static <emphasis role="strong">getToken</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_ups_1a4f0fb7af325216fedab694068d9eb8c7"/>static <emphasis role="strong">getTracking</emphasis> ($shipments)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_app_1_1_models_1_1_ups_1a07d27dabfad2a9cf68a6eacb9d2c712d"/>static <emphasis role="strong">generateAccessToken</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/Models/Ups.php</section>

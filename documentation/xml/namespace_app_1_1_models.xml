@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_app_1_1_models" kind="namespace" language="PHP">
+    <compoundname>App::Models</compoundname>
+    <innerclass refid="class_app_1_1_models_1_1_activity" prot="public">App::Models::Activity</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_agendaitem" prot="public">App::Models::Agendaitem</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_chart" prot="public">App::Models::Chart</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_column" prot="public">App::Models::Column</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_column___map" prot="public">App::Models::Column_Map</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_comment" prot="public">App::Models::Comment</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_contact" prot="public">App::Models::Contact</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_delta" prot="public">App::Models::Delta</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_email" prot="public">App::Models::Email</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_escalation" prot="public">App::Models::Escalation</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_finished_part" prot="public">App::Models::FinishedPart</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_ingestion" prot="public">App::Models::Ingestion</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_line" prot="public">App::Models::Line</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_line_activity" prot="public">App::Models::LineActivity</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_meeting" prot="public">App::Models::Meeting</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_meeting_item" prot="public">App::Models::MeetingItem</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_meeting_item_type" prot="public">App::Models::MeetingItemType</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_order" prot="public">App::Models::Order</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_plant" prot="public">App::Models::Plant</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_qualification___user" prot="public">App::Models::Qualification_User</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_role" prot="public">App::Models::Role</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_shipment" prot="public">App::Models::Shipment</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_shippinglocation" prot="public">App::Models::Shippinglocation</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_shippinglocationcontact" prot="public">App::Models::Shippinglocationcontact</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_sku" prot="public">App::Models::Sku</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_skudetail" prot="public">App::Models::Skudetail</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_supplier" prot="public">App::Models::Supplier</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_supplier_column_map" prot="public">App::Models::SupplierColumnMap</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_supplierscore" prot="public">App::Models::Supplierscore</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_task" prot="public">App::Models::Task</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_taskcolumn" prot="public">App::Models::Taskcolumn</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_taskcomment" prot="public">App::Models::Taskcomment</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_tenant" prot="public">App::Models::Tenant</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_touchpoint" prot="public">App::Models::Touchpoint</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_ups" prot="public">App::Models::Ups</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_user" prot="public">App::Models::User</innerclass>
+    <innerclass refid="class_app_1_1_models_1_1_user___supplier" prot="public">App::Models::User_Supplier</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Models/Activity.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

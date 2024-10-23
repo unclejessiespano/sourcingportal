@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_app_1_1_models_1_1_activity" kind="class" language="PHP" prot="public">
+    <compoundname>App::Models::Activity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1ae8a275690ff1b618e1947378b0ed73ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user</definition>
+        <argsstring>()</argsstring>
+        <name>user</name>
+        <qualifiedname>App\Models\Activity\user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="13" column="21" bodyfile="app/Models/Activity.php" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1a9e3d1baac1306bdfadb04fea884e273f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>supplier</definition>
+        <argsstring>()</argsstring>
+        <name>supplier</name>
+        <qualifiedname>App\Models\Activity\supplier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="16" column="21" bodyfile="app/Models/Activity.php" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1a7b0226d7ca0a9552a30b08181bebcb19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>touchpoint</definition>
+        <argsstring>()</argsstring>
+        <name>touchpoint</name>
+        <qualifiedname>App\Models\Activity\touchpoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="19" column="21" bodyfile="app/Models/Activity.php" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1af338145541356008fbbc6f97de6885e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>order</definition>
+        <argsstring>()</argsstring>
+        <name>order</name>
+        <qualifiedname>App\Models\Activity\order</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="22" column="21" bodyfile="app/Models/Activity.php" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1a0a4ec8218e59771ae86d8737ac252ede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sku</definition>
+        <argsstring>()</argsstring>
+        <name>sku</name>
+        <qualifiedname>App\Models\Activity\sku</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="25" column="21" bodyfile="app/Models/Activity.php" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1a8171967e96cb49169768dabaa8cb7000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>line</definition>
+        <argsstring>()</argsstring>
+        <name>line</name>
+        <qualifiedname>App\Models\Activity\line</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="28" column="21" bodyfile="app/Models/Activity.php" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1a7d3189ffd934a80c8de6cb7f3b26ebdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>liner</definition>
+        <argsstring>()</argsstring>
+        <name>liner</name>
+        <qualifiedname>App\Models\Activity\liner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="31" column="21" bodyfile="app/Models/Activity.php" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1ab029b547ca3e8596b38f3b1321215790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>supplierscore</definition>
+        <argsstring>()</argsstring>
+        <name>supplierscore</name>
+        <qualifiedname>App\Models\Activity\supplierscore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="34" column="21" bodyfile="app/Models/Activity.php" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1a6c55443a9a9c206b6943939762c359c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>shipment</definition>
+        <argsstring>()</argsstring>
+        <name>shipment</name>
+        <qualifiedname>App\Models\Activity\shipment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="37" column="21" bodyfile="app/Models/Activity.php" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1ae2095edae4e260d028c208cead4e5c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>comment</definition>
+        <argsstring>()</argsstring>
+        <name>comment</name>
+        <qualifiedname>App\Models\Activity\comment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="40" column="21" bodyfile="app/Models/Activity.php" bodystart="40" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1aac9012fea10937475db533a325a17e79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static addActivity</definition>
+        <argsstring>($identifier, $user_id, $supplier_id, $po_id=&quot;&quot;, $sku_id=&quot;&quot;, $line=&quot;&quot;, $touchpoint_id, $supplierscore_id, $shipment_id=&quot;0&quot;, $comment_id=&quot;0&quot;)</argsstring>
+        <name>addActivity</name>
+        <qualifiedname>App\Models\Activity\addActivity</qualifiedname>
+        <param>
+          <declname>$identifier</declname>
+        </param>
+        <param>
+          <declname>$user_id</declname>
+        </param>
+        <param>
+          <declname>$supplier_id</declname>
+        </param>
+        <param>
+          <declname>$po_id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <declname>$sku_id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <declname>$line</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <declname>$touchpoint_id</declname>
+        </param>
+        <param>
+          <declname>$supplierscore_id</declname>
+        </param>
+        <param>
+          <declname>$shipment_id</declname>
+          <defval>&quot;0&quot;</defval>
+        </param>
+        <param>
+          <declname>$comment_id</declname>
+          <defval>&quot;0&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="43" column="28" bodyfile="app/Models/Activity.php" bodystart="43" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1abaab463fa11b7651fdd3a17e5f60b0eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static addCommentToActivity</definition>
+        <argsstring>($comment_id, $activity)</argsstring>
+        <name>addCommentToActivity</name>
+        <qualifiedname>App\Models\Activity\addCommentToActivity</qualifiedname>
+        <param>
+          <declname>$comment_id</declname>
+        </param>
+        <param>
+          <declname>$activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="61" column="28" bodyfile="app/Models/Activity.php" bodystart="61" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_models_1_1_activity_1a4635390f29d404a6fa54fcbfca522ec9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getActivity</definition>
+        <argsstring>($supplier_id=&quot;&quot;, $po_id=&quot;&quot;, $sku_id=&quot;&quot;, $line_id=&quot;&quot;)</argsstring>
+        <name>getActivity</name>
+        <qualifiedname>App\Models\Activity\getActivity</qualifiedname>
+        <param>
+          <declname>$supplier_id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <declname>$po_id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <declname>$sku_id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <declname>$line_id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Activity.php" line="70" column="28" bodyfile="app/Models/Activity.php" bodystart="70" bodyend="93"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Activity</label>
+        <link refid="class_app_1_1_models_1_1_activity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Activity</label>
+        <link refid="class_app_1_1_models_1_1_activity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="app/Models/Activity.php" line="9" column="1" bodyfile="app/Models/Activity.php" bodystart="10" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_models_1_1_activity_1aac9012fea10937475db533a325a17e79" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>addActivity</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1abaab463fa11b7651fdd3a17e5f60b0eb" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>addCommentToActivity</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1ae2095edae4e260d028c208cead4e5c9a" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>comment</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1a4635390f29d404a6fa54fcbfca522ec9" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>getActivity</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1a8171967e96cb49169768dabaa8cb7000" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>line</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1a7d3189ffd934a80c8de6cb7f3b26ebdb" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>liner</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1af338145541356008fbbc6f97de6885e6" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>order</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1a6c55443a9a9c206b6943939762c359c6" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>shipment</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1a0a4ec8218e59771ae86d8737ac252ede" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>sku</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1a9e3d1baac1306bdfadb04fea884e273f" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>supplier</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1ab029b547ca3e8596b38f3b1321215790" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>supplierscore</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1a7b0226d7ca0a9552a30b08181bebcb19" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>touchpoint</name></member>
+      <member refid="class_app_1_1_models_1_1_activity_1ae8a275690ff1b618e1947378b0ed73ae" prot="public" virt="non-virtual"><scope>App::Models::Activity</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
